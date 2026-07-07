@@ -1,0 +1,4 @@
+2026-07-07 19:42:50,273 [INFO] Starting fair AWR ablation
+2026-07-07 19:42:50,273 [INFO] Reading z feature table: outputs_weighted_awrcore_v1\results\window_feature_z_table.csv
+2026-07-07 19:42:54,390 [INFO] Exp1_to_Exp2 complete: 21 models
+2026-07-07 19:42:56,082 [INFO] Exp2_to_Exp1 complete: 21 models

@@ -1,0 +1,3 @@
+﻿dataset,windows,matched_existing_AWR,recomputed_vs_existing_corr,median_abs_diff,notes
+Exp1,9115,9115,0.9798680928739846,1.4338984231739142,AWR_M0 uses existing v2 AWR to preserve stable_plus baseline; recomputed column uses v1 feature list under current z config.
+Exp2,2817,2817,0.9969367140676183,1.3417366662160646e-07,AWR_M0 uses existing v2 AWR to preserve stable_plus baseline; recomputed column uses v1 feature list under current z config.
