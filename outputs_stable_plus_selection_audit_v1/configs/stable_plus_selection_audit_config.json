@@ -1,0 +1,36 @@
+{
+  "config": {
+    "output_dir": "outputs_stable_plus_selection_audit_v1",
+    "status_file": "docs/STATUS_20260709.md",
+    "saturation_rate_threshold": 0.05,
+    "clip_abs_threshold": 11.9,
+    "min_direction_auc_for_strong_reason": 0.7,
+    "min_spearman_for_strong_reason": 0.3
+  },
+  "stable_plus": [
+    "rs_corrdist_base",
+    "rs_mean",
+    "rs_absmean",
+    "rs_q05",
+    "rx_corrdist_base",
+    "rs_rms",
+    "ry_p2p",
+    "rx_mean",
+    "rx_absmean",
+    "rx_q05"
+  ],
+  "input_paths": {
+    "fair_scores": "outputs_awrcore_fair_ablation_v1\\results\\fair_ablation_window_scores.csv",
+    "feature_directions": "outputs_awrcore_fair_ablation_v1\\results\\fair_ablation_feature_direction_table.csv",
+    "feature_weights": "outputs_awrcore_fair_ablation_v1\\results\\fair_ablation_feature_weight_table.csv",
+    "channel_family_summary": "outputs_awrcore_fair_ablation_v1\\results\\channel_family_ablation_summary.csv",
+    "stable_plus_summary": "outputs_awrcore_fair_ablation_v1\\results\\stable_plus_ablation_summary.csv",
+    "z_table": "outputs_weighted_awrcore_v1\\results\\window_feature_z_table.csv",
+    "normalization_diag_preferred": "outputs_weighted_awrcore_v1\\results\\feature_normalization_diagnostics.csv",
+    "normalization_diag_fallback": "outputs_weighted_awrcore_v1\\diagnostics\\feature_normalization_diagnostics.csv",
+    "fair_report": "outputs_awrcore_fair_ablation_v1\\reports\\fair_ablation_interpretation.md"
+  },
+  "warnings": [
+    "Preferred normalization diagnostics missing; used fallback: outputs_weighted_awrcore_v1\\diagnostics\\feature_normalization_diagnostics.csv"
+  ]
+}
