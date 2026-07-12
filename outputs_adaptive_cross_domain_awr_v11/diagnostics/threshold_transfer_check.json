@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "threshold_rows": [
+    {
+      "watch_logit_threshold": 0.669333581389965,
+      "high_logit_threshold": 1.626673595931775,
+      "watch_probability_equivalent": 0.6613539208704644,
+      "high_probability_equivalent": 0.8357134450583222,
+      "watch_Stage45_recall": 1.0,
+      "watch_Stage1to2_fpr": 0.0,
+      "high_Stage5_recall": 0.8594059405940594,
+      "high_Stage5_precision": 0.9954128440366973,
+      "high_Stage1to2_fpr": 0.0,
+      "high_selection_mode": "feasible_stage5_recall_and_early_fpr",
+      "watch_selection_mode": "feasible_stage45_recall_and_early_fpr",
+      "direction_id": "Exp1_to_Exp2",
+      "source_dataset": "Exp1",
+      "target_dataset": "Exp2",
+      "source_TES_threshold": 7.907392316109315,
+      "source_RS50_threshold": 0.005,
+      "max_abs_nonintercept_beta": 0.5438146475635708
+    },
+    {
+      "watch_logit_threshold": -2.5487932307026457e-14,
+      "high_logit_threshold": 7.008007381220598,
+      "watch_probability_equivalent": 0.49999999999999356,
+      "high_probability_equivalent": 0.9990962082432115,
+      "watch_Stage45_recall": 1.0,
+      "watch_Stage1to2_fpr": 0.7418300653594772,
+      "high_Stage5_recall": 0.8556701030927835,
+      "high_Stage5_precision": 1.0,
+      "high_Stage1to2_fpr": 0.0,
+      "high_selection_mode": "feasible_stage5_recall_and_early_fpr",
+      "watch_selection_mode": "fallback_constrained_below_high",
+      "direction_id": "Exp2_to_Exp1",
+      "source_dataset": "Exp2",
+      "target_dataset": "Exp1",
+      "source_TES_threshold": 3.0,
+      "source_RS50_threshold": 0.005,
+      "max_abs_nonintercept_beta": 3.046959730965437e-08
+    }
+  ],
+  "pytest_exit_code": 0,
+  "pytest_passed": true,
+  "pytest_files": [
+    "tests\\test_v11_adapter_state_machine.py",
+    "tests\\test_v11_boundary_guard.py",
+    "tests\\test_v11_no_target_label_leakage.py",
+    "tests\\test_v11_prefix_causality.py",
+    "tests\\test_v11_reliability_update.py",
+    "tests\\test_v11_risk_head_regularization.py",
+    "tests\\test_v11_target_logit_alignment.py",
+    "tests\\test_v11_threshold_selection.py"
+  ]
+}

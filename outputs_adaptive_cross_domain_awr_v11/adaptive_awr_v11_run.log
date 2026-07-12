@@ -1,0 +1,14 @@
+2026-07-12 19:29:17,849 [INFO] Starting Adaptive AWR v1.1
+2026-07-12 19:29:19,945 [INFO] Running Exp1_to_Exp2
+2026-07-12 19:30:22,129 [INFO] Starting Adaptive AWR v1.1
+2026-07-12 19:30:23,290 [INFO] Running Exp1_to_Exp2
+2026-07-12 19:31:38,771 [INFO] Completed Exp1_to_Exp2
+2026-07-12 19:31:38,771 [INFO] Running Exp2_to_Exp1
+2026-07-12 19:34:56,157 [INFO] Completed Exp2_to_Exp1
+2026-07-12 19:35:09,201 [INFO] Adaptive AWR v1.1 complete: outputs_adaptive_cross_domain_awr_v11
+2026-07-12 19:38:01,375 [INFO] Starting Adaptive AWR v1.1
+2026-07-12 19:38:02,342 [INFO] Running Exp1_to_Exp2
+2026-07-12 19:39:19,652 [INFO] Completed Exp1_to_Exp2
+2026-07-12 19:39:19,652 [INFO] Running Exp2_to_Exp1
+2026-07-12 19:42:35,695 [INFO] Completed Exp2_to_Exp1
+2026-07-12 19:42:48,021 [INFO] Adaptive AWR v1.1 complete: outputs_adaptive_cross_domain_awr_v11

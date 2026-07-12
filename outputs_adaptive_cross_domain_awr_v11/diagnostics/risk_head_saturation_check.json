@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "max_abs_nonintercept_beta": 0.5438146475635708,
+  "high_probability_max": 0.9990962082432115,
+  "pytest_exit_code": 0,
+  "pytest_passed": true,
+  "pytest_files": [
+    "tests\\test_v11_adapter_state_machine.py",
+    "tests\\test_v11_boundary_guard.py",
+    "tests\\test_v11_no_target_label_leakage.py",
+    "tests\\test_v11_prefix_causality.py",
+    "tests\\test_v11_reliability_update.py",
+    "tests\\test_v11_risk_head_regularization.py",
+    "tests\\test_v11_target_logit_alignment.py",
+    "tests\\test_v11_threshold_selection.py"
+  ]
+}

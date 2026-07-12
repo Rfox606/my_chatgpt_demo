@@ -1,0 +1,3 @@
+﻿l2,Stage5_AUROC,Stage5_AUPRC,Risk_Stage_Spearman,soft_target_brier,Stage4to5_recall_at_10pct_early_fpr,selection_score,max_abs_nonintercept_beta,stage4_training_included,weighted_mean_loss,direction_id,source_dataset,target_dataset,selected_l2
+0.1,0.9986906142085717,0.995668298215271,0.9732985435499188,0.04368021840301956,1.0,0.9893020804109282,0.5438146475635708,True,0.5436724443736113,Exp1_to_Exp2,Exp1,Exp2,0.1
+0.1,1.0,1.0,0.43335631184390677,0.0640789531423922,0.42358078602620086,0.876081866815652,3.046959730965437e-08,True,0.553776926440175,Exp2_to_Exp1,Exp2,Exp1,0.1
