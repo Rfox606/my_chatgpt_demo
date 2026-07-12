@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "rolling_operations": "trailing/current-window only",
+  "RS": "adjacent trailing windows only",
+  "TES": "trailing rolling medians and fixed calibration references",
+  "risk_filter": "one-sided recursive filter",
+  "online_update": "current and historical windows only",
+  "future_target_windows_read": false
+}
