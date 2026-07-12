@@ -1,0 +1,6 @@
+direction_id,feature_name,below_source_train_p01_rate,above_source_train_p99_rate,outside_source_train_minmax_rate,target_calibration_outside_rate,target_stage5_outside_rate
+Exp1_to_Exp2,AWR_adaptive,0.0,0.22399716009939652,0.18956336528221512,0.0,0.9583333333333334
+Exp1_to_Exp2,BDall_xy_v2,0.05324813631522897,0.0,0.004614838480653177,0.13402061855670103,0.0
+Exp1_to_Exp2,RS50_positive,0.0,0.0,0.0,0.0,0.0
+Exp1_to_Exp2,TES,0.0,0.0,0.0,0.0,0.0
+Exp2_to_Exp1,AWR_adaptive,0.33318705430608886,0.0,0.282062534284147,0.0,0.0

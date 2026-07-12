@@ -1,0 +1,3 @@
+﻿direction_id,source_dataset,target_dataset,features,l2,beta0,beta_AWR_adaptive,beta_BDall_xy_v2,beta_RS50_positive,beta_TES,effective_beta_AWR_adaptive,effective_beta_BDall_xy_v2,effective_beta_RS50_positive,effective_beta_TES
+Exp1_to_Exp2,Exp1,Exp2,AWR_adaptive;BDall_xy_v2;RS50_positive;TES,0.05,0.6560397768529252,0.775699541070824,0.6431176803440349,0.0,0.0,0.43463769866606045,0.1989407304763031,0.0,0.0
+Exp2_to_Exp1,Exp2,Exp1,AWR_adaptive,0.05,0.22824219301780366,1.092205427147009,,,,0.3012335907093296,,,
