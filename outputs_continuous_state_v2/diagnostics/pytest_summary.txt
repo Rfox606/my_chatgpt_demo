@@ -1,0 +1,14 @@
+...........                                                              [100%]
+============================== warnings summary ===============================
+tests/test_csv2_pre_refit_validation.py::test_selection_validation_is_kept_separate_from_deployment_replay
+tests/test_csv2_pre_refit_validation.py::test_selection_validation_is_kept_separate_from_deployment_replay
+tests/test_csv2_pre_refit_validation.py::test_selection_validation_is_kept_separate_from_deployment_replay
+tests/test_csv2_pre_refit_validation.py::test_selection_validation_is_kept_separate_from_deployment_replay
+tests/test_csv2_pre_refit_validation.py::test_selection_validation_is_kept_separate_from_deployment_replay
+tests/test_csv2_pre_refit_validation.py::test_selection_validation_is_kept_separate_from_deployment_replay
+tests/test_csv2_pre_refit_validation.py::test_selection_validation_is_kept_separate_from_deployment_replay
+  D:\Program Files\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py:1403: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', l1_ratio set to a float between 0 and 1 instead of penalty='elasticnet', and C=np.inf instead of penalty=None.
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+11 passed, 7 warnings in 2.68s

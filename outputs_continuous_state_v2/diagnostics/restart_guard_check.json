@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "guard_sensitivity": {
+    "50": {
+      "guard_window_count": 1686,
+      "crossing_window_count": 476,
+      "post_stop_intersection_count": 1686
+    },
+    "100": {
+      "guard_window_count": 2888,
+      "crossing_window_count": 476,
+      "post_stop_intersection_count": 2888
+    },
+    "150": {
+      "guard_window_count": 4078,
+      "crossing_window_count": 476,
+      "post_stop_intersection_count": 4078
+    }
+  },
+  "interval_intersection_rule": "start_cycle <= boundary + guard and end_cycle >= boundary"
+}

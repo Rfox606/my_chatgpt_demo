@@ -1,0 +1,6 @@
+﻿gap_bin,pair_count,source_validation_auc_by_gap_pre_refit,direction_id
+gap_2000_5000,20000,0.91646936,Exp1_source
+gap_5000_plus,20000,0.9997881325000001,Exp1_source
+gap_500_2000,20000,0.7145892075,Exp1_source
+gap_2000_5000,20000,0.9232418824999999,Exp2_source
+gap_500_2000,20000,0.676549705,Exp2_source
