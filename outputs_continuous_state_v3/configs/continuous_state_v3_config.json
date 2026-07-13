@@ -1,0 +1,64 @@
+{
+  "output_dir": "outputs_continuous_state_v3",
+  "z_table_path": "outputs_weighted_awrcore_v1/results/window_feature_z_table.csv",
+  "baseline_cycles": 500,
+  "known_stop_interval_cycles": 500,
+  "restart_guard_cycles": 100,
+  "source_train_fraction": 0.7,
+  "source_gap_windows": 20,
+  "pair_gap_bins": [
+    [
+      500,
+      2000
+    ],
+    [
+      2000,
+      5000
+    ],
+    [
+      5000,
+      null
+    ]
+  ],
+  "max_pairs_per_gap_bin": 20000,
+  "correlation_prune_threshold": 0.98,
+  "random_seed": 20260713,
+  "plateau_min_cycle": 2000,
+  "plateau_candidate_cycles": 300,
+  "plateau_lock_cycles": 500,
+  "plateau_reference_cycles": 500,
+  "plateau_exit_candidate_cycles": 300,
+  "plateau_exit_confirm_cycles": 500,
+  "target_clip": 8.0,
+  "source_plateau_threshold_quantile": 0.75,
+  "weighted_oos_max": 0.35,
+  "severe_eta": 0.01,
+  "severe_direction_consistency_min": 0.6,
+  "severe_direction_cosine_min": 0.7,
+  "severe_score_threshold": 2.0,
+  "forecast_history_windows": 20,
+  "forecast_horizons_cycles": [
+    100,
+    500,
+    1000
+  ],
+  "rls_forgetting_factor": 0.999,
+  "rls_initial_covariance": 100.0,
+  "rls_gain_norm_max": 0.1,
+  "ensemble_window": 200,
+  "ensemble_alpha_step": 0.05,
+  "ensemble_freeze_cycles": 500,
+  "eps": 1e-09,
+  "features": [
+    "rs_corrdist_base",
+    "rs_mean",
+    "rs_absmean",
+    "rs_q05",
+    "rx_corrdist_base",
+    "rs_rms",
+    "ry_p2p",
+    "rx_mean",
+    "rx_absmean",
+    "rx_q05"
+  ]
+}

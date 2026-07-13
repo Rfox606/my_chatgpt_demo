@@ -1,0 +1,23 @@
+{
+  "Exp1_plateau_support": "FAIL",
+  "Exp2_plateau_to_severe_support": "FAIL",
+  "SAFE_ONLINE_FORECAST_BENEFIT": [
+    {
+      "protocol_id": "A_Exp1_to_Exp2",
+      "main_output_horizon_count": 4,
+      "safe_no_major_mae_harm": true,
+      "safe_no_major_rmse_harm": true,
+      "improved_output_horizons": "V50_norm@1000",
+      "SAFE_ONLINE_FORECAST_BENEFIT": "PASS"
+    },
+    {
+      "protocol_id": "B_Exp2_to_Exp1",
+      "main_output_horizon_count": 4,
+      "safe_no_major_mae_harm": true,
+      "safe_no_major_rmse_harm": true,
+      "improved_output_horizons": "D_state@500;D_state@1000;V50_norm@500;V50_norm@1000",
+      "SAFE_ONLINE_FORECAST_BENEFIT": "PASS"
+    }
+  ],
+  "status": "FAIL"
+}

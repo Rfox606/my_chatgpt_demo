@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "protocol_A_exp2_future_not_used_in_source": true,
+  "protocol_A_exp2_terminal_not_used_for_severe_prior": true,
+  "protocol_B_exp1_future_not_used_for_initialization": true,
+  "target_baseline_initial_500_only": true
+}

@@ -1,0 +1,5 @@
+{
+  "status": "PASS",
+  "protocol_A_source_severe_prior": "NONE",
+  "target_direction_only_after_plateau_exit": true
+}
