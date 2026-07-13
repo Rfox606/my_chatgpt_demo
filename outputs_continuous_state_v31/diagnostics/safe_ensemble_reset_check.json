@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "frozen_prediction_rows": 60,
+  "frozen_rows_without_repeated_reset": true,
+  "freeze_until_not_extended": true,
+  "independent_reset_episode_count": 1
+}

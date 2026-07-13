@@ -1,0 +1,3 @@
+﻿protocol_id,source_dataset,source_plateau_threshold_quantile,baseline_D_p95,source_plateau_V50_threshold,source_plateau_V100_threshold,source_plateau_volatility_threshold,source_plateau_detected,source_exit_detected,source_exit_cycle
+A_Exp1_to_Exp2,Exp1,0.75,2.954561567665981,0.4551374743752885,0.7095581214793335,0.1781663065501293,1,1,6905.5
+B_Exp2_to_Exp1,Exp2,0.75,2.9154744057604067,3.4844584362509368,6.30195890053573,0.6133247573343329,1,1,5430.5
