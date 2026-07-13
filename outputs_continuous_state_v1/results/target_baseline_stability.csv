@@ -1,0 +1,3 @@
+﻿direction_id,source_dataset,target_dataset,baseline_window_count,baseline_AWR_rel_median,baseline_AWR_rel_IQR,baseline_BD_median,baseline_BD_p95,baseline_oos_fraction_mean
+Exp1_to_Exp2,Exp1,Exp2,88,0.0,0.3119012737208581,1.9758038400293196,3.034914673753162,0.21477272727272725
+Exp2_to_Exp1,Exp2,Exp1,88,0.0,0.007433395328639333,1.3505240123490294,3.0884823102527506,0.07727272727272726

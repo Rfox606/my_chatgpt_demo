@@ -1,0 +1,6 @@
+﻿gap_bin,pair_count,pair_auc,source_batch_positive_pair_count,direction_id,source_dataset,target_dataset
+gap_2000_5000,20000,0.8979617225,60000,Exp1_to_Exp2,Exp1,Exp2
+gap_5000_plus,20000,0.991534695,60000,Exp1_to_Exp2,Exp1,Exp2
+gap_500_2000,20000,0.7405503075,60000,Exp1_to_Exp2,Exp1,Exp2
+gap_2000_5000,20000,0.98652156,40000,Exp2_to_Exp1,Exp2,Exp1
+gap_500_2000,20000,0.7395131300000001,40000,Exp2_to_Exp1,Exp2,Exp1
