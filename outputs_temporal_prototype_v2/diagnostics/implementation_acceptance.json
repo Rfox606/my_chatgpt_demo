@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "unidirectional_encoder": true,
+  "prefix_causal_sequences": true,
+  "predict_before_update": true,
+  "source_scaler_immutable": true,
+  "source_prototype_immutable": true,
+  "snapshot_replay_reproducible": true,
+  "target_label_access_count": 0,
+  "nan_inf_parameters": 0
+}
