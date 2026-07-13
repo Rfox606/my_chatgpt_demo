@@ -1,0 +1,77 @@
+{
+  "output_dir": "outputs_ordered_regime_v21",
+  "z_table_path": "outputs_weighted_awrcore_v1/results/window_feature_z_table.csv",
+  "state_path": "outputs_aux_state_metrics_v2/window_state_scores_v2.csv",
+  "v2_model_dir": "outputs_temporal_prototype_v2/source_models",
+  "v12_scores_path": "outputs_adaptive_cross_domain_awr_v12/results/adaptive_window_scores_v12.csv",
+  "stable_plus_features": [
+    "rs_corrdist_base",
+    "rs_mean",
+    "rs_absmean",
+    "rs_q05",
+    "rx_corrdist_base",
+    "rs_rms",
+    "ry_p2p",
+    "rx_mean",
+    "rx_absmean",
+    "rx_q05"
+  ],
+  "dynamic_features": [
+    "BDall_xy_v2",
+    "BDshape_v2",
+    "RS20",
+    "RS50",
+    "RS100",
+    "TES",
+    "BD_jump"
+  ],
+  "sequence_length": 20,
+  "known_stop_interval_cycles": 500,
+  "restart_guard_cycles": 50,
+  "post_restart_cooldown_windows": 10,
+  "source_train_fraction": 0.7,
+  "source_gap_windows": 4,
+  "memory_per_state": 300,
+  "minimum_state_support": 30,
+  "prototype_recompute_every": 10,
+  "candidate_gap_tolerance": 5,
+  "candidate_purity_min": 0.8,
+  "candidate_radius_multiplier": 1.25,
+  "candidate_separation_multiplier": 1.2,
+  "stable_required_windows": 10,
+  "change_threshold_grid": [
+    2.0,
+    2.5,
+    3.0
+  ],
+  "candidate_min_windows_grid": [
+    15,
+    25,
+    40
+  ],
+  "min_dwell_windows_grid": [
+    50,
+    100,
+    200
+  ],
+  "random_seed": 20260713,
+  "input_features": [
+    "rs_corrdist_base",
+    "rs_mean",
+    "rs_absmean",
+    "rs_q05",
+    "rx_corrdist_base",
+    "rs_rms",
+    "ry_p2p",
+    "rx_mean",
+    "rx_absmean",
+    "rx_q05",
+    "BDall_xy_v2",
+    "BDshape_v2",
+    "RS20",
+    "RS50",
+    "RS100",
+    "TES",
+    "BD_jump"
+  ]
+}
