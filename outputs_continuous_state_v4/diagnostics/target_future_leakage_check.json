@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "target_baseline_initial_period_only": true,
+  "target_future_values_not_used_for_baseline": true,
+  "stage_not_read_by_online_state": true
+}
