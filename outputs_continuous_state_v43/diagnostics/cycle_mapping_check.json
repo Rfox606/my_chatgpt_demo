@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "mapping_source": "existing_segment_config_fallback",
+  "checks": [
+    {
+      "dataset": "Exp1",
+      "endpoint_consistent": true,
+      "monotone": true,
+      "actual_total_expected": 53000.0
+    },
+    {
+      "dataset": "Exp2",
+      "endpoint_consistent": true,
+      "monotone": true,
+      "actual_total_expected": 24000.0
+    }
+  ]
+}

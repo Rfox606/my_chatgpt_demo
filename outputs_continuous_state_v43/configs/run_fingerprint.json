@@ -1,0 +1,113 @@
+{
+  "code_version": "csv43",
+  "config": {
+    "output_dir": "outputs_continuous_state_v43",
+    "z_table_path": "outputs_weighted_awrcore_v1/results/window_feature_z_table.csv",
+    "baseline_cycles": 1000,
+    "restart_guard_cycles": 100,
+    "distance_form": "mahalanobis",
+    "velocity_windows_cycles": [
+      100,
+      500,
+      1000
+    ],
+    "volatility_window_cycles": 500,
+    "evidence_confirm_cycles": 100,
+    "evidence_reset_cycles": 50,
+    "low_activity_confirm_cycles": 500,
+    "low_activity_release_cycles": 250,
+    "residual_ewma_alpha": 0.02,
+    "abrupt_cusum_threshold": 5.0,
+    "consensus_emit_start_cycles": 1000,
+    "consensus_support_min": 0.5,
+    "consensus_score_min": 1.0,
+    "episode_merge_gap_cycles": 250,
+    "episode_min_cycles": 100,
+    "episode_coordinate": "actual",
+    "episode_split_min_actual_cycles": 500,
+    "episode_split_valley_fraction": 0.75,
+    "episode_split_support_decline": 0.5,
+    "episode_split_persistence_cycles": 100,
+    "stop_deconfounding_half_widths_actual": [
+      100,
+      200
+    ],
+    "cycle_mapping_config_path": "outputs_physical_validation_candidates_v1/configs/cycle_mapping_config.json",
+    "morphology_anchor_actual_cycles": [
+      0,
+      8000,
+      16000,
+      24000,
+      32000,
+      40000,
+      48000
+    ],
+    "covariance_ridge": 0.001,
+    "source_train_fraction": 0.7,
+    "source_gap_windows": 20,
+    "pair_gap_bins": [
+      [
+        500,
+        2000
+      ],
+      [
+        2000,
+        5000
+      ],
+      [
+        5000,
+        null
+      ]
+    ],
+    "max_pairs_per_gap_bin": 20000,
+    "correlation_prune_threshold": 0.98,
+    "forecast_history_windows": 20,
+    "forecast_horizons_cycles": [
+      100,
+      500,
+      1000
+    ],
+    "forecast_issue_stride_cycles": 50,
+    "forecast_rolling_window_cycles": 5000,
+    "safe_gate_min_observations": 20,
+    "rls_forgetting_factor": 0.999,
+    "rls_initial_covariance": 100.0,
+    "rls_gain_norm_max": 0.1,
+    "rls_theta_norm_max": 20.0,
+    "rls_covariance_max": 10000.0,
+    "forecast_delta_clip": 30.0,
+    "random_seed": 20260719,
+    "eps": 1e-09,
+    "features": [
+      "rs_corrdist_base",
+      "rs_mean",
+      "rs_q05",
+      "rx_corrdist_base",
+      "rs_rms",
+      "ry_p2p",
+      "rx_mean",
+      "rx_absmean",
+      "rx_q05"
+    ],
+    "feature_groups": {
+      "rs": [
+        "rs_corrdist_base",
+        "rs_mean",
+        "rs_q05",
+        "rs_rms"
+      ],
+      "rx": [
+        "rx_corrdist_base",
+        "rx_mean",
+        "rx_absmean",
+        "rx_q05"
+      ],
+      "ry": [
+        "ry_p2p"
+      ]
+    },
+    "code_version": "csv43"
+  },
+  "input_file_sha256": "02e06fffcc38d21b17048be210b04ba601be95111e06a486736d8248795d38ae",
+  "code_sha256": "6577afdb14cfc00cf0d11c99860d9936dcbb474e784cf24717a140ad82e8e6f1"
+}
