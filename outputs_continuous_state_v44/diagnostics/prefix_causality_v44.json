@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "cutoff_effective_cycle": 10000.0,
+  "pre_cutoff_rows": 1798,
+  "max_abs_difference": 0.0,
+  "rule": "only suffix feature values changed; all pre-cutoff frozen-baseline states must agree"
+}
