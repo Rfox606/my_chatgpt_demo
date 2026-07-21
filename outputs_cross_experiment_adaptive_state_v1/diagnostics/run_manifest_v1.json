@@ -1,0 +1,49 @@
+{
+  "status": "FAIL",
+  "objective_version": "ceap_v1",
+  "input_sha256": "5a6a20752a2132da62993ffd94575e2c2088c6021fad44adbcc7383eb8eae1ab",
+  "code_sha256": "b8b370f6389bf28c66dfdb5448e27f767747831405a839a7ccf76bef67251600",
+  "directions": [
+    "Exp1_to_Exp2",
+    "Exp2_to_Exp1"
+  ],
+  "tests": "FAIL",
+  "diagnostics": {
+    "prefix_causality_status": "PASS",
+    "prefix_max_abs_difference": 0.0,
+    "no_label_leakage_status": "PASS",
+    "source_model_frozen_status": "PASS",
+    "adapter_bounds_status": "PASS",
+    "delayed_entry_nonzero_initialization_status": "PASS",
+    "time_prior_audit_status": "PASS",
+    "all_target_rows": 37257,
+    "all_update_rows": 37257
+  },
+  "decision": {
+    "Exp1_to_Exp2": {
+      "adaptive": 0.5611079206443913,
+      "source_static": 0.5401183373110582,
+      "target_local": 0.6384253182179793,
+      "elapsed": 1.0,
+      "vs_source_static": true,
+      "vs_target_local": false,
+      "vs_elapsed": false
+    },
+    "Exp2_to_Exp1": {
+      "adaptive": 0.6092916666666668,
+      "source_static": 0.4730833333333333,
+      "target_local": 0.5964166666666666,
+      "elapsed": 1.0,
+      "vs_source_static": true,
+      "vs_target_local": true,
+      "vs_elapsed": false
+    },
+    "all_delayed_entries_nonzero": true,
+    "scientific_comparator_status": "PASS",
+    "overall_delivery_status": "FAIL"
+  },
+  "posthoc_stage_status": "NOT_AVAILABLE_INPUT_NOT_VERSIONED",
+  "preserved_failures": [
+    "Target_Supervised_Oracle unavailable because per-window Stage is not versioned in formal input"
+  ]
+}
