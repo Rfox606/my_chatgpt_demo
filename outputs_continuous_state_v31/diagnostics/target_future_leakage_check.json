@@ -1,6 +1,0 @@
-{
-  "status": "PASS",
-  "source_target_isolation": true,
-  "target_baseline_initial_non_guard_500_only": true,
-  "posthoc_stage_read_after_online_artifacts": true
-}

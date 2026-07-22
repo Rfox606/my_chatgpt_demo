@@ -1,9 +1,0 @@
-{
-  "status": "PASS",
-  "pytest_exit_code": 0,
-  "both_directions_completed": [
-    "Exp1_to_Exp2",
-    "Exp2_to_Exp1"
-  ],
-  "main_score_columns_are_label_free": true
-}

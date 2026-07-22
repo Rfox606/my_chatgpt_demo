@@ -1,9 +1,0 @@
-{
-  "status": "PASS",
-  "target_stage_passed_to_online_inference": false,
-  "target_stage_used_for_risk_head_fit": false,
-  "target_stage_used_for_threshold_selection": false,
-  "target_stage_used_for_reliability_or_offset": false,
-  "target_stage_attachment": "after_all_target_windows_scored",
-  "assertion": "run_target_online rejects stage, stage_label and Stage1to5 columns"
-}

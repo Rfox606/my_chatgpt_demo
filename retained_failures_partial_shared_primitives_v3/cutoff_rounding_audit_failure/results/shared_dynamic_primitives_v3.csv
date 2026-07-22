@@ -1,5 +1,0 @@
-row_type,primitive_id,selected_k,calibration_rows,descriptor_columns,centre,shared_not_state_centre
-shared_dynamic_primitive,0,2,448,shared_z0|shared_z1|shared_z2|shared_z3|shared_z4|shared_z5|forecast_mae|forecast_activity,"[-0.19560559,-0.00325912,-0.02468581, 0.12425926, 0.10299007, 0.04116245,
-  0.96146083, 0.73069518]",True
-shared_dynamic_primitive,1,2,448,shared_z0|shared_z1|shared_z2|shared_z3|shared_z4|shared_z5|forecast_mae|forecast_activity,"[ 83.15397707,-54.73196421, 10.59745132,  8.48973574,  1.25063665,
- -24.80922342, 27.10357914, 51.35831855]",True

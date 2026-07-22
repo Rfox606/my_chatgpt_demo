@@ -1,9 +1,0 @@
-﻿protocol_id,target_dataset,evidence_type,active_window_count,onset_count,first_onset_cycle,last_onset_cycle,active_at_8000
-A_Exp1_to_Exp2,Exp2,low_activity_evidence,729,20,205.5,11265.5,True
-A_Exp1_to_Exp2,Exp2,directed_change_evidence,0,0,,,False
-A_Exp1_to_Exp2,Exp2,acceleration_evidence,125,4,3775.5,13930.5,False
-A_Exp1_to_Exp2,Exp2,abrupt_change_evidence,177,12,2790.5,13290.5,False
-B_Exp2_to_Exp1,Exp1,low_activity_evidence,3039,42,460.5,42410.5,False
-B_Exp2_to_Exp1,Exp1,directed_change_evidence,13,1,8180.5,8180.5,False
-B_Exp2_to_Exp1,Exp1,acceleration_evidence,915,11,14660.5,44380.5,False
-B_Exp2_to_Exp1,Exp1,abrupt_change_evidence,972,11,14455.5,44385.5,False

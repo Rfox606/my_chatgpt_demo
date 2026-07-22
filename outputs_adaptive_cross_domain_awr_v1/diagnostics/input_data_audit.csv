@@ -1,3 +1,0 @@
-﻿dataset,windows,calibration_windows,cycle_min,cycle_max,stage_counts,stable_plus_missing_values,BDall_xy_v2_missing_values,BDshape_v2_missing_values,z_table_source,fallback_feature_extraction
-Exp1,9115,97,1.0,45590.0,"{""1"": 1511, ""2"": 2710, ""3"": 1343, ""4"": 1352, ""5"": 2199}",0,0,0,outputs_weighted_awrcore_v1\results\window_feature_z_table.csv,False
-Exp2,2817,97,1.0,14100.0,"{""1"": 597, ""2"": 600, ""3"": 540, ""4"": 600, ""5"": 480}",0,0,0,outputs_weighted_awrcore_v1\results\window_feature_z_table.csv,False

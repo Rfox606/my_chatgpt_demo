@@ -1,3 +1,0 @@
-﻿protocol_id,target_dataset,detected_plateau_cycle,detected_plateau_exit_cycle,detected_severe_onset_cycle,known_severe_boundary,lead_lag_cycles,persistent_severe_alarm_count
-A_Exp1_to_Exp2,Exp2,,,,11695.5,,0
-B_Exp2_to_Exp1,Exp1,2725.5,8225.5,8340.5,,,1

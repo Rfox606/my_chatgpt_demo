@@ -1,0 +1,17 @@
+{
+  "attempt": "attempt_001_original_online_update",
+  "status": "ENGINEERING_FAIL",
+  "preserved_before_fix": true,
+  "gate_results_available": false,
+  "reason": "Unnormalised adapter/scratch outer-product updates overflowed during the formal Exp1_to_Exp2 replay; non-finite forecast errors then propagated into BOCPD.",
+  "observed_runtime_warnings": [
+    "forecasting.py: overflow encountered in square",
+    "forecasting.py: overflow encountered in matmul",
+    "forecasting.py: invalid value encountered in online weight addition",
+    "bocpd.py: overflow/invalid value in Student-t posterior update"
+  ],
+  "artifact_state": "Only the frozen configuration file existed because the runner terminated before Gate CSV materialisation.",
+  "thresholds_changed": false,
+  "data_or_selection_rules_changed": false,
+  "corrective_change": "Replace the same learning-rate online update with normalized LMS (denominator=max(1,x'x)); no tuned clipping bound or new threshold is introduced."
+}

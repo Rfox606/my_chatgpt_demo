@@ -1,8 +1,0 @@
-{
-  "status": "PASS",
-  "fingerprint_valid": true,
-  "cache_reused": false,
-  "cache_fingerprint_match": false,
-  "staged_execution": true,
-  "reason": "v3.1 stages are recomputed in isolated processes; no v3 cache is read"
-}

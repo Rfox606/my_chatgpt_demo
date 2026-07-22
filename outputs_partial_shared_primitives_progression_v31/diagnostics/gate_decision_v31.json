@@ -1,0 +1,133 @@
+{
+  "directions": {
+    "Exp1_to_Exp2": {
+      "source_dataset": "Exp1",
+      "target_dataset": "Exp2",
+      "gate_a": {
+        "status": "PASS",
+        "horizon_coverage": true,
+        "frozen_mae": 0.050916851942383844,
+        "adapter_gated_mae": 0.019295106183992498,
+        "scratch_mae": 0.01966438181799261,
+        "adapter_improvement_vs_frozen": 0.6210467566646436,
+        "negative_transfer_gate_active": true,
+        "post_gate_adapter_to_scratch_mae_ratio": 1.0,
+        "negative_transfer_ok": true,
+        "reason": "all_preregistered_conditions_met"
+      },
+      "gate_b": {
+        "status": "FAIL",
+        "reason": "fewer_than_6_confirmed_target_segments",
+        "source_confirmed_segments": 1,
+        "target_confirmed_segments": 1,
+        "source_primitive_k": 0,
+        "confirmed_segments": 1,
+        "single_window_kmeans_used": false
+      },
+      "gate_c": {
+        "status": "FAIL",
+        "reason": "coverage_activity_ood_or_delayed_threshold_not_met",
+        "continuous_coverage": true,
+        "activity_std": 0.003468604760791981,
+        "delayed_entry_ok": false,
+        "state_id_input_count": 0,
+        "synthetic_ood": {
+          "normal_mean_uncertainty": 2.0310342454934096,
+          "ood_mean_uncertainty": 10.03103424549341,
+          "ood_to_normal_ratio": 4.938879916845774,
+          "status": "PASS",
+          "state_id_used": false,
+          "activity_arrays_constructed": true
+        }
+      },
+      "prefix": {
+        "status": "PASS",
+        "cutoffs": {
+          "3000.0": {
+            "forecast": 0.0,
+            "target_bocpd": 0.0,
+            "continuous": 0.0,
+            "private_state": 0.0,
+            "status": "PASS"
+          },
+          "9000.0": {
+            "forecast": 0.0,
+            "target_bocpd": 0.0,
+            "continuous": 0.0,
+            "private_state": 0.0,
+            "status": "PASS"
+          }
+        }
+      },
+      "source_initial_prior": 0.0003639420310793881
+    },
+    "Exp2_to_Exp1": {
+      "source_dataset": "Exp2",
+      "target_dataset": "Exp1",
+      "gate_a": {
+        "status": "PASS",
+        "horizon_coverage": true,
+        "frozen_mae": 0.008085016977637917,
+        "adapter_gated_mae": 0.002990569186227506,
+        "scratch_mae": 0.0029567081152658665,
+        "adapter_improvement_vs_frozen": 0.6301097209196934,
+        "negative_transfer_gate_active": true,
+        "post_gate_adapter_to_scratch_mae_ratio": 1.0,
+        "negative_transfer_ok": true,
+        "reason": "all_preregistered_conditions_met"
+      },
+      "gate_b": {
+        "status": "FAIL",
+        "reason": "fewer_than_6_confirmed_target_segments",
+        "source_confirmed_segments": 1,
+        "target_confirmed_segments": 1,
+        "source_primitive_k": 0,
+        "confirmed_segments": 1,
+        "single_window_kmeans_used": false
+      },
+      "gate_c": {
+        "status": "FAIL",
+        "reason": "coverage_activity_ood_or_delayed_threshold_not_met",
+        "continuous_coverage": true,
+        "activity_std": 0.0005979022936728809,
+        "delayed_entry_ok": false,
+        "state_id_input_count": 0,
+        "synthetic_ood": {
+          "normal_mean_uncertainty": 2.0310342454934096,
+          "ood_mean_uncertainty": 10.03103424549341,
+          "ood_to_normal_ratio": 4.938879916845774,
+          "status": "PASS",
+          "state_id_used": false,
+          "activity_arrays_constructed": true
+        }
+      },
+      "prefix": {
+        "status": "PASS",
+        "cutoffs": {
+          "3000.0": {
+            "forecast": 0.0,
+            "target_bocpd": 0.0,
+            "continuous": 0.0,
+            "private_state": 0.0,
+            "status": "PASS"
+          },
+          "9000.0": {
+            "forecast": 0.0,
+            "target_bocpd": 0.0,
+            "continuous": 0.0,
+            "private_state": 0.0,
+            "status": "PASS"
+          }
+        }
+      },
+      "source_initial_prior": 0.0006579688162035625
+    }
+  },
+  "status": "FAIL",
+  "tests": {
+    "tests": 164,
+    "failures": 0,
+    "errors": 0,
+    "status": "PASS"
+  }
+}

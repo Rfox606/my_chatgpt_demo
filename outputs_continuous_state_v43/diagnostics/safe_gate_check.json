@@ -1,7 +1,0 @@
-{
-  "status": "PASS",
-  "online_rows": 2469,
-  "compares_current_best_static": true,
-  "online_not_worse_than_selected_static_window": true,
-  "observed_non_frozen_static_reference": true
-}

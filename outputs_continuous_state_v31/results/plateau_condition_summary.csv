@@ -1,3 +1,0 @@
-﻿protocol_id,target_dataset,non_guard_window_count,D_condition_rate,D_condition_fail_count,V50_condition_rate,V50_condition_fail_count,V100_condition_rate,V100_condition_fail_count,volatility_condition_rate,volatility_condition_fail_count,plateau_condition_rate,plateau_condition_fail_count
-A_Exp1_to_Exp2,Exp2,2128,0.9689849624060151,66,0.2805451127819549,1531,0.1400375939849624,1830,0.49107142857142855,1083,0.051221804511278196,2019
-B_Exp2_to_Exp1,Exp1,6916,0.9895893580104106,72,0.9755639097744361,169,0.9621168305378832,262,0.9580682475419318,290,0.9060150375939849,650

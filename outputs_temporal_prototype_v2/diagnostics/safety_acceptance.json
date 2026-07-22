@@ -1,8 +1,0 @@
-{
-  "status": "PASS",
-  "stage1to2_false_high_rate_le_010": true,
-  "prototype_order_crossings": 0,
-  "unqualified_update_count": 0,
-  "target_label_access_count": 0,
-  "nan_inf_parameter_count": 0
-}

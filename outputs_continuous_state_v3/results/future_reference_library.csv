@@ -1,4 +1,0 @@
-﻿library_mode,source_datasets,features_intersection,not_an_independent_target_generalization_claim,protocol_id,source_dataset,baseline_D_p95,source_plateau_V50_p75,source_plateau_V100_p75,source_plateau_volatility_p75,source_plateau_detected,source_exit_detected
-Protocol_C_reference_library_only,Exp1+Exp2,rs_corrdist_base;rs_rms;ry_p2p,True,,,,,,,,
-,,,,A_Exp1_to_Exp2,Exp1,2.954561567665981,0.4551374743752885,0.7095581214793335,0.17816630655012933,0.0,0.0
-,,,,B_Exp2_to_Exp1,Exp2,2.9154744057604067,3.4844584362509368,6.30195890053573,0.6133247573343329,0.0,0.0

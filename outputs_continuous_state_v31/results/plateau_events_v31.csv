@@ -1,2 +1,0 @@
-﻿protocol_id,target_dataset,event,cycle,plateau_reference_start_cycle,plateau_reference_end_cycle,plateau_reference_window_count,plateau_reference_valid_cycles,guards_crossed_before_lock
-B_Exp2_to_Exp1,Exp1,PLATEAU_LOCKED,2725.5,2110.5,2725.5,100,500.0,20

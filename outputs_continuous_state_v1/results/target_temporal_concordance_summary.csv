@@ -1,3 +1,0 @@
-﻿direction_id,source_dataset,target_dataset,target_pair_count,target_pair_concordance_all,target_pair_concordance_gap_500_2000,target_pair_concordance_gap_2000_5000,target_pair_concordance_gap_5000_plus,target_long_gap_concordance,spearman_AWR_cycle,kendall_AWR_cycle,spearman_BD_cycle
-Exp1_to_Exp2,Exp1,Exp2,60000,0.7359666666666667,0.5505,0.7452,0.9122,0.8287,0.7398251494046559,0.513131463822225,0.6147553644028099
-Exp2_to_Exp1,Exp2,Exp1,60000,0.44945,0.59865,0.5748,0.1749,0.37485,-0.729113443416897,-0.48178086975366413,0.6622860326142617

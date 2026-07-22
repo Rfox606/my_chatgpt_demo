@@ -1,5 +1,0 @@
-{
-  "max_pairs_per_gap_bin": 20000,
-  "bootstrap_repeats": 200,
-  "bootstrap_block_windows": 50
-}

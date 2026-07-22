@@ -1,6 +1,0 @@
-{
-  "status": "PASS",
-  "all_finite": true,
-  "max_online_prediction_abs": 30.000000000000004,
-  "online_delta_bounded": true
-}

@@ -1,3 +1,0 @@
-﻿direction_id,source_dataset,selected_C,source_validation_auc_pre_refit,source_validation_accuracy_pre_refit,source_validation_logloss_pre_refit,source_validation_auc_after_refit_replay,pair_count_train,pair_count_validation,source_gap_windows
-Exp1_source,Exp1,0.01,0.9182927677777778,0.8218,0.36024095607680184,0.7700253886111111,60000,60000,20
-Exp2_source,Exp2,0.01,0.798206314375,0.709575,0.9292192124489493,0.8720922349999999,60000,40000,20

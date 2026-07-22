@@ -1,6 +1,0 @@
-{
-  "status": "PASS",
-  "formal_input": "outputs_continuous_state_v45/results/window_feature_raw_v45.csv",
-  "formal_model_read_stage_morphology_or_debris": false,
-  "posthoc_stage_diagnostic": "NOT_AVAILABLE_INPUT_NOT_VERSIONED; no label artifact was opened"
-}

@@ -1,7 +1,0 @@
-direction_id,diagnostic,discovered_states,candidate_rejections,first_discovery_window,shift_start_window
-Exp1_to_Exp2,constant_signal,0,0,,
-Exp1_to_Exp2,transient_spike,0,1,,210.0
-Exp1_to_Exp2,persistent_shift,1,0,249.0,210.0
-Exp2_to_Exp1,constant_signal,0,0,,
-Exp2_to_Exp1,transient_spike,0,1,,60.0
-Exp2_to_Exp1,persistent_shift,1,0,99.0,60.0

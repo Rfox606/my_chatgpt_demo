@@ -1,3 +1,0 @@
-﻿protocol_id,source_dataset,source_severe_prior,feature_name,weight,reason
-A_Exp1_to_Exp2,Exp1,NONE,,,EXP1_NO_SEVERE_PRIOR
-B_Exp2_to_Exp1,Exp2,NONE,,,NO_CAUSAL_SOURCE_PLATEAU_EXIT

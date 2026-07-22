@@ -1,8 +1,0 @@
-{
-  "status": "PASS",
-  "tests": 151,
-  "failures": 0,
-  "errors": 0,
-  "skipped": 0,
-  "junit": "outputs_multistage_trajectory_state_v2\\diagnostics\\full_pytest_v2.xml"
-}

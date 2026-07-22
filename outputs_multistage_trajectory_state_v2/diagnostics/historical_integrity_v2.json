@@ -1,6 +1,0 @@
-{
-  "status": "PASS",
-  "continuous_state_v45_state_engine_sha256": "80beaca1f7a58c1aed0f5135cd5493b3d00c75110169a366aabb5103df45da22",
-  "continuous_state_v45_raw_window_sha256": "5a6a20752a2132da62993ffd94575e2c2088c6021fad44adbcc7383eb8eae1ab",
-  "ceap_v1_online_sha256": "b0d4373039f3b3b1de8994c28012d2910b051dd7e3fbb40f6f7aa0ef13e5d78d"
-}

@@ -1,0 +1,33 @@
+{
+  "status": "FAIL",
+  "engineering_status": "PASS",
+  "input_sha256": "5a6a20752a2132da62993ffd94575e2c2088c6021fad44adbcc7383eb8eae1ab",
+  "protocol_locked_before_run": true,
+  "tests": {
+    "tests": 164,
+    "failures": 0,
+    "errors": 0,
+    "status": "PASS"
+  },
+  "output_files": [
+    "configs\\partial_shared_primitives_progression_v31_config.json",
+    "diagnostics\\attempt_001_unstable_online_update.json",
+    "diagnostics\\attempt_002_unstable_online_update_terminal.json",
+    "diagnostics\\full_pytest_v31.xml",
+    "diagnostics\\gate_decision_v31.json",
+    "diagnostics\\no_label_future_audit_v31.json",
+    "diagnostics\\run_manifest_v31.json",
+    "figures\\gate_c_continuous_and_uncertainty_v31.png",
+    "reports\\partial_shared_primitives_progression_v31_report.md",
+    "results\\gate_a_adapter_and_negative_transfer_v31.csv",
+    "results\\gate_a_multihorizon_forecasts_v31.csv",
+    "results\\gate_b_segment_dynamic_primitives_v31.csv",
+    "results\\gate_b_source_bocpd_v31.csv",
+    "results\\gate_b_source_confirmed_segments_v31.csv",
+    "results\\gate_b_target_bocpd_v31.csv",
+    "results\\gate_b_target_confirmed_segments_v31.csv",
+    "results\\gate_b_target_private_states_v31.csv",
+    "results\\gate_c_continuous_process_v31.csv",
+    "results\\gate_c_delayed_entry_convergence_v31.csv"
+  ]
+}

@@ -1,3 +1,0 @@
-﻿direction_id,source_dataset,TES_threshold,TES_threshold_raw_percentile,TES_threshold_source,TES_prominence_threshold,TES_prominence_raw_percentile,TES_prominence_source,min_event_gap_cycles,min_event_gap_windows
-Exp1_to_Exp2,Exp1,3.0,2.1252484054780663,source_baseline_p99.5_with_floor,1.908267879625595,1.908267879625595,source_baseline_p95_with_floor,1000,200
-Exp2_to_Exp1,Exp2,5.231147623137636,5.231147623137636,source_baseline_p99.5_with_floor,4.063160386336098,4.063160386336098,source_baseline_p95_with_floor,1000,200

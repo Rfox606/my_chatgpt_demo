@@ -1,7 +1,0 @@
-﻿protocol_id,target_dataset,output_name,horizon_cycles,reset_episode_id,freeze_start_cycle,freeze_until_cycle,freeze_end_cycle,freeze_duration_cycles,transition_from
-A_Exp1_to_Exp2,Exp2,D_state,100,1,11010.5,11510.5,11510.5,500.0,PROBATION
-A_Exp1_to_Exp2,Exp2,D_state,500,1,11410.5,11910.5,11910.5,500.0,PROBATION
-A_Exp1_to_Exp2,Exp2,D_state,1000,1,13610.5,14110.5,,450.0,ACTIVE
-B_Exp2_to_Exp1,Exp1,V50_norm,1000,1,12060.5,12560.5,12560.5,500.0,ACTIVE
-B_Exp2_to_Exp1,Exp1,S_severe_candidate,1000,1,13710.5,14210.5,14210.5,500.0,PROBATION
-B_Exp2_to_Exp1,Exp1,D_state,1000,1,16410.5,16910.5,16910.5,500.0,ACTIVE

@@ -1,6 +1,0 @@
-{
-  "status": "PASS",
-  "calibration_rows_not_emitted": true,
-  "target_future_values_not_used_for_baseline": true,
-  "stage_not_read_by_online_state": true
-}

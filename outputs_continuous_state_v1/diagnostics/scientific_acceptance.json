@@ -1,5 +1,0 @@
-{
-  "status": "FAIL",
-  "source_pair_auc_minimum": 0.6,
-  "target_long_gap_concordance_minimum": 0.55
-}
