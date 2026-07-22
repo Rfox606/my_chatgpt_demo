@@ -50,7 +50,12 @@
     "bounded_adapter_norm": 0.55,
     "bounded_adapter_step": 0.08,
     "unbounded_numeric_norm_abort": 100.0,
-    "weak_l2_multiplier": 0.25
+    "weak_l2_multiplier": 0.25,
+    "adapter_effective_auc_improvement_minimum": 0.01,
+    "adapter_effective_saturation_ratio_maximum": 0.20,
+    "adapter_effective_requires_target_local_agreement_non_decrease": true,
+    "adapter_effective_requires_total_variation_non_increase": true,
+    "adapter_effective_requires_common_future_prefix_std_decrease": true
   },
   "forbidden_model_inputs": ["Stage", "morphology", "wear_debris", "future_data", "offline_symmetric_smoothing"],
   "forbidden_deviations": [
