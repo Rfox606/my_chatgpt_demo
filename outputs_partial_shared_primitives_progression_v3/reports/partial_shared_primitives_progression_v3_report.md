@@ -1,10 +1,10 @@
-# 部分共享动态原语与实验特异连续进程模型 v3：自动报告
+# 閮ㄥ垎鍏变韩鍔ㄦ€佸師璇笌瀹為獙鐗瑰紓杩炵画杩涚▼妯″瀷 v3锛氳嚜鍔ㄦ姤鍛?
 
-最终科学结论：**FAIL**。预注册阈值未通过时，本报告保留失败结果且不重调参数。
+鏈€缁堢瀛︾粨璁猴細**FAIL**銆傞娉ㄥ唽闃堝€兼湭閫氳繃鏃讹紝鏈姤鍛婁繚鐣欏け璐ョ粨鏋滀笖涓嶉噸璋冨弬鏁般€?
 
-## 预注册验收
+## 棰勬敞鍐岄獙鏀?
 
-| 项目 | 结果 |
+| 椤圭洰 | 缁撴灉 |
 |---|---|
 | shared_causal_prediction | FAIL |
 | dynamic_primitive_bootstrap | FAIL |
@@ -13,14 +13,14 @@
 | prefix_causality | PASS |
 | synthetic_state_revisit | PASS |
 | label_morphology_debris_future_input | PASS |
-| fixed_five_classification | FAIL |
-| global_time_ranker_used | FAIL |
+| no_fixed_five_classification | PASS |
+| no_global_time_ranker | PASS |
 
-## 解释边界
+## 瑙ｉ噴杈圭晫
 
-共享部分仅为因果预测参数和动态原语字典；Exp1/Exp2 的 K、state centre、state-ID、语义和路径均独立。连续进程分数不读取状态输出，且不是全程时间排名、固定五分类或绝对磨损量。
+鍏变韩閮ㄥ垎浠呬负鍥犳灉棰勬祴鍙傛暟鍜屽姩鎬佸師璇瓧鍏革紱Exp1/Exp2 鐨?K銆乻tate centre銆乻tate-ID銆佽涔夊拰璺緞鍧囩嫭绔嬨€傝繛缁繘绋嬪垎鏁颁笉璇诲彇鐘舵€佽緭鍑猴紝涓斾笉鏄叏绋嬫椂闂存帓鍚嶃€佸浐瀹氫簲鍒嗙被鎴栫粷瀵圭（鎹熼噺銆?
 
-## 数值结果
+## 鏁板€肩粨鏋?
 
 ```json
 {
@@ -98,7 +98,8 @@
 }
 ```
 
-## 已保留的实现级失败快照
+## 宸蹭繚鐣欑殑瀹炵幇绾уけ璐ュ揩鐓?
 
 - `retained_failures_partial_shared_primitives_v3/cutoff_rounding_audit_failure`
 - `retained_failures_partial_shared_primitives_v3/relative_progress_rounding_boundary_failure`
+
