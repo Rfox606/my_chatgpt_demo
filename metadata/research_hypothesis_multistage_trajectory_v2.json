@@ -55,7 +55,17 @@
     "adapter_effective_saturation_ratio_maximum": 0.20,
     "adapter_effective_requires_target_local_agreement_non_decrease": true,
     "adapter_effective_requires_total_variation_non_increase": true,
-    "adapter_effective_requires_common_future_prefix_std_decrease": true
+    "adapter_effective_requires_common_future_prefix_std_decrease": true,
+    "regime_causal_windows_cycles": [100, 500, 1000],
+    "regime_stickiness": 0.92,
+    "regime_min_dwell_windows": 10,
+    "regime_unknown_novel_quantile": 0.995,
+    "regime_update_min_posterior": 0.75,
+    "regime_update_max_relative_novelty": 0.85,
+    "regime_update_max_volatility": 4.0,
+    "regime_pass_reconstruction_error_ratio_to_ceap_maximum": 0.98,
+    "regime_pass_boundary_bootstrap_stability_minimum": 0.60,
+    "regime_pass_short_isolated_state_fraction_maximum": 0.10
   },
   "forbidden_model_inputs": ["Stage", "morphology", "wear_debris", "future_data", "offline_symmetric_smoothing"],
   "forbidden_deviations": [
