@@ -1,0 +1,3 @@
+dataset,selected_local_k,state_centre_provenance,state_id_alignment_performed,source_state_centre_used,state_descriptor_columns
+Exp1,6,local_experiment_only,False,False,shared_z0|shared_z1|shared_z2|shared_z3|shared_z4|shared_z5|forecast_mae|forecast_activity|primitive_p0|primitive_p1
+Exp2,2,local_experiment_only,False,False,shared_z0|shared_z1|shared_z2|shared_z3|shared_z4|shared_z5|forecast_mae|forecast_activity|primitive_p0|primitive_p1

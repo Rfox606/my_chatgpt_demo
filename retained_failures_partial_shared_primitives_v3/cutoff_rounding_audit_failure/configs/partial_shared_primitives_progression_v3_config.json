@@ -1,0 +1,78 @@
+{
+  "output_dir": "outputs_partial_shared_primitives_progression_v3",
+  "input_path": "outputs_continuous_state_v45/results/window_feature_raw_v45.csv",
+  "random_seed": 20260722,
+  "feature_columns": [
+    "rx_mean",
+    "rx_absmean",
+    "rx_q05",
+    "ry_mean",
+    "ry_absmean",
+    "ry_q05",
+    "ry_p2p",
+    "rs_mean",
+    "rs_rms"
+  ],
+  "causal_context_windows": 32,
+  "prediction_horizon_windows": 1,
+  "representation_dimension": 6,
+  "ridge_alpha": 0.2,
+  "huber_delta": 1.35,
+  "primitive_calibration_windows": 256,
+  "primitive_k_candidates": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "primitive_min_fraction": 0.03,
+  "primitive_bootstrap_replicates": 30,
+  "state_calibration_windows": 512,
+  "state_k_candidates": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "state_min_fraction": 0.03,
+  "state_stickiness": 0.85,
+  "state_min_dwell_windows": 8,
+  "continuous_residual_weight": 0.65,
+  "continuous_activity_weight": 0.35,
+  "continuous_calibration_window": 160,
+  "continuous_minimum_history": 32,
+  "prefix_cutoffs": [
+    0.35,
+    0.6
+  ],
+  "shared_only": [
+    "causal_predictor_parameters",
+    "dynamic_primitive_dictionary",
+    "feature_definition"
+  ],
+  "experiment_specific_only": [
+    "state_k",
+    "state_centres",
+    "state_semantics",
+    "state_path",
+    "continuous_calibration"
+  ],
+  "forbidden_model_inputs": [
+    "Stage",
+    "morphology",
+    "wear_debris",
+    "absolute_wear",
+    "future_data",
+    "global_time_ranking"
+  ],
+  "forbidden_operations": [
+    "equal_state_count",
+    "state_id_alignment",
+    "source_state_centres_in_target",
+    "fixed_five_classification",
+    "monotonic_state_constraint"
+  ],
+  "continuous_score_independent_of_state_model": true
+}
