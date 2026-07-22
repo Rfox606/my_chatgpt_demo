@@ -33,7 +33,7 @@
 - `F_no_rs`: `rx_mean, rx_absmean, rx_q05, ry_mean, ry_absmean, ry_q05, ry_p2p`
 - `F_reduced_independent`: `rx_mean, rx_q05, ry_mean, ry_q05, ry_p2p, rs_rms`
 
-Phase A 的局部窗口固定为实验跨度的 10%、20%、30%，步长为 2.5%；滚动 ranker 的块宽固定为 20%、步长 5%。变化点固定使用 `ruptures.Pelt(model="rbf")` 与 `ruptures.Binseg(model="l2")`，并从运行前配置的 penalty 网格中选取。源原型的 K 只可在 `2,3,4,5` 中由源实验 BIC 或 silhouette 选择。
+Phase A 的局部窗口固定为实验跨度的 10%、20%、30%，步长为 2.5%；局部相关显著性阈值为双侧 0.05，block bootstrap 固定 30 次、块宽为审计采样点的 5%。滚动 ranker 的块宽固定为 20%、步长 5%、每块最多 800 个时间对、L2 `C=0.2`。变化点固定使用 `ruptures==1.1.10` 的 `Pelt(model="rbf")` 与 `Binseg(model="l2")`：Pelt penalty 网格为 `[3, 5, 8, 12]`，Binseg 断点数网格为 `[1, 2, 3, 4]`；均以无标签 BIC 选择。变化点等时距采样上限固定为 1,200，最小段为 5% 采样点，block bootstrap 固定 30 次、块宽 5%、共识聚合容差为总跨度 3%。轨迹回环审计等时距采样上限为 1,200、k=8、每种 null 30 次。源原型的 K 只可在 `2,3,4,5` 中由源实验 BIC 或 silhouette 选择。
 
 ## 预注册成功标准
 
