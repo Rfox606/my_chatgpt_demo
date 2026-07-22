@@ -93,8 +93,8 @@ def acceptance_decision(pipeline: dict[str, object], primitive_bootstrap: pd.Dat
         "prefix_causality": prefix["status"] == "PASS",
         "synthetic_state_revisit": synthetic_pass,
         "label_morphology_debris_future_input": True,
-        "fixed_five_classification": False,
-        "global_time_ranker_used": False,
+        "no_fixed_five_classification": True,
+        "no_global_time_ranker": True,
     }
     return {
         "status": "PASS" if all(criteria.values()) else "FAIL", "criteria": criteria,
@@ -103,3 +103,4 @@ def acceptance_decision(pipeline: dict[str, object], primitive_bootstrap: pd.Dat
         "continuous_by_dataset": continuous_by_dataset.reset_index().to_dict(orient="records"), "synthetic": synthetic,
         "selection_rules_locked_before_run": True,
     }
+
