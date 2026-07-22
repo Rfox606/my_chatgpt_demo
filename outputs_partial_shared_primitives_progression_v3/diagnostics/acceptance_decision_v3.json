@@ -8,8 +8,8 @@
     "prefix_causality": true,
     "synthetic_state_revisit": true,
     "label_morphology_debris_future_input": true,
-    "fixed_five_classification": false,
-    "global_time_ranker_used": false
+    "no_fixed_five_classification": true,
+    "no_global_time_ranker": true
   },
   "predictor_evaluation": [
     {
