@@ -1,0 +1,137 @@
+{
+  "output_dir": "outputs_multistage_trajectory_state_v2",
+  "input_path": "outputs_continuous_state_v45/results/window_feature_raw_v45.csv",
+  "random_seed": 20260722,
+  "feature_configs": [
+    "F_core_v45",
+    "F_no_rs",
+    "F_reduced_independent"
+  ],
+  "primary_feature_config": "F_core_v45",
+  "audit_window_fractions": [
+    0.1,
+    0.2,
+    0.3
+  ],
+  "audit_step_fraction": 0.025,
+  "offline_smoothing_fraction": 0.02,
+  "local_audit_alpha": 0.05,
+  "local_bootstrap_replicates": 30,
+  "bootstrap_block_fraction": 0.05,
+  "rolling_ranker_block_fraction": 0.2,
+  "rolling_ranker_step_fraction": 0.05,
+  "rolling_ranker_max_pairs": 800,
+  "rolling_ranker_c": 0.2,
+  "rolling_ranker_persistent_blocks": 2,
+  "recurrence_max_samples": 1200,
+  "recurrence_neighbours": 8,
+  "recurrence_exclusion_fraction": 0.05,
+  "recurrence_null_replicates": 30,
+  "cp_max_samples": 1200,
+  "cp_min_segment_fraction": 0.05,
+  "cp_pelt_penalties": [
+    3.0,
+    5.0,
+    8.0,
+    12.0
+  ],
+  "cp_binseg_counts": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "cp_bootstrap_replicates": 30,
+  "cp_consensus_tolerance_fraction": 0.03,
+  "adapter_l2": 0.15,
+  "adapter_learning_rate": 0.08,
+  "adapter_bounded_norm": 0.55,
+  "adapter_bounded_step": 0.08,
+  "adapter_unbounded_abort_norm": 100.0,
+  "adapter_weak_l2_multiplier": 0.25,
+  "adapter_prefix_fractions": [
+    0.2,
+    0.4,
+    0.6,
+    0.8
+  ],
+  "exp1_entry_cycles": [
+    0.0,
+    8000.0,
+    16000.0,
+    24000.0,
+    32000.0
+  ],
+  "exp2_entry_cycles": [
+    0.0,
+    3000.0,
+    6000.0,
+    9000.0
+  ],
+  "regime_k_candidates": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "regime_min_duration_fraction": 0.03,
+  "regime_min_segment_count": 2,
+  "regime_stickiness": 0.92,
+  "regime_min_dwell_windows": 10,
+  "regime_novelty_quantile": 0.995,
+  "regime_adapter_l2": 0.2,
+  "regime_adapter_learning_rate": 0.1,
+  "regime_update_min_posterior": 0.75,
+  "regime_update_max_novelty": 0.85,
+  "regime_update_max_volatility": 4.0,
+  "regime_bootstrap_replicates": 30,
+  "feature_definitions": {
+    "F_core_v45": [
+      "rx_mean",
+      "rx_absmean",
+      "rx_q05",
+      "ry_mean",
+      "ry_absmean",
+      "ry_q05",
+      "ry_p2p",
+      "rs_mean",
+      "rs_rms"
+    ],
+    "F_no_rs": [
+      "rx_mean",
+      "rx_absmean",
+      "rx_q05",
+      "ry_mean",
+      "ry_absmean",
+      "ry_q05",
+      "ry_p2p"
+    ],
+    "F_reduced_independent": [
+      "rx_mean",
+      "rx_q05",
+      "ry_mean",
+      "ry_q05",
+      "ry_p2p",
+      "rs_rms"
+    ]
+  },
+  "offline_diagnostic_only": true,
+  "formal_outputs": [
+    "regime_probability",
+    "most_likely_regime",
+    "regime_duration",
+    "within_regime_progress",
+    "activity_score",
+    "trajectory_match_score",
+    "novelty_score",
+    "state_uncertainty"
+  ],
+  "forbidden_model_inputs": [
+    "Stage",
+    "morphology",
+    "wear_debris",
+    "future_data",
+    "offline_symmetric_smoothing"
+  ],
+  "global_monotonic_observation_assumed": false
+}

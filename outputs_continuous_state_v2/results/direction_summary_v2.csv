@@ -1,0 +1,3 @@
+﻿direction_id,source_dataset,selected_C,source_validation_auc_pre_refit,source_validation_accuracy_pre_refit,source_validation_logloss_pre_refit,source_validation_auc_after_refit_replay,pair_count_train,pair_count_validation,source_gap_windows,source_direction_id,beneficial_horizon_count,baseline_replay_drift_ok,ONLINE_ADAPTATION_BENEFIT,COMMON_AXIS_STATUS,implementation_acceptance
+Exp1_to_Exp2,Exp1,0.01,0.9182927677777778,0.8218,0.36024095607680184,0.7700253886111111,60000,60000,20,Exp1_source,2,True,PASS,COMMON_AXIS_WEAK,PASS
+Exp2_to_Exp1,Exp2,0.01,0.798206314375,0.709575,0.9292192124489493,0.8720922349999999,60000,40000,20,Exp2_source,3,True,PASS,COMMON_AXIS_WEAK,PASS

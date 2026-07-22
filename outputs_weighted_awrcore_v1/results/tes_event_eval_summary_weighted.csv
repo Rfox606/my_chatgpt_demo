@@ -1,0 +1,7 @@
+﻿direction_id,dataset,event_count,matched_boundary_count,EventRecall,FalseEvents,DetectionDelay_median,DetectionDelay_mean,high_confidence_event_count,high_confidence_false_events,stage_boundary_count
+Exp1_to_Exp2,Exp1,23,4,1.0,19,33.0,-73.25,2,1,4
+Exp1_to_Exp2,Exp2,7,3,0.75,4,20.5,-76.16666666666667,4,1,4
+Exp2_to_Exp1,Exp1,19,4,1.0,15,33.0,-73.25,5,4,4
+Exp2_to_Exp1,Exp2,7,3,0.75,4,20.5,-76.16666666666667,4,1,4
+Exp1_to_Exp2,ALL,30,7,0.875,23,26.75,-74.70833333333334,6,2,8
+Exp2_to_Exp1,ALL,26,7,0.875,19,26.75,-74.70833333333334,9,5,8

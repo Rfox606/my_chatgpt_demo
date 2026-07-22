@@ -1,0 +1,73 @@
+{
+  "output_dir": "outputs_adaptive_cross_domain_awr_v11",
+  "z_table_path": "outputs_weighted_awrcore_v1/results/window_feature_z_table.csv",
+  "state_v2_path": "outputs_aux_state_metrics_v2/window_state_scores_v2.csv",
+  "baseline_cycles": 500,
+  "window_k": 20,
+  "stride": 5,
+  "source_gap_windows": 4,
+  "stable_plus_features": [
+    "rs_corrdist_base",
+    "rs_mean",
+    "rs_absmean",
+    "rs_q05",
+    "rx_corrdist_base",
+    "rs_rms",
+    "ry_p2p",
+    "rx_mean",
+    "rx_absmean",
+    "rx_q05"
+  ],
+  "eps": 1e-09,
+  "z_clip_abs": 11.9,
+  "reliability_window": 50,
+  "reliability_min": 0.5,
+  "reliability_max": 1.0,
+  "reliability_max_down_step": 0.02,
+  "reliability_max_up_step": 0.01,
+  "occupancy_window": 100,
+  "rs_horizons": [
+    20,
+    50,
+    100
+  ],
+  "risk_alpha_up": 0.15,
+  "risk_alpha_down": 0.02,
+  "event_risk_weight": 0.75,
+  "l2_grid": [
+    0.1,
+    0.5,
+    1.0,
+    2.0,
+    5.0
+  ],
+  "beta0_bounds": [
+    -10.0,
+    10.0
+  ],
+  "beta_bounds": [
+    0.0,
+    5.0
+  ],
+  "known_stop_interval_cycles": 500,
+  "restart_guard_cycles": 100,
+  "safe_run_required": 10,
+  "gate_history_windows": 20,
+  "event_freeze_windows": 100,
+  "risk_freeze_windows": 100,
+  "cooldown_windows": 200,
+  "checkpoint_interval": 200,
+  "rollback_eval_windows": 50,
+  "rollback_risk_drop": 0.15,
+  "rollback_extension_min_windows": 20,
+  "online_offset_eta": 0.002,
+  "online_offset_bounds": [
+    -0.5,
+    0.5
+  ],
+  "online_update_interval": 20,
+  "source_tes_floor": 3.0,
+  "source_rs_floor": 0.005,
+  "source_high_percentile": 95.0,
+  "random_seed": 20260712
+}

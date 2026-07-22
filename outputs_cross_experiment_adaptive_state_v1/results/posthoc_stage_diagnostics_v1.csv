@@ -1,0 +1,2 @@
+status,reason,stage_progression_spearman,ordinal_mae,confusion_matrix,rows
+NOT_AVAILABLE_INPUT_NOT_VERSIONED,Stage is absent from the formal v4.5 raw-window input and was not fetched for CEAP v1 training/adaptation,,,not available,37257

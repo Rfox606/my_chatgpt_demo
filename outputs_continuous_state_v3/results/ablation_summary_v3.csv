@@ -1,0 +1,13 @@
+﻿protocol_id,ablation,module,evidence
+A_Exp1_to_Exp2,M0,Frozen target-relative state + Frozen forecast,frozen_predictions=6
+A_Exp1_to_Exp2,M1,Plateau detector,plateau_locked_windows=0
+A_Exp1_to_Exp2,M2,Causal plateau-exit detector,exit_confirmed_windows=0
+A_Exp1_to_Exp2,M3,Online severe direction,severe_available_windows=0
+A_Exp1_to_Exp2,M4,Robust online RLS,delayed_rls_updates=4842
+A_Exp1_to_Exp2,M5,Safe ensemble and rollback,PASS; resets=4880
+B_Exp2_to_Exp1,M0,Frozen target-relative state + Frozen forecast,frozen_predictions=6
+B_Exp2_to_Exp1,M1,Plateau detector,plateau_locked_windows=0
+B_Exp2_to_Exp1,M2,Causal plateau-exit detector,exit_confirmed_windows=0
+B_Exp2_to_Exp1,M3,Online severe direction,severe_available_windows=0
+B_Exp2_to_Exp1,M4,Robust online RLS,delayed_rls_updates=32319
+B_Exp2_to_Exp1,M5,Safe ensemble and rollback,PASS; resets=1723

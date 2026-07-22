@@ -1,0 +1,9 @@
+﻿direction_id,model,guard_window_count,raw_TES_events_in_guard,clean_TES_events_in_guard,raw_freeze_triggers_in_guard,clean_freeze_triggers_in_guard
+Exp1_to_Exp2,R0,615,0,0,0,0
+Exp1_to_Exp2,R4,615,0,0,398,0
+Exp1_to_Exp2,R5,615,0,0,398,0
+Exp1_to_Exp2,V1_B4_REF,2817,0,0,0,0
+Exp2_to_Exp1,R0,1999,0,0,0,0
+Exp2_to_Exp1,R4,1999,628,0,710,0
+Exp2_to_Exp1,R5,1999,628,0,710,0
+Exp2_to_Exp1,V1_B4_REF,9115,0,0,0,0

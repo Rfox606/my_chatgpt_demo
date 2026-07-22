@@ -1,0 +1,11 @@
+﻿candidate_set,features,feature_count,direction_id
+F1,AWR_adaptive,1,Exp1_to_Exp2
+F2,AWR_adaptive;BDall_xy_v2,2,Exp1_to_Exp2
+F3,AWR_adaptive;BDall_xy_v2;RS50_positive,3,Exp1_to_Exp2
+F4,AWR_adaptive;BDall_xy_v2;TES,3,Exp1_to_Exp2
+F5,AWR_adaptive;BDall_xy_v2;RS50_positive;TES,4,Exp1_to_Exp2
+F1,AWR_adaptive,1,Exp2_to_Exp1
+F2,AWR_adaptive;BDall_xy_v2,2,Exp2_to_Exp1
+F3,AWR_adaptive;BDall_xy_v2;RS50_positive,3,Exp2_to_Exp1
+F4,AWR_adaptive;BDall_xy_v2;TES,3,Exp2_to_Exp1
+F5,AWR_adaptive;BDall_xy_v2;RS50_positive;TES,4,Exp2_to_Exp1

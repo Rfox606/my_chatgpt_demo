@@ -1,0 +1,3 @@
+﻿direction_id,source_dataset,target_dataset,B0_source_validation_AWR_p95_threshold,source_AWR_high_threshold,source_BD_high_threshold,source_TES_threshold,source_RS50_threshold,risk_threshold,source_validation_stage5_recall,source_validation_stage5_precision,source_validation_stage1to2_fpr,threshold_selection_mode
+Exp1_to_Exp2,Exp1,Exp2,3.482090206809838,3.4820902068098376,8.027345381642018,9.282821960990997,0.005,0.9999980452258974,1.0,1.0,0.0,min_early_fpr_subject_to_stage5_recall_0.85
+Exp2_to_Exp1,Exp2,Exp1,4.410593596894328,4.410593596894328,4.202593190056478,3.0,0.005,0.9999999999999993,1.0,1.0,0.0,min_early_fpr_subject_to_stage5_recall_0.85

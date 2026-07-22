@@ -1,0 +1,3 @@
+﻿protocol_id,source_dataset,target_dataset,source_severe_prior,evaluation_role,plateau_to_severe_support,plateau_support
+A_Exp1_to_Exp2,Exp1,Exp2,NONE,PRIMARY_GENERALIZATION,FAIL,
+B_Exp2_to_Exp1,Exp2,Exp1,CAUSAL_SOURCE_ONLY_OR_NONE,STABLE_PLATEAU_CONTROL,,FAIL

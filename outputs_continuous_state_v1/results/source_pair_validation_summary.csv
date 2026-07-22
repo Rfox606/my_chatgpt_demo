@@ -1,0 +1,3 @@
+﻿direction_id,source_dataset,target_dataset,source_pair_auc,source_pair_accuracy,source_pair_logloss,selected_C,pair_count_train,pair_count_validation,pair_count_final_source,source_train_window_count,source_gap_window_count,source_validation_window_count,source_scale,orientation_flipped
+Exp1_to_Exp2,Exp1,Exp2,0.9030845616666666,0.7937,0.3514807806221594,0.5,60000,60000,60000,6380,20,2715,0.0182834196744506,0
+Exp2_to_Exp1,Exp2,Exp1,0.8822428412500001,0.79105,0.4701476630630959,5.0,60000,40000,60000,1971,20,826,0.007863562878033347,0

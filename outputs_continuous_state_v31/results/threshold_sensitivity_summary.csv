@@ -1,0 +1,7 @@
+﻿protocol_id,target_dataset,quantile,plateau_lock_detected,plateau_lock_cycle,plateau_exit_detected,plateau_exit_cycle,plateau_condition_rate,plateau_valid_cycles_final,exit_valid_cycles_final,threshold_quantile_pre_registered,metadata_exit_cycle
+A_Exp1_to_Exp2,Exp2,0.5,0,,0,,0.0255591054313099,0.0,0.0,True,
+A_Exp1_to_Exp2,Exp2,0.6,0,,0,,0.0273340433084842,0.0,0.0,True,
+A_Exp1_to_Exp2,Exp2,0.75,0,,0,,0.0386936457223997,0.0,0.0,True,
+B_Exp2_to_Exp1,Exp1,0.5,1,2965.5,1,8225.5,0.6547449259462425,500.0,500.0,True,8225.5
+B_Exp2_to_Exp1,Exp1,0.6,1,2850.5,1,8225.5,0.6706527701590784,500.0,500.0,True,8225.5
+B_Exp2_to_Exp1,Exp1,0.75,1,2725.5,1,8225.5,0.6874382885353812,500.0,500.0,True,8225.5

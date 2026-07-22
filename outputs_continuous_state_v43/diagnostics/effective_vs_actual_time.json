@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "episode_peak_jaccard_500_actual_cycles": 0.7804878048780488,
+  "metric_summary": [
+    {
+      "row_type": "summary",
+      "metric": "V100_norm_q50",
+      "spearman": 0.7098757056935406,
+      "median_absolute_difference": 0.1232859723403554
+    },
+    {
+      "row_type": "summary",
+      "metric": "V500_norm_q50",
+      "spearman": 0.8461926802810193,
+      "median_absolute_difference": 0.046843451924215525
+    },
+    {
+      "row_type": "summary",
+      "metric": "V1000_norm_q50",
+      "spearman": 0.8565042381301885,
+      "median_absolute_difference": 0.03151080272518523
+    },
+    {
+      "row_type": "summary",
+      "metric": "multi_scale_rate_divergence_q50",
+      "spearman": 0.7038963186412059,
+      "median_absolute_difference": 0.12769302040020414
+    },
+    {
+      "row_type": "summary",
+      "metric": "change_configuration_support",
+      "spearman": 0.6693094299881291,
+      "median_absolute_difference": 0.0
+    },
+    {
+      "row_type": "summary",
+      "metric": "change_trigger",
+      "agreement": 0.9439819632327436
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+feature_configuration,feature,formal_input,source_training,target_online_adaptation,selection_timing,forbidden,note
+F_xy,rx_mean,True,True,True,predeclared,False,direct force-ratio window summary
+F_xy,rx_absmean,True,True,True,predeclared,False,direct force-ratio window summary
+F_xy,rx_q05,True,True,True,predeclared,False,direct force-ratio window summary
+F_xy,ry_mean,True,True,True,predeclared,False,direct force-ratio window summary
+F_xy,ry_absmean,True,True,True,predeclared,False,direct force-ratio window summary
+F_xy,ry_q05,True,True,True,predeclared,False,direct force-ratio window summary
+F_xy,ry_p2p,True,True,True,predeclared,False,direct force-ratio window summary
+F_core_v45,rx_mean,True,True,True,predeclared,False,direct force-ratio window summary
+F_core_v45,rx_absmean,True,True,True,predeclared,False,direct force-ratio window summary
+F_core_v45,rx_q05,True,True,True,predeclared,False,direct force-ratio window summary
+F_core_v45,ry_mean,True,True,True,predeclared,False,direct force-ratio window summary
+F_core_v45,ry_absmean,True,True,True,predeclared,False,direct force-ratio window summary
+F_core_v45,ry_q05,True,True,True,predeclared,False,direct force-ratio window summary
+F_core_v45,ry_p2p,True,True,True,predeclared,False,direct force-ratio window summary
+F_core_v45,rs_mean,True,True,True,predeclared,False,direct force-ratio window summary
+F_core_v45,rs_rms,True,True,True,predeclared,False,direct force-ratio window summary
+F_no_rs,rx_mean,True,True,True,predeclared,False,direct force-ratio window summary
+F_no_rs,rx_absmean,True,True,True,predeclared,False,direct force-ratio window summary
+F_no_rs,rx_q05,True,True,True,predeclared,False,direct force-ratio window summary
+F_no_rs,ry_mean,True,True,True,predeclared,False,direct force-ratio window summary
+F_no_rs,ry_absmean,True,True,True,predeclared,False,direct force-ratio window summary
+F_no_rs,ry_q05,True,True,True,predeclared,False,direct force-ratio window summary
+F_no_rs,ry_p2p,True,True,True,predeclared,False,direct force-ratio window summary
+forbidden_or_index,Stage1to5,False,False,False,excluded,True,forbidden formal input
+forbidden_or_index,Sa,False,False,False,excluded,True,forbidden formal input
+forbidden_or_index,Sq,False,False,False,excluded,True,forbidden formal input
+forbidden_or_index,Sz,False,False,False,excluded,True,forbidden formal input
+forbidden_or_index,Sku,False,False,False,excluded,True,forbidden formal input
+forbidden_or_index,wear_debris_count,False,False,False,excluded,True,forbidden formal input
+forbidden_or_index,future target data,False,False,False,excluded,True,forbidden formal input
+forbidden_or_index,cycle,False,False,False,excluded,True,cycle is an ordering/audit index only

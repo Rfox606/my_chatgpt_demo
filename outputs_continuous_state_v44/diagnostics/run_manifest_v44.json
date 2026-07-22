@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "code_sha256": "77fed1473c82e28c3c4763c61bf061e22cb12ae62ab36dcc93dc4dfaf8ef3176",
+  "input_sha256": "02e06fffcc38d21b17048be210b04ba601be95111e06a486736d8248795d38ae",
+  "metadata_sha256": "bcb309958de857094ee229dcdf466ab81aa692c3c962ba069165b35f6c8d30ad",
+  "configurations": 48,
+  "extended_ry_configurations": 12,
+  "state_time_axis": "effective_cycle",
+  "actual_cycle_use": "plotting_and_posthoc_only"
+}

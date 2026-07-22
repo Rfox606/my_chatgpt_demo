@@ -1,0 +1,9 @@
+{
+  "status": "COMMON_AXIS_WEAK",
+  "common_axis_internal_status": "LOW_DIMENSION_SUPPORT",
+  "common_feature_count": 1,
+  "common_features": [
+    "ry_p2p"
+  ],
+  "source_pre_refit_auc_pass": true
+}

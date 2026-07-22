@@ -1,0 +1,233 @@
+{
+  "config": {
+    "output_dir": "outputs_physical_validation_candidates_v1",
+    "main_awr_model": "M1_stable",
+    "fallback_awr_model": "M0_stable",
+    "min_candidates_per_type": 3,
+    "max_candidates_per_type": 5,
+    "min_center_cycle_gap": 500.0,
+    "awr_high_percentile": 90.0,
+    "awr_low_percentile": 70.0,
+    "bd_high_percentile": 90.0,
+    "bd_low_percentile": 70.0,
+    "status_file": "docs/STATUS_20260708.md"
+  },
+  "main_model_resolved": "M1_stable",
+  "fair_decision": {
+    "M0_stable_is_best_stable_plus": true,
+    "best_stable_plus_model": "M0_stable",
+    "M1_stable_close_to_M0": true,
+    "M2_stable_has_incremental_gain": false,
+    "corrdist_dependency": "weak",
+    "corrdist_metric_deltas": {
+      "mean_z_worst_AUROC_drop": 0.017283606750110647,
+      "mean_z_worst_AUPRC_drop": 0.02876192501148578,
+      "direction_mean_z_worst_AUROC_drop": 0.017283606750110647,
+      "direction_mean_z_worst_AUPRC_drop": 0.02876192501148578,
+      "weighted_direction_worst_AUROC_drop": 0.01940514787861669,
+      "weighted_direction_worst_AUPRC_drop": 0.028433064183241763
+    },
+    "no_corrdist_worst_AUROC_drop_from_M0_stable": 0.017283606750110647,
+    "best_channel_family_model": "ry_only_direction_mean_z",
+    "channel_family_rank_mean_z": [
+      {
+        "model_name": "M0_stable",
+        "feature_group": "stable_plus",
+        "worst_AUROC": 0.844310508667513,
+        "worst_AUPRC": 0.6189795031936463
+      },
+      {
+        "model_name": "M0_stable_no_corrdist",
+        "feature_group": "stable_plus_no_corrdist",
+        "worst_AUROC": 0.8270269019174024,
+        "worst_AUPRC": 0.5902175781821605
+      },
+      {
+        "model_name": "ry_only_mean_z",
+        "feature_group": "ry_only",
+        "worst_AUROC": 0.5448013069719109,
+        "worst_AUPRC": 0.5764596886895866
+      },
+      {
+        "model_name": "rx_ry_rs_mean_z",
+        "feature_group": "rx_ry_rs",
+        "worst_AUROC": 0.5376133165319638,
+        "worst_AUPRC": 0.24123531891473476
+      },
+      {
+        "model_name": "rx_ry_mean_z",
+        "feature_group": "rx_ry",
+        "worst_AUROC": 0.5315383379216222,
+        "worst_AUPRC": 0.2288476019296901
+      },
+      {
+        "model_name": "rs_only_mean_z",
+        "feature_group": "rs_only",
+        "worst_AUROC": 0.5150011664695373,
+        "worst_AUPRC": 0.3512307988550642
+      },
+      {
+        "model_name": "rx_only_mean_z",
+        "feature_group": "rx_only",
+        "worst_AUROC": 0.4483095528726318,
+        "worst_AUPRC": 0.22162601204169377
+      }
+    ],
+    "top_M0_stable_contribution_gaps": [
+      {
+        "direction_id": "Exp2_to_Exp1",
+        "feature_name": "ry_p2p",
+        "channel": "ry",
+        "contribution_gap": 1.1860033632934783
+      },
+      {
+        "direction_id": "Exp2_to_Exp1",
+        "feature_name": "rx_mean",
+        "channel": "rx",
+        "contribution_gap": 1.1046200021618435
+      },
+      {
+        "direction_id": "Exp2_to_Exp1",
+        "feature_name": "rx_absmean",
+        "channel": "rx",
+        "contribution_gap": 1.1046200021618435
+      },
+      {
+        "direction_id": "Exp1_to_Exp2",
+        "feature_name": "rs_corrdist_base",
+        "channel": "rs",
+        "contribution_gap": 1.0856604909135457
+      },
+      {
+        "direction_id": "Exp1_to_Exp2",
+        "feature_name": "rx_corrdist_base",
+        "channel": "rx",
+        "contribution_gap": 1.0742997885299697
+      },
+      {
+        "direction_id": "Exp1_to_Exp2",
+        "feature_name": "ry_p2p",
+        "channel": "ry",
+        "contribution_gap": 0.8726998233105752
+      },
+      {
+        "direction_id": "Exp2_to_Exp1",
+        "feature_name": "rx_corrdist_base",
+        "channel": "rx",
+        "contribution_gap": 0.6902163559947658
+      },
+      {
+        "direction_id": "Exp2_to_Exp1",
+        "feature_name": "rs_corrdist_base",
+        "channel": "rs",
+        "contribution_gap": 0.6182344758825047
+      }
+    ],
+    "recommended_AWR_structure": "Keep stable_plus as the main score family and use channel/family ablations for interpretation.",
+    "physical_loop_focus": [
+      "Windows where M0_stable is high while BDall_xy_v2 is also high.",
+      "Contributions from rs_corrdist_base and rx_corrdist_base if corrdist dependency is not weak.",
+      "Channel-family intervals where rx/ry/rs rankings disagree."
+    ]
+  },
+  "cycle_mapping": {
+    "formula": "actual = actual_start + (effective - effective_start) * (actual_end - actual_start) / (effective_end - effective_start)",
+    "exp2_nan_prefix_actual_cycles": [
+      1,
+      500
+    ],
+    "segments": [
+      {
+        "dataset": "Exp1",
+        "stage": 1,
+        "effective_start": 1.0,
+        "effective_end": 7575.0,
+        "actual_start": 1.0,
+        "actual_end": 8000.0,
+        "note": "Stage 1 piecewise mapping"
+      },
+      {
+        "dataset": "Exp1",
+        "stage": 2,
+        "effective_start": 7575.0,
+        "effective_end": 21125.0,
+        "actual_start": 8000.0,
+        "actual_end": 24000.0,
+        "note": "Stage 2 piecewise mapping"
+      },
+      {
+        "dataset": "Exp1",
+        "stage": 3,
+        "effective_start": 21125.0,
+        "effective_end": 27840.0,
+        "actual_start": 24000.0,
+        "actual_end": 32000.0,
+        "note": "Stage 3 piecewise mapping"
+      },
+      {
+        "dataset": "Exp1",
+        "stage": 4,
+        "effective_start": 27840.0,
+        "effective_end": 34600.0,
+        "actual_start": 32000.0,
+        "actual_end": 40000.0,
+        "note": "Stage 4 piecewise mapping"
+      },
+      {
+        "dataset": "Exp1",
+        "stage": 5,
+        "effective_start": 34600.0,
+        "effective_end": 45590.0,
+        "actual_start": 40000.0,
+        "actual_end": 53000.0,
+        "note": "Stage 5 piecewise mapping"
+      },
+      {
+        "dataset": "Exp2",
+        "stage": 1,
+        "effective_start": 1.0,
+        "effective_end": 3005.0,
+        "actual_start": 501.0,
+        "actual_end": 5500.0,
+        "note": "Stage 1 piecewise mapping; actual cycles 1-500 are NaN"
+      },
+      {
+        "dataset": "Exp2",
+        "stage": 2,
+        "effective_start": 3005.0,
+        "effective_end": 6005.0,
+        "actual_start": 5500.0,
+        "actual_end": 10500.0,
+        "note": "Stage 2 piecewise mapping"
+      },
+      {
+        "dataset": "Exp2",
+        "stage": 3,
+        "effective_start": 6005.0,
+        "effective_end": 8705.0,
+        "actual_start": 10500.0,
+        "actual_end": 15000.0,
+        "note": "Stage 3 piecewise mapping"
+      },
+      {
+        "dataset": "Exp2",
+        "stage": 4,
+        "effective_start": 8705.0,
+        "effective_end": 11705.0,
+        "actual_start": 15000.0,
+        "actual_end": 20000.0,
+        "note": "Stage 4 piecewise mapping"
+      },
+      {
+        "dataset": "Exp2",
+        "stage": 5,
+        "effective_start": 11705.0,
+        "effective_end": 14100.0,
+        "actual_start": 20000.0,
+        "actual_end": 24000.0,
+        "note": "Stage 5 piecewise mapping"
+      }
+    ]
+  },
+  "warnings": []
+}

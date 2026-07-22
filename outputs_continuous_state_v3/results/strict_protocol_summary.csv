@@ -1,0 +1,3 @@
+﻿protocol_id,source_dataset,target_dataset,evaluation_mode,source_severe_prior
+A_Exp1_to_Exp2,Exp1,Exp2,strict_online_evaluation,NONE
+B_Exp2_to_Exp1,Exp2,Exp1,strict_online_control,NONE

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "code_sha256": "1253b222e100ed2aac85b85ae76126867e5b237c7f41a2382ade13ec896f653a",
+  "raw_input_sha256": {
+    "Exp1": "983a487446cb370797884e98c8ddc4d24718625688bf6e7182ee41a44e25caae",
+    "Exp2": "0242b062a6512b109fdf3b205c7ec220954724dc4b8c3dce921aaa76fb51e455"
+  },
+  "configurations": 96,
+  "extended_ry_configurations": 12,
+  "state_time_axis": "effective_cycle",
+  "actual_cycle_use": "plots_and_morphology_markers_only",
+  "upstream_z_standardisation": false
+}

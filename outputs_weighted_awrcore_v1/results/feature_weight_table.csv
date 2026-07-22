@@ -1,0 +1,57 @@
+﻿direction_id,source_dataset,target_dataset,feature_name,channel,feature_family,direction_sign,abs_effect_size,direction_stability,redundancy_factor,raw_weight,normalized_weight,enter_M2,enter_M3,reason_excluded,physical_meaning
+Exp1_to_Exp2,Exp1,Exp2,rx_mean,rx,mean,1,0.5096114405560659,1.0,0.5,0.25480572027803294,0.013716153394512244,True,True,downweighted_redundant_with_rx_absmean_r=1.000,Fx/Fz main shear ratio; signed average shear ratio in the sensitive phase
+Exp1_to_Exp2,Exp1,Exp2,rx_absmean,rx,absmean,1,0.5096114405560659,1.0,1.0,0.5096114405560659,0.027432306789024488,True,True,,Fx/Fz main shear ratio; average shear magnitude in the sensitive phase
+Exp1_to_Exp2,Exp1,Exp2,rx_rms,rx,rms,1,0.018224338094045,0.902,0.0,0.0,0.0,False,False,weak_or_zero_direction,Fx/Fz main shear ratio; energy-like shear ratio magnitude
+Exp1_to_Exp2,Exp1,Exp2,rx_q05,rx,q05,1,0.6697903616470391,1.0,1.0,0.6697903616470391,0.036054713891400164,True,True,,Fx/Fz main shear ratio; lower-tail sensitive-phase shear ratio
+Exp1_to_Exp2,Exp1,Exp2,rx_q95,rx,q95,-1,0.9983827810103597,1.0,1.0,0.9983827810103597,0.05374279414071063,True,True,,Fx/Fz main shear ratio; upper-tail sensitive-phase shear ratio
+Exp1_to_Exp2,Exp1,Exp2,rx_p2p,rx,p2p,-1,1.0,1.0,0.25,0.25,0.013457462198597595,True,True,downweighted_redundant_with_rs_p2p_r=0.981;downweighted_redundant_with_rs_std_r=0.956,Fx/Fz main shear ratio; peak-to-peak sensitive-phase span
+Exp1_to_Exp2,Exp1,Exp2,rx_std,rx,std,-1,1.0,1.0,0.25,0.25,0.013457462198597595,True,True,downweighted_redundant_with_rs_p2p_r=0.953;downweighted_redundant_with_rs_std_r=0.988,Fx/Fz main shear ratio; within-phase dispersion
+Exp1_to_Exp2,Exp1,Exp2,rx_corrdist_base,rx,corrdist_base,1,1.0,1.0,0.5,0.5,0.02691492439719519,True,True,downweighted_redundant_with_rs_corrdist_base_r=0.988,Fx/Fz main shear ratio; shape departure from the baseline mean waveform
+Exp1_to_Exp2,Exp1,Exp2,rx_peak_phase,rx,peak_phase,-1,0.9034778869740867,1.0,1.0,0.9034778869740867,0.04863407804489041,True,True,,Fx/Fz main shear ratio; phase location of the largest absolute response
+Exp1_to_Exp2,Exp1,Exp2,rx_peak_width,rx,peak_width,1,1.0,1.0,1.0,1.0,0.05382984879439038,True,True,,Fx/Fz main shear ratio; fraction of sensitive phase near the peak response
+Exp1_to_Exp2,Exp1,Exp2,ry_mean,ry,mean,-1,1.0,1.0,0.5,0.5,0.02691492439719519,True,True,downweighted_redundant_with_ry_absmean_r=0.998,Fy/Fz lateral shear ratio; signed average shear ratio in the sensitive phase
+Exp1_to_Exp2,Exp1,Exp2,ry_absmean,ry,absmean,1,1.0,1.0,1.0,1.0,0.05382984879439038,True,True,,Fy/Fz lateral shear ratio; average shear magnitude in the sensitive phase
+Exp1_to_Exp2,Exp1,Exp2,ry_rms,ry,rms,1,1.0,1.0,1.0,1.0,0.05382984879439038,True,True,,Fy/Fz lateral shear ratio; energy-like shear ratio magnitude
+Exp1_to_Exp2,Exp1,Exp2,ry_q05,ry,q05,-1,1.0,1.0,1.0,1.0,0.05382984879439038,True,True,,Fy/Fz lateral shear ratio; lower-tail sensitive-phase shear ratio
+Exp1_to_Exp2,Exp1,Exp2,ry_q95,ry,q95,-1,1.0,1.0,1.0,1.0,0.05382984879439038,True,True,,Fy/Fz lateral shear ratio; upper-tail sensitive-phase shear ratio
+Exp1_to_Exp2,Exp1,Exp2,ry_p2p,ry,p2p,1,1.0,1.0,1.0,1.0,0.05382984879439038,True,True,,Fy/Fz lateral shear ratio; peak-to-peak sensitive-phase span
+Exp1_to_Exp2,Exp1,Exp2,ry_std,ry,std,1,0.8273176375239351,1.0,1.0,0.8273176375239351,0.04453438333284569,True,True,,Fy/Fz lateral shear ratio; within-phase dispersion
+Exp1_to_Exp2,Exp1,Exp2,ry_corrdist_base,ry,corrdist_base,1,0.961053110238778,1.0,1.0,0.961053110238778,0.05173334360753201,True,True,,Fy/Fz lateral shear ratio; shape departure from the baseline mean waveform
+Exp1_to_Exp2,Exp1,Exp2,ry_peak_phase,ry,peak_phase,1,0.12745219954774778,0.954,1.0,0.12158939836855137,0.006545138929180017,True,True,,Fy/Fz lateral shear ratio; phase location of the largest absolute response
+Exp1_to_Exp2,Exp1,Exp2,ry_peak_width,ry,peak_width,1,0.6600765302176812,1.0,1.0,0.6600765302176812,0.03553181981434363,True,True,,Fy/Fz lateral shear ratio; fraction of sensitive phase near the peak response
+Exp1_to_Exp2,Exp1,Exp2,rs_mean,rs,mean,1,0.6594894067206771,1.0,0.5,0.32974470336033856,0.017750107522638135,True,False,downweighted_redundant_with_rs_absmean_r=1.000,resultant shear ratio contrast; signed average shear ratio in the sensitive phase
+Exp1_to_Exp2,Exp1,Exp2,rs_absmean,rs,absmean,1,0.6594894067206771,1.0,1.0,0.6594894067206771,0.03550021504527627,True,False,,resultant shear ratio contrast; average shear magnitude in the sensitive phase
+Exp1_to_Exp2,Exp1,Exp2,rs_rms,rs,rms,1,0.5593777357078118,1.0,0.25,0.13984443392695295,0.007527804733024993,True,False,downweighted_redundant_with_rs_absmean_r=0.976;downweighted_redundant_with_rs_mean_r=0.976,resultant shear ratio contrast; energy-like shear ratio magnitude
+Exp1_to_Exp2,Exp1,Exp2,rs_q05,rs,q05,1,0.7479130512789578,1.0,1.0,0.7479130512789578,0.04026004646169744,True,False,,resultant shear ratio contrast; lower-tail sensitive-phase shear ratio
+Exp1_to_Exp2,Exp1,Exp2,rs_q95,rs,q95,-1,0.7939573917858391,1.0,1.0,0.7939573917858391,0.04273860634902028,True,False,,resultant shear ratio contrast; upper-tail sensitive-phase shear ratio
+Exp1_to_Exp2,Exp1,Exp2,rs_p2p,rs,p2p,-1,1.0,1.0,1.0,1.0,0.05382984879439038,True,False,,resultant shear ratio contrast; peak-to-peak sensitive-phase span
+Exp1_to_Exp2,Exp1,Exp2,rs_std,rs,std,-1,1.0,1.0,0.5,0.5,0.02691492439719519,True,False,downweighted_redundant_with_rs_p2p_r=0.972,resultant shear ratio contrast; within-phase dispersion
+Exp1_to_Exp2,Exp1,Exp2,rs_corrdist_base,rs,corrdist_base,1,1.0,1.0,1.0,1.0,0.05382984879439038,True,False,,resultant shear ratio contrast; shape departure from the baseline mean waveform
+Exp2_to_Exp1,Exp2,Exp1,rx_mean,rx,mean,1,1.0,1.0,0.5,0.5,0.02716841811765436,True,True,downweighted_redundant_with_rx_absmean_r=1.000,Fx/Fz main shear ratio; signed average shear ratio in the sensitive phase
+Exp2_to_Exp1,Exp2,Exp1,rx_absmean,rx,absmean,1,1.0,1.0,1.0,1.0,0.05433683623530872,True,True,,Fx/Fz main shear ratio; average shear magnitude in the sensitive phase
+Exp2_to_Exp1,Exp2,Exp1,rx_rms,rx,rms,1,1.0,1.0,0.125,0.125,0.00679210452941359,True,True,downweighted_redundant_with_rx_absmean_r=0.996;downweighted_redundant_with_rx_mean_r=0.996;downweighted_redundant_with_rx_q95_r=0.950,Fx/Fz main shear ratio; energy-like shear ratio magnitude
+Exp2_to_Exp1,Exp2,Exp1,rx_q05,rx,q05,1,1.0,1.0,1.0,1.0,0.05433683623530872,True,True,,Fx/Fz main shear ratio; lower-tail sensitive-phase shear ratio
+Exp2_to_Exp1,Exp2,Exp1,rx_q95,rx,q95,1,1.0,1.0,1.0,1.0,0.05433683623530872,True,True,,Fx/Fz main shear ratio; upper-tail sensitive-phase shear ratio
+Exp2_to_Exp1,Exp2,Exp1,rx_p2p,rx,p2p,1,1.0,1.0,1.0,1.0,0.05433683623530872,True,True,,Fx/Fz main shear ratio; peak-to-peak sensitive-phase span
+Exp2_to_Exp1,Exp2,Exp1,rx_std,rx,std,1,1.0,1.0,0.25,0.25,0.01358420905882718,True,True,downweighted_redundant_with_rs_std_r=0.961;downweighted_redundant_with_rx_p2p_r=0.985,Fx/Fz main shear ratio; within-phase dispersion
+Exp2_to_Exp1,Exp2,Exp1,rx_corrdist_base,rx,corrdist_base,1,1.0,1.0,1.0,1.0,0.05433683623530872,True,True,,Fx/Fz main shear ratio; shape departure from the baseline mean waveform
+Exp2_to_Exp1,Exp2,Exp1,rx_peak_phase,rx,peak_phase,-1,0.7026969864931882,1.0,1.0,0.7026969864931882,0.03818233107812531,True,True,,Fx/Fz main shear ratio; phase location of the largest absolute response
+Exp2_to_Exp1,Exp2,Exp1,rx_peak_width,rx,peak_width,-1,0.2921249161294087,0.954,1.0,0.2786871699874559,0.015142979116490035,True,True,,Fx/Fz main shear ratio; fraction of sensitive phase near the peak response
+Exp2_to_Exp1,Exp2,Exp1,ry_mean,ry,mean,-1,0.23988447737681962,0.912,0.25,0.054693660841914876,0.0029718804922766458,True,True,downweighted_redundant_with_ry_rms_r=1.000;downweighted_redundant_with_ry_absmean_r=1.000,Fy/Fz lateral shear ratio; signed average shear ratio in the sensitive phase
+Exp2_to_Exp1,Exp2,Exp1,ry_absmean,ry,absmean,1,0.23988447737681962,0.912,0.5,0.10938732168382975,0.0059437609845532915,True,True,downweighted_redundant_with_ry_rms_r=1.000,Fy/Fz lateral shear ratio; average shear magnitude in the sensitive phase
+Exp2_to_Exp1,Exp2,Exp1,ry_rms,ry,rms,1,0.25129087779690185,0.924,1.0,0.2321927710843373,0.012616620577432163,True,True,,Fy/Fz lateral shear ratio; energy-like shear ratio magnitude
+Exp2_to_Exp1,Exp2,Exp1,ry_q05,ry,q05,-1,0.7856705271448992,1.0,1.0,0.7856705271448992,0.04269085076838106,True,True,,Fy/Fz lateral shear ratio; lower-tail sensitive-phase shear ratio
+Exp2_to_Exp1,Exp2,Exp1,ry_q95,ry,q95,1,0.16928731876659175,0.688,0.125,0.01455870941392689,0.0007910742092219928,True,True,downweighted_redundant_with_ry_rms_r=-0.967;downweighted_redundant_with_ry_absmean_r=-0.972;downweighted_redundant_with_ry_mean_r=-0.972,Fy/Fz lateral shear ratio; upper-tail sensitive-phase shear ratio
+Exp2_to_Exp1,Exp2,Exp1,ry_p2p,ry,p2p,1,1.0,1.0,1.0,1.0,0.05433683623530872,True,True,,Fy/Fz lateral shear ratio; peak-to-peak sensitive-phase span
+Exp2_to_Exp1,Exp2,Exp1,ry_std,ry,std,1,1.0,1.0,1.0,1.0,0.05433683623530872,True,True,,Fy/Fz lateral shear ratio; within-phase dispersion
+Exp2_to_Exp1,Exp2,Exp1,ry_corrdist_base,ry,corrdist_base,1,0.9828466408004901,1.0,1.0,0.9828466408004901,0.053404776965599525,True,True,,Fy/Fz lateral shear ratio; shape departure from the baseline mean waveform
+Exp2_to_Exp1,Exp2,Exp1,ry_peak_phase,ry,peak_phase,1,0.9782665772047026,1.0,1.0,0.9782665772047026,0.05315591080004792,True,True,,Fy/Fz lateral shear ratio; phase location of the largest absolute response
+Exp2_to_Exp1,Exp2,Exp1,ry_peak_width,ry,peak_width,-1,0.984691793809621,1.0,1.0,0.984691793809621,0.05350503674248576,True,True,,Fy/Fz lateral shear ratio; fraction of sensitive phase near the peak response
+Exp2_to_Exp1,Exp2,Exp1,rs_mean,rs,mean,1,0.9553808454155606,1.0,0.25,0.23884521135389014,0.012978093134924028,True,False,downweighted_redundant_with_rs_rms_r=0.998;downweighted_redundant_with_rs_absmean_r=1.000,resultant shear ratio contrast; signed average shear ratio in the sensitive phase
+Exp2_to_Exp1,Exp2,Exp1,rs_absmean,rs,absmean,1,0.9553808454155606,1.0,0.5,0.4776904227077803,0.025956186269848056,True,False,downweighted_redundant_with_rs_rms_r=0.998,resultant shear ratio contrast; average shear magnitude in the sensitive phase
+Exp2_to_Exp1,Exp2,Exp1,rs_rms,rs,rms,1,0.9778289915108376,1.0,1.0,0.9778289915108376,0.05313213377786146,True,False,,resultant shear ratio contrast; energy-like shear ratio magnitude
+Exp2_to_Exp1,Exp2,Exp1,rs_q05,rs,q05,1,0.8426587706759241,1.0,0.25,0.21066469266898102,0.011446852906116065,True,False,downweighted_redundant_with_rs_absmean_r=0.960;downweighted_redundant_with_rs_mean_r=0.960,resultant shear ratio contrast; lower-tail sensitive-phase shear ratio
+Exp2_to_Exp1,Exp2,Exp1,rs_q95,rs,q95,1,1.0,1.0,1.0,1.0,0.05433683623530872,True,False,,resultant shear ratio contrast; upper-tail sensitive-phase shear ratio
+Exp2_to_Exp1,Exp2,Exp1,rs_p2p,rs,p2p,1,1.0,1.0,1.0,1.0,0.05433683623530872,True,False,,resultant shear ratio contrast; peak-to-peak sensitive-phase span
+Exp2_to_Exp1,Exp2,Exp1,rs_std,rs,std,1,1.0,1.0,0.5,0.5,0.02716841811765436,True,False,downweighted_redundant_with_rs_p2p_r=0.970,resultant shear ratio contrast; within-phase dispersion
+Exp2_to_Exp1,Exp2,Exp1,rs_corrdist_base,rs,corrdist_base,1,1.0,1.0,1.0,1.0,0.05433683623530872,True,False,,resultant shear ratio contrast; shape departure from the baseline mean waveform

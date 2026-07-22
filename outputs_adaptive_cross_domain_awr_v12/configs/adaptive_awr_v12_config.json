@@ -1,0 +1,46 @@
+{
+  "output_dir": "outputs_adaptive_cross_domain_awr_v12",
+  "z_table_path": "outputs_weighted_awrcore_v1/results/window_feature_z_table.csv",
+  "state_v2_path": "outputs_aux_state_metrics_v2/window_state_scores_v2.csv",
+  "baseline_cycles": 500,
+  "source_gap_windows": 4,
+  "stable_plus_features": [
+    "rs_corrdist_base",
+    "rs_mean",
+    "rs_absmean",
+    "rs_q05",
+    "rx_corrdist_base",
+    "rs_rms",
+    "ry_p2p",
+    "rx_mean",
+    "rx_absmean",
+    "rx_q05"
+  ],
+  "eps": 1e-09,
+  "reliability_window": 50,
+  "occupancy_window": 100,
+  "z_clip_abs": 11.9,
+  "known_stop_interval_cycles": 500,
+  "restart_guard_cycles": 50,
+  "restart_guard_cycles_grid": [
+    20,
+    50,
+    100
+  ],
+  "l2_grid": [
+    0.05,
+    0.1,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "max_standardized_beta": 3.0,
+  "max_effective_beta": 5.0,
+  "beta0_bounds": [
+    -10.0,
+    10.0
+  ],
+  "threshold_quantiles": 200,
+  "stable_high_required_windows": 10,
+  "random_seed": 20260712
+}
