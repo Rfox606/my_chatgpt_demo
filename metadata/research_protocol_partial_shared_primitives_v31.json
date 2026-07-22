@@ -1,0 +1,49 @@
+{
+  "protocol": "partial_shared_primitives_progression_v31_complete",
+  "base_commit": "50e39942a9f60adae1f6301b452e7f2f820d9d45",
+  "pre_registered_before_run": true,
+  "input": {
+    "path": "outputs_continuous_state_v45/results/window_feature_raw_v45.csv",
+    "features": ["rx_mean", "rx_absmean", "rx_q05", "ry_mean", "ry_absmean", "ry_q05", "ry_p2p", "rs_mean", "rs_rms"]
+  },
+  "gate_a": {
+    "source_train_windows": 1600,
+    "history_windows": 32,
+    "horizons": [1, 4, 16],
+    "ridge_alpha": 0.25,
+    "adapter_learning_rate": 0.06,
+    "adapter_warmup_windows": 128,
+    "negative_transfer_excess": 0.03,
+    "negative_transfer_confirmations": 3,
+    "adapter_vs_frozen_improvement_minimum": 0.01,
+    "post_gate_adapter_to_scratch_mae_ratio_maximum": 1.05
+  },
+  "gate_b": {
+    "bocpd_hazard": 0.00625,
+    "bocpd_max_run_length": 256,
+    "bocpd_confirmation_posterior": 0.65,
+    "bocpd_confirmation_windows": 3,
+    "minimum_segment_windows": 16,
+    "primitive_k_candidates": [2, 3, 4, 5, 6],
+    "private_state_k_candidates": [2, 3, 4, 5, 6],
+    "minimum_cluster_fraction": 0.03,
+    "private_state_calibration_confirmed_segments": 6
+  },
+  "gate_c": {
+    "source_prior_predictable_windows": 400,
+    "increment_weights": [0.65, 0.35],
+    "ood_uncertainty_increase_minimum": 0.2,
+    "delayed_entries": {"Exp1": [0, 8000, 16000, 24000], "Exp2": [0, 3000, 6000, 9000]},
+    "delayed_common_arrived_windows": 200,
+    "delayed_increment_nrmse_maximum": 0.5,
+    "activity_std_minimum": 1e-06
+  },
+  "common": {
+    "prefix_cutoffs": [0.35, 0.6],
+    "prefix_max_abs_difference": 1e-12,
+    "random_seed": 20260722,
+    "forbidden_inputs": ["Stage", "morphology", "wear_debris", "absolute_wear", "future_target", "target_final_length", "relative_complete_progress"],
+    "forbidden_operations": ["joint_online_source_target_training", "online_rotating_svd", "single_window_primitives", "fixed_target_k", "state_id_alignment", "source_state_centre_transfer", "rolling_z_as_progression", "post_run_threshold_change"]
+  }
+}
+
