@@ -1,0 +1,3 @@
+direction,segment_id,start_index,end_index,start_cycle,end_cycle,current_state_id,current_state_type,source_primitive_id,source_primitive_match_quality,source_primitive_distance,private_state_id,private_state_support,new_private_state_created,state_uncertainty,descriptor_row_is_confirmed_segment,target_state_count_so_far,source_state_centre_used,cross_experiment_state_alignment
+Exp1_to_Exp2,0,0,2816,10.5,14090.5,TARGET_PRIVATE_0,TARGET_PRIVATE,-1,0.0,inf,0,1,True,1.0,True,1,False,False
+Exp2_to_Exp1,0,0,9114,10.5,45580.5,TARGET_PRIVATE_0,TARGET_PRIVATE,-1,0.0,inf,0,1,True,1.0,True,1,False,False

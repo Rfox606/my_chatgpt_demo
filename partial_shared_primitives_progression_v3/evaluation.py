@@ -103,4 +103,3 @@ def acceptance_decision(pipeline: dict[str, object], primitive_bootstrap: pd.Dat
         "continuous_by_dataset": continuous_by_dataset.reset_index().to_dict(orient="records"), "synthetic": synthetic,
         "selection_rules_locked_before_run": True,
     }
-

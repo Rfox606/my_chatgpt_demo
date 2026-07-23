@@ -1,0 +1,129 @@
+{
+  "version": "v3.2",
+  "status": "FAIL",
+  "directions": {
+    "Exp1_to_Exp2": {
+      "source_dataset": "Exp1",
+      "target_dataset": "Exp2",
+      "gate_a": {
+        "status": "PASS",
+        "reason": "adapter_has_prefix_transfer_evidence",
+        "prefix_coverage": true,
+        "adapter_better_than_source_frozen_fraction": 0.8,
+        "adapter_close_to_scratch_fraction": 1.0,
+        "negative_transfer_gate_active": true,
+        "mean_gated_mixture_adapter_weight": 0.052567324955116686,
+        "gated_mixture_is_not_adapter": true,
+        "migration_claim_permitted": true
+      },
+      "gate_b": {
+        "status": "FAIL",
+        "reason": "fewer_than_two_confirmed_target_segments",
+        "source_confirmed_segments": 1,
+        "target_confirmed_segments": 1,
+        "source_primitive_count": 0,
+        "confirmed_segments": 1,
+        "private_state_count": 1,
+        "private_state_can_grow_online": true,
+        "source_k_imposed_on_target": false,
+        "source_state_centre_used": false,
+        "segment_descriptor_rows": 2,
+        "single_window_primitives_used": false
+      },
+      "gate_c": {
+        "status": "FAIL",
+        "reason": "coverage_platform_spike_or_delayed_entry_check_failed",
+        "continuous_coverage": true,
+        "platform_increment_not_higher_than_change_increment": true,
+        "short_spike_increment_guard": true,
+        "delayed_entry_ok": false,
+        "delayed_common_window_ok": true,
+        "delayed_increment_converges": false,
+        "delayed_score_converges": true,
+        "delayed_uncertainty_declines": false,
+        "state_id_input_count": 0,
+        "synthetic_ood": {
+          "normal_mean_uncertainty": 0.14282856857085702,
+          "ood_mean_uncertainty": 0.8544003745317531,
+          "ood_to_normal_ratio": 5.98199914121443,
+          "status": "PASS",
+          "state_id_used": false
+        }
+      },
+      "initial_progression_prior": {
+        "initial_progression_prior_mean": 0.5,
+        "initial_progression_prior_std": 0.35,
+        "initial_match_quality": 0.0
+      },
+      "source_frozen_parameter_sha256": "4e1bffda1c228a62a3b3b10f12de7620a46755b074a34b29920d9ff45d4d08e4"
+    },
+    "Exp2_to_Exp1": {
+      "source_dataset": "Exp2",
+      "target_dataset": "Exp1",
+      "gate_a": {
+        "status": "PASS",
+        "reason": "adapter_has_prefix_transfer_evidence",
+        "prefix_coverage": true,
+        "adapter_better_than_source_frozen_fraction": 1.0,
+        "adapter_close_to_scratch_fraction": 1.0,
+        "negative_transfer_gate_active": true,
+        "mean_gated_mixture_adapter_weight": 0.012242651106462622,
+        "gated_mixture_is_not_adapter": true,
+        "migration_claim_permitted": true
+      },
+      "gate_b": {
+        "status": "FAIL",
+        "reason": "fewer_than_two_confirmed_target_segments",
+        "source_confirmed_segments": 1,
+        "target_confirmed_segments": 1,
+        "source_primitive_count": 0,
+        "confirmed_segments": 1,
+        "private_state_count": 1,
+        "private_state_can_grow_online": true,
+        "source_k_imposed_on_target": false,
+        "source_state_centre_used": false,
+        "segment_descriptor_rows": 2,
+        "single_window_primitives_used": false
+      },
+      "gate_c": {
+        "status": "FAIL",
+        "reason": "coverage_platform_spike_or_delayed_entry_check_failed",
+        "continuous_coverage": true,
+        "platform_increment_not_higher_than_change_increment": true,
+        "short_spike_increment_guard": true,
+        "delayed_entry_ok": false,
+        "delayed_common_window_ok": true,
+        "delayed_increment_converges": false,
+        "delayed_score_converges": true,
+        "delayed_uncertainty_declines": false,
+        "state_id_input_count": 0,
+        "synthetic_ood": {
+          "normal_mean_uncertainty": 0.14282856857085702,
+          "ood_mean_uncertainty": 0.8544003745317531,
+          "ood_to_normal_ratio": 5.98199914121443,
+          "status": "PASS",
+          "state_id_used": false
+        }
+      },
+      "initial_progression_prior": {
+        "initial_progression_prior_mean": 0.5,
+        "initial_progression_prior_std": 0.35,
+        "initial_match_quality": 0.0
+      },
+      "source_frozen_parameter_sha256": "b276d1c36cf66f1b2c3f976e9e55b64219d482285cf746451d74ff2579eb9ac6"
+    }
+  },
+  "history_sha_unchanged": true,
+  "history_file_count": 28,
+  "target_final_length_used": false,
+  "relative_complete_progress_used": false,
+  "source_frozen_updated": false,
+  "adapter_and_scratch_independent": true,
+  "all_failures_retained": true,
+  "pytest": {
+    "tests": 175,
+    "failures": 0,
+    "errors": 0,
+    "status": "PASS"
+  }
+}

@@ -46,4 +46,3 @@
     "forbidden_operations": ["joint_online_source_target_training", "online_rotating_svd", "single_window_primitives", "fixed_target_k", "state_id_alignment", "source_state_centre_transfer", "rolling_z_as_progression", "post_run_threshold_change"]
   }
 }
-

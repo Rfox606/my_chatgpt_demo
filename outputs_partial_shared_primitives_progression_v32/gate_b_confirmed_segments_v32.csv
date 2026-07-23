@@ -1,0 +1,5 @@
+direction,experiment_role,segment_id,start_index,end_index,start_cycle,end_cycle,window_count
+Exp1_to_Exp2,source,0,0,9114,10.5,45580.5,9115
+Exp1_to_Exp2,target,0,0,2816,10.5,14090.5,2817
+Exp2_to_Exp1,source,0,0,2816,10.5,14090.5,2817
+Exp2_to_Exp1,target,0,0,9114,10.5,45580.5,9115

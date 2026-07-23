@@ -1,0 +1,20 @@
+{
+  "status": "FAIL",
+  "engineering_status": "PENDING_TESTS",
+  "input_sha256": "5a6a20752a2132da62993ffd94575e2c2088c6021fad44adbcc7383eb8eae1ab",
+  "protocol_locked_before_run": true,
+  "output_files": [
+    "configs\\partial_shared_primitives_progression_v3_config.json",
+    "diagnostics\\acceptance_decision_v3.json",
+    "diagnostics\\no_label_leakage_v3.json",
+    "diagnostics\\prefix_causality_v3.json",
+    "results\\conditioned_continuous_progression_v3.csv",
+    "results\\dynamic_primitive_prior_scores_v3.csv",
+    "results\\experiment_specific_state_models_v3.csv",
+    "results\\experiment_specific_state_paths_v3.csv",
+    "results\\primitive_bootstrap_stability_v3.csv",
+    "results\\shared_causal_representation_v3.csv",
+    "results\\shared_dynamic_primitives_v3.csv",
+    "results\\shared_predictor_holdout_v3.csv"
+  ]
+}

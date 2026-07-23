@@ -2,7 +2,9 @@
   "protocol": "partial_shared_primitives_progression_v31_complete",
   "amendment_type": "pre_run_prohibition_clarification",
   "algorithm_execution_before_amendment": false,
-  "supersedes_only": {"common.prefix_cutoffs": [0.35, 0.6]},
+  "supersedes_only": {
+    "common.prefix_cutoffs": [0.35, 0.6]
+  },
   "common": {
     "prefix_cutoff_cycles": [3000, 9000],
     "prefix_max_abs_difference": 1e-12,

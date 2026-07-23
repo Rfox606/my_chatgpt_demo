@@ -1,0 +1,17 @@
+{
+  "status": "FAIL",
+  "cutoffs": {
+    "0.35": {
+      "shared": 14.227280543919806,
+      "continuous": 7.483799108412114,
+      "state_path": 5.0,
+      "status": "FAIL"
+    },
+    "0.6": {
+      "shared": 2.5549289530412107,
+      "continuous": 11.777381880809884,
+      "state_path": 5.0,
+      "status": "FAIL"
+    }
+  }
+}
