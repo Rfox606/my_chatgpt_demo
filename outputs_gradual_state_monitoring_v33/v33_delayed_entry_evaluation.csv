@@ -1,0 +1,5 @@
+dataset,entry_offset,common_future_windows,agreement_after_warmup,agreement_final_100,converged
+Exp1,64,8923,0.950465090216295,1.0,1
+Exp1,128,8859,0.9501072355796365,1.0,1
+Exp2,64,2625,0.8403809523809523,1.0,1
+Exp2,128,2561,0.9386958219445529,1.0,1

@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "datasets": {
+    "Exp1": {
+      "status": "PASS",
+      "rows_compared": 9115,
+      "state_path_exactly_equal": true,
+      "max_abs_numeric_difference": 0.0
+    },
+    "Exp2": {
+      "status": "PASS",
+      "rows_compared": 2817,
+      "state_path_exactly_equal": true,
+      "max_abs_numeric_difference": 0.0
+    }
+  }
+}

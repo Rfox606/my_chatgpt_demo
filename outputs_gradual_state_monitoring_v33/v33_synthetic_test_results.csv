@@ -1,0 +1,5 @@
+synthetic_case,transition_windows,max_transition_width,new_stable_windows,temporary_disturbance_windows,status
+stable,0,0,0,0,PASS
+step,67,67,16,0,PASS
+ramp,146,76,32,6,PASS
+spike,16,10,0,18,PASS
