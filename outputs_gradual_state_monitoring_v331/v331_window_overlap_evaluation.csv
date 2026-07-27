@@ -1,0 +1,7 @@
+dataset,stride_multiplier,effective_window_stride,window_overlap_ratio,common_windows_after_warmup,state_agreement,dual_model_enabled
+Exp1,1,5,0.75,8987,1.0,1
+Exp1,2,10,0.5,4430,0.8505643340857788,1
+Exp1,4,20,0.0,2151,0.7610413761041376,1
+Exp2,1,5,0.75,2689,1.0,1
+Exp2,2,10,0.5,1281,0.4676034348165496,1
+Exp2,4,20,0.0,577,0.4714038128249567,1

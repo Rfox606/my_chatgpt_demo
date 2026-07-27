@@ -1,0 +1,107 @@
+{
+  "gate_A_stable_dynamics": {
+    "status": "FAIL",
+    "mid_or_long_learning_beats_persistence": false,
+    "stable_interval_error_available": true
+  },
+  "gate_B1_synthetic_gradual_detection": {
+    "status": "PASS",
+    "synthetic": {
+      "stable": "PASS",
+      "step": "PASS",
+      "ramp": "PASS",
+      "spike": "PASS"
+    }
+  },
+  "gate_B2_real_data_stability": {
+    "status": "FAIL",
+    "datasets": [
+      {
+        "dataset": "Exp1",
+        "transition_fraction": 0.07624794295117937,
+        "transition_fraction_pass": true,
+        "overlap_50_state_agreement": 0.8505643340857788,
+        "overlap_50_pass": true,
+        "overlap_0_state_agreement": 0.7610413761041376,
+        "overlap_0_pass": true,
+        "evidence_ablation_stability": true,
+        "status": "PASS"
+      },
+      {
+        "dataset": "Exp2",
+        "transition_fraction": 0.4518991835285765,
+        "transition_fraction_pass": false,
+        "overlap_50_state_agreement": 0.4676034348165496,
+        "overlap_50_pass": false,
+        "overlap_0_state_agreement": 0.4714038128249567,
+        "overlap_0_pass": false,
+        "evidence_ablation_stability": true,
+        "status": "FAIL"
+      }
+    ]
+  },
+  "gate_B_gradual_detection": {
+    "status": "FAIL"
+  },
+  "gate_C_new_state_and_online_consistency": {
+    "status": "PASS",
+    "prefix_causality": {
+      "status": "PASS",
+      "datasets": {
+        "Exp1": {
+          "status": "PASS",
+          "rows_compared": 9115,
+          "state_path_exactly_equal": true,
+          "max_abs_numeric_difference": 0.0
+        },
+        "Exp2": {
+          "status": "PASS",
+          "rows_compared": 2817,
+          "state_path_exactly_equal": true,
+          "max_abs_numeric_difference": 0.0
+        }
+      }
+    },
+    "delayed_entry": [
+      {
+        "dataset": "Exp1",
+        "state_agreement_pass": true,
+        "transition_iou_pass": true,
+        "local_state_count_pass": true,
+        "dual_model_enabled": true
+      },
+      {
+        "dataset": "Exp2",
+        "state_agreement_pass": true,
+        "transition_iou_pass": true,
+        "local_state_count_pass": true,
+        "dual_model_enabled": true
+      }
+    ],
+    "state_library_validation": {
+      "Exp1": {
+        "status": "PASS",
+        "path": [
+          1,
+          2,
+          3,
+          2
+        ],
+        "reuse_action": "reused"
+      },
+      "Exp2": {
+        "status": "PASS",
+        "path": [
+          1,
+          2,
+          3,
+          2
+        ],
+        "reuse_action": "reused"
+      }
+    }
+  },
+  "overall_status": "FAIL",
+  "posthoc_interpretation_only": true,
+  "shared_cross_experiment_dynamics_supported": false
+}

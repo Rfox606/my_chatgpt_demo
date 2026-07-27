@@ -1,0 +1,5 @@
+dataset,variant,windows,transition_fraction,transition_episode_count,new_state_count,temporary_disturbance_count,state_switches,local_state_count,state_agreement_with_full,dual_model_enabled
+Exp1,without_model_divergence,9115,0.07624794295117937,20,7,13,60,5,1.0,1
+Exp1,with_model_divergence,9115,0.07712561711464619,22,7,15,66,5,0.9974766867800329,1
+Exp2,without_model_divergence,2817,0.4518991835285765,29,8,21,87,7,1.0,1
+Exp2,with_model_divergence,2817,0.4518991835285765,29,8,21,87,7,1.0,1
