@@ -1,0 +1,15 @@
+setting,metric,max_absolute_difference,status
+V341_CalibrationOnly,boundary_hit_rate_250,0.0,MATCH
+V341_CalibrationOnly,boundary_hit_rate_500,0.0,MATCH
+V341_CalibrationOnly,candidate_event_count,0.0,MATCH
+V341_CalibrationOnly,event_level_precision,2.7755575615628914e-17,MATCH
+V341_CalibrationOnly,event_level_f1,5.551115123125783e-17,MATCH
+V341_CalibrationOnly,Top_4_event_recall,0.0,MATCH
+V341_CalibrationOnly,Top_8_event_recall,0.0,MATCH
+V341_OnlineAdaptation,boundary_hit_rate_250,0.0,MATCH
+V341_OnlineAdaptation,boundary_hit_rate_500,0.0,MATCH
+V341_OnlineAdaptation,candidate_event_count,0.0,MATCH
+V341_OnlineAdaptation,event_level_precision,5.551115123125783e-17,MATCH
+V341_OnlineAdaptation,event_level_f1,8.326672684688674e-17,MATCH
+V341_OnlineAdaptation,Top_4_event_recall,0.0,MATCH
+V341_OnlineAdaptation,Top_8_event_recall,0.0,MATCH
