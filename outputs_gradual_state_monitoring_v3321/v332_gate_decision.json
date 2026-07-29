@@ -1,0 +1,110 @@
+{
+  "gate_A_forecast": {
+    "status": "PASS",
+    "criterion": "A TCN or GRU has lower MAE than Persistence on a predeclared 100 or 300 horizon.",
+    "qualifying_rows": 2
+  },
+  "gate_B_label_boundary_detection": {
+    "status": "FAIL",
+    "criterion": "Every experiment at ±250 actual cycles: recall >= 0.75 and precision >= 0.50.",
+    "datasets": [
+      {
+        "dataset": "Exp1",
+        "boundary_recall": 1.0,
+        "boundary_precision": 0.2,
+        "status": "FAIL"
+      },
+      {
+        "dataset": "Exp2",
+        "boundary_recall": 0.5,
+        "boundary_precision": 0.07142857142857142,
+        "status": "FAIL"
+      }
+    ]
+  },
+  "gate_C_stage_interior_stability": {
+    "status": "FAIL",
+    "criterion": "Every experiment: mean stable rate >= 0.70 and false switches <= 5 / 1000 stable windows.",
+    "datasets": [
+      {
+        "dataset": "Exp1",
+        "mean_stage_stable_rate": 0.9233445473759458,
+        "false_switches_per_1000_windows": 6.005836049282316,
+        "status": "FAIL"
+      },
+      {
+        "dataset": "Exp2",
+        "mean_stage_stable_rate": 0.4732194523484067,
+        "false_switches_per_1000_windows": 28.16468835141946,
+        "status": "FAIL"
+      }
+    ]
+  },
+  "gate_D_model_upgrade_value": {
+    "status": "PASS",
+    "criterion": "TCN/GRU improves boundary F1 or reduces false alarms by >=20%, without material worsening of the other state metric.",
+    "candidates": [
+      {
+        "dataset": "Exp2",
+        "setting": "Exp1_pretrain_to_Exp2",
+        "model": "GRU",
+        "boundary_f1_gain_vs_v331": 0.0,
+        "false_alarm_reduction_vs_v331": 0.0,
+        "other_metric_not_materially_worse": true,
+        "value_status": "FAIL"
+      },
+      {
+        "dataset": "Exp1",
+        "setting": "within_Exp1",
+        "model": "GRU",
+        "boundary_f1_gain_vs_v331": -0.03333333333333338,
+        "false_alarm_reduction_vs_v331": 0.1875,
+        "other_metric_not_materially_worse": true,
+        "value_status": "FAIL"
+      },
+      {
+        "dataset": "Exp2",
+        "setting": "within_Exp2",
+        "model": "GRU",
+        "boundary_f1_gain_vs_v331": 0.08928571428571427,
+        "false_alarm_reduction_vs_v331": 0.1923076923076924,
+        "other_metric_not_materially_worse": true,
+        "value_status": "PASS"
+      },
+      {
+        "dataset": "Exp2",
+        "setting": "Exp1_pretrain_to_Exp2",
+        "model": "TCN",
+        "boundary_f1_gain_vs_v331": 0.08928571428571427,
+        "false_alarm_reduction_vs_v331": 0.1923076923076924,
+        "other_metric_not_materially_worse": true,
+        "value_status": "PASS"
+      },
+      {
+        "dataset": "Exp1",
+        "setting": "within_Exp1",
+        "model": "TCN",
+        "boundary_f1_gain_vs_v331": -5.551115123125783e-17,
+        "false_alarm_reduction_vs_v331": 0.31249999999999994,
+        "other_metric_not_materially_worse": true,
+        "value_status": "PASS"
+      },
+      {
+        "dataset": "Exp2",
+        "setting": "within_Exp2",
+        "model": "TCN",
+        "boundary_f1_gain_vs_v331": 0.08928571428571427,
+        "false_alarm_reduction_vs_v331": 0.1923076923076924,
+        "other_metric_not_materially_worse": true,
+        "value_status": "PASS"
+      }
+    ]
+  },
+  "overall_status": "FAIL",
+  "primary_conclusion_basis": [
+    "label_boundary_detection",
+    "stage_interior_stability"
+  ],
+  "v331_output_reused_without_modification": true,
+  "stage_used_online": false
+}

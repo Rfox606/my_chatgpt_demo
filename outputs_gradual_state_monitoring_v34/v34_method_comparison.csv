@@ -1,0 +1,77 @@
+direction,setting,metric,value_mean,value_std,seed_count
+Exp1_to_Exp2,CalibrationOnly,Top-12 event recall,0.75,0.1767766952966369,5
+Exp1_to_Exp2,CalibrationOnly,Top-4 event recall,0.35,0.22360679774997896,5
+Exp1_to_Exp2,CalibrationOnly,Top-8 event recall,0.65,0.13693063937629152,5
+Exp1_to_Exp2,CalibrationOnly,boundary_hit_rate,0.65,0.2850438562747845,5
+Exp1_to_Exp2,CalibrationOnly,boundary_score_percentile,0.9281331349944217,0.03589507487287622,5
+Exp1_to_Exp2,CalibrationOnly,event_level_f1,0.2424158221641059,0.07489702188988355,5
+Exp1_to_Exp2,CalibrationOnly,event_level_precision,0.15035087719298246,0.040320354588619954,5
+Exp1_to_Exp2,CalibrationOnly,event_level_recall,0.65,0.2850438562747845,5
+Exp1_to_Exp2,CalibrationOnly,proximity_weighted_score,2.294516412048968,0.6865159133427523,5
+Exp1_to_Exp2,DirectTransfer,Top-12 event recall,0.0,0.0,5
+Exp1_to_Exp2,DirectTransfer,Top-4 event recall,0.0,0.0,5
+Exp1_to_Exp2,DirectTransfer,Top-8 event recall,0.0,0.0,5
+Exp1_to_Exp2,DirectTransfer,boundary_hit_rate,0.0,0.0,5
+Exp1_to_Exp2,DirectTransfer,boundary_score_percentile,0.8213276310896245,0.047128843756239325,5
+Exp1_to_Exp2,DirectTransfer,event_level_f1,0.0,0.0,5
+Exp1_to_Exp2,DirectTransfer,event_level_precision,0.0,0.0,5
+Exp1_to_Exp2,DirectTransfer,event_level_recall,0.0,0.0,5
+Exp1_to_Exp2,DirectTransfer,proximity_weighted_score,0.0,0.0,5
+Exp1_to_Exp2,OnlineAdaptation,Top-12 event recall,0.55,0.2091650066335189,5
+Exp1_to_Exp2,OnlineAdaptation,Top-4 event recall,0.15,0.13693063937629152,5
+Exp1_to_Exp2,OnlineAdaptation,Top-8 event recall,0.3,0.27386127875258304,5
+Exp1_to_Exp2,OnlineAdaptation,boundary_hit_rate,0.6,0.2850438562747845,5
+Exp1_to_Exp2,OnlineAdaptation,boundary_score_percentile,0.8745072517664558,0.045587852474491916,5
+Exp1_to_Exp2,OnlineAdaptation,event_level_f1,0.21352380952380953,0.0743045695783017,5
+Exp1_to_Exp2,OnlineAdaptation,event_level_precision,0.13095238095238096,0.04271636932859322,5
+Exp1_to_Exp2,OnlineAdaptation,event_level_recall,0.6,0.2850438562747845,5
+Exp1_to_Exp2,OnlineAdaptation,proximity_weighted_score,1.2301436837265327,0.9166469570826132,5
+Exp1_to_Exp2,TargetSupervisedUpperBound,Top-12 event recall,0.8,0.11180339887498948,5
+Exp1_to_Exp2,TargetSupervisedUpperBound,Top-4 event recall,0.25,0.1767766952966369,5
+Exp1_to_Exp2,TargetSupervisedUpperBound,Top-8 event recall,0.7,0.1118033988749895,5
+Exp1_to_Exp2,TargetSupervisedUpperBound,boundary_hit_rate,0.6,0.22360679774997896,5
+Exp1_to_Exp2,TargetSupervisedUpperBound,boundary_score_percentile,0.9179806619561175,0.029329216579777113,5
+Exp1_to_Exp2,TargetSupervisedUpperBound,event_level_f1,0.23641013717740061,0.06778010040611797,5
+Exp1_to_Exp2,TargetSupervisedUpperBound,event_level_precision,0.14808816914080072,0.040925042986285964,5
+Exp1_to_Exp2,TargetSupervisedUpperBound,event_level_recall,0.6,0.22360679774997896,5
+Exp1_to_Exp2,TargetSupervisedUpperBound,proximity_weighted_score,1.652041720314673,0.6021131092295725,5
+Exp2_to_Exp1,CalibrationOnly,Top-12 event recall,0.7,0.11180339887498948,5
+Exp2_to_Exp1,CalibrationOnly,Top-4 event recall,0.7,0.11180339887498948,5
+Exp2_to_Exp1,CalibrationOnly,Top-8 event recall,0.7,0.11180339887498948,5
+Exp2_to_Exp1,CalibrationOnly,boundary_hit_rate,0.7,0.11180339887498947,5
+Exp2_to_Exp1,CalibrationOnly,boundary_score_percentile,0.9720763324802493,0.0057217288910523705,5
+Exp2_to_Exp1,CalibrationOnly,event_level_f1,0.18711086226203807,0.06369136794291004,5
+Exp2_to_Exp1,CalibrationOnly,event_level_precision,0.1132672138622891,0.05261914774014738,5
+Exp2_to_Exp1,CalibrationOnly,event_level_recall,0.7,0.11180339887498947,5
+Exp2_to_Exp1,CalibrationOnly,proximity_weighted_score,18.851071047008453,10.985512286281455,5
+Exp2_to_Exp1,DirectTransfer,Top-12 event recall,0.25,0.0,5
+Exp2_to_Exp1,DirectTransfer,Top-4 event recall,0.25,0.0,5
+Exp2_to_Exp1,DirectTransfer,Top-8 event recall,0.25,0.0,5
+Exp2_to_Exp1,DirectTransfer,boundary_hit_rate,0.15,0.13693063937629152,5
+Exp2_to_Exp1,DirectTransfer,boundary_score_percentile,0.9801212863024368,0.005390679823057149,5
+Exp2_to_Exp1,DirectTransfer,event_level_f1,0.24000000000000005,0.21908902300206645,5
+Exp2_to_Exp1,DirectTransfer,event_level_precision,0.6,0.5477225575051661,5
+Exp2_to_Exp1,DirectTransfer,event_level_recall,0.15,0.13693063937629152,5
+Exp2_to_Exp1,DirectTransfer,proximity_weighted_score,30641.967146678064,12295.530831242751,5
+Exp2_to_Exp1,OnlineAdaptation,Top-12 event recall,1.0,0.0,5
+Exp2_to_Exp1,OnlineAdaptation,Top-4 event recall,0.75,0.0,5
+Exp2_to_Exp1,OnlineAdaptation,Top-8 event recall,1.0,0.0,5
+Exp2_to_Exp1,OnlineAdaptation,boundary_hit_rate,0.85,0.13693063937629155,5
+Exp2_to_Exp1,OnlineAdaptation,boundary_score_percentile,0.9732279959942138,0.009925333259737842,5
+Exp2_to_Exp1,OnlineAdaptation,event_level_f1,0.1442819692910437,0.057791305712891074,5
+Exp2_to_Exp1,OnlineAdaptation,event_level_precision,0.07919878312132532,0.03355369229607984,5
+Exp2_to_Exp1,OnlineAdaptation,event_level_recall,0.85,0.13693063937629155,5
+Exp2_to_Exp1,OnlineAdaptation,proximity_weighted_score,12.047004849562208,2.490285023541667,5
+Exp2_to_Exp1,TargetSupervisedUpperBound,Top-12 event recall,0.7,0.11180339887498948,5
+Exp2_to_Exp1,TargetSupervisedUpperBound,Top-4 event recall,0.7,0.11180339887498948,5
+Exp2_to_Exp1,TargetSupervisedUpperBound,Top-8 event recall,0.7,0.11180339887498948,5
+Exp2_to_Exp1,TargetSupervisedUpperBound,boundary_hit_rate,0.7,0.11180339887498948,5
+Exp2_to_Exp1,TargetSupervisedUpperBound,boundary_score_percentile,0.9718760431734728,0.009688460485547118,5
+Exp2_to_Exp1,TargetSupervisedUpperBound,event_level_f1,0.14455143322150993,0.024209983669020607,5
+Exp2_to_Exp1,TargetSupervisedUpperBound,event_level_precision,0.0807648431423386,0.014233437968624823,5
+Exp2_to_Exp1,TargetSupervisedUpperBound,event_level_recall,0.7,0.11180339887498948,5
+Exp2_to_Exp1,TargetSupervisedUpperBound,proximity_weighted_score,14.293450914842708,4.2982441968908685,5
+reference,V3.3.1,reference_artifact_retained,1.0,,0
+reference,V3.3.2.1,reference_artifact_retained,1.0,,0
+reference,Persistence evidence,reference_artifact_retained,1.0,,0
+reference,RBF-Ridge evidence,reference_artifact_retained,1.0,,0

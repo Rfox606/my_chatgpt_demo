@@ -1,0 +1,15 @@
+{
+  "status": "EXISTING_REPOSITORY_LABEL_DEFINITION",
+  "source_path": "outputs_physical_validation_candidates_v1\\configs\\cycle_mapping_config.json",
+  "source_sha256": "9cba8cc680d57a48d18a21cba9914e9671174d602cbc69ff0252d197d4eccaba",
+  "label_definition": "Stage and its boundaries are the existing mapping segments; no V3.3.2 boundary was inferred or tuned.",
+  "online_use": "PROHIBITED",
+  "permitted_use": [
+    "posthoc_evaluation",
+    "posthoc_figures"
+  ],
+  "exp2_actual_cycle_prefix": [
+    1,
+    500
+  ]
+}

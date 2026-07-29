@@ -1,0 +1,361 @@
+direction,setting,seed,metric,value,dataset
+Exp1_to_Exp2,DirectTransfer,3401,boundary_hit_rate,0.0,
+Exp1_to_Exp2,DirectTransfer,3401,event_level_precision,0.0,
+Exp1_to_Exp2,DirectTransfer,3401,event_level_recall,0.0,
+Exp1_to_Exp2,DirectTransfer,3401,event_level_f1,0.0,
+Exp1_to_Exp2,CalibrationOnly,3401,boundary_hit_rate,0.5,
+Exp1_to_Exp2,CalibrationOnly,3401,event_level_precision,0.13333333333333333,
+Exp1_to_Exp2,CalibrationOnly,3401,event_level_recall,0.5,
+Exp1_to_Exp2,CalibrationOnly,3401,event_level_f1,0.2105263157894737,
+Exp1_to_Exp2,OnlineAdaptation,3401,boundary_hit_rate,0.75,
+Exp1_to_Exp2,OnlineAdaptation,3401,event_level_precision,0.125,
+Exp1_to_Exp2,OnlineAdaptation,3401,event_level_recall,0.75,
+Exp1_to_Exp2,OnlineAdaptation,3401,event_level_f1,0.21428571428571427,
+Exp1_to_Exp2,TargetSupervisedUpperBound,3401,boundary_hit_rate,0.5,
+Exp1_to_Exp2,TargetSupervisedUpperBound,3401,event_level_precision,0.1111111111111111,
+Exp1_to_Exp2,TargetSupervisedUpperBound,3401,event_level_recall,0.5,
+Exp1_to_Exp2,TargetSupervisedUpperBound,3401,event_level_f1,0.1818181818181818,
+Exp1_to_Exp2,DirectTransfer,3402,boundary_hit_rate,0.0,
+Exp1_to_Exp2,DirectTransfer,3402,event_level_precision,0.0,
+Exp1_to_Exp2,DirectTransfer,3402,event_level_recall,0.0,
+Exp1_to_Exp2,DirectTransfer,3402,event_level_f1,0.0,
+Exp1_to_Exp2,CalibrationOnly,3402,boundary_hit_rate,0.75,
+Exp1_to_Exp2,CalibrationOnly,3402,event_level_precision,0.15789473684210525,
+Exp1_to_Exp2,CalibrationOnly,3402,event_level_recall,0.75,
+Exp1_to_Exp2,CalibrationOnly,3402,event_level_f1,0.2608695652173913,
+Exp1_to_Exp2,OnlineAdaptation,3402,boundary_hit_rate,0.5,
+Exp1_to_Exp2,OnlineAdaptation,3402,event_level_precision,0.14285714285714285,
+Exp1_to_Exp2,OnlineAdaptation,3402,event_level_recall,0.5,
+Exp1_to_Exp2,OnlineAdaptation,3402,event_level_f1,0.22222222222222224,
+Exp1_to_Exp2,TargetSupervisedUpperBound,3402,boundary_hit_rate,0.5,
+Exp1_to_Exp2,TargetSupervisedUpperBound,3402,event_level_precision,0.1111111111111111,
+Exp1_to_Exp2,TargetSupervisedUpperBound,3402,event_level_recall,0.5,
+Exp1_to_Exp2,TargetSupervisedUpperBound,3402,event_level_f1,0.1818181818181818,
+Exp1_to_Exp2,DirectTransfer,3403,boundary_hit_rate,0.0,
+Exp1_to_Exp2,DirectTransfer,3403,event_level_precision,0.0,
+Exp1_to_Exp2,DirectTransfer,3403,event_level_recall,0.0,
+Exp1_to_Exp2,DirectTransfer,3403,event_level_f1,0.0,
+Exp1_to_Exp2,CalibrationOnly,3403,boundary_hit_rate,0.25,
+Exp1_to_Exp2,CalibrationOnly,3403,event_level_precision,0.1,
+Exp1_to_Exp2,CalibrationOnly,3403,event_level_recall,0.25,
+Exp1_to_Exp2,CalibrationOnly,3403,event_level_f1,0.14285714285714288,
+Exp1_to_Exp2,OnlineAdaptation,3403,boundary_hit_rate,1.0,
+Exp1_to_Exp2,OnlineAdaptation,3403,event_level_precision,0.19047619047619047,
+Exp1_to_Exp2,OnlineAdaptation,3403,event_level_recall,1.0,
+Exp1_to_Exp2,OnlineAdaptation,3403,event_level_f1,0.32,
+Exp1_to_Exp2,TargetSupervisedUpperBound,3403,boundary_hit_rate,0.5,
+Exp1_to_Exp2,TargetSupervisedUpperBound,3403,event_level_precision,0.15384615384615385,
+Exp1_to_Exp2,TargetSupervisedUpperBound,3403,event_level_recall,0.5,
+Exp1_to_Exp2,TargetSupervisedUpperBound,3403,event_level_f1,0.23529411764705882,
+Exp1_to_Exp2,DirectTransfer,3404,boundary_hit_rate,0.0,
+Exp1_to_Exp2,DirectTransfer,3404,event_level_precision,0.0,
+Exp1_to_Exp2,DirectTransfer,3404,event_level_recall,0.0,
+Exp1_to_Exp2,DirectTransfer,3404,event_level_f1,0.0,
+Exp1_to_Exp2,CalibrationOnly,3404,boundary_hit_rate,1.0,
+Exp1_to_Exp2,CalibrationOnly,3404,event_level_precision,0.21052631578947367,
+Exp1_to_Exp2,CalibrationOnly,3404,event_level_recall,1.0,
+Exp1_to_Exp2,CalibrationOnly,3404,event_level_f1,0.34782608695652173,
+Exp1_to_Exp2,OnlineAdaptation,3404,boundary_hit_rate,0.25,
+Exp1_to_Exp2,OnlineAdaptation,3404,event_level_precision,0.07142857142857142,
+Exp1_to_Exp2,OnlineAdaptation,3404,event_level_recall,0.25,
+Exp1_to_Exp2,OnlineAdaptation,3404,event_level_f1,0.11111111111111112,
+Exp1_to_Exp2,TargetSupervisedUpperBound,3404,boundary_hit_rate,0.5,
+Exp1_to_Exp2,TargetSupervisedUpperBound,3404,event_level_precision,0.15384615384615385,
+Exp1_to_Exp2,TargetSupervisedUpperBound,3404,event_level_recall,0.5,
+Exp1_to_Exp2,TargetSupervisedUpperBound,3404,event_level_f1,0.23529411764705882,
+Exp1_to_Exp2,DirectTransfer,3405,boundary_hit_rate,0.0,
+Exp1_to_Exp2,DirectTransfer,3405,event_level_precision,0.0,
+Exp1_to_Exp2,DirectTransfer,3405,event_level_recall,0.0,
+Exp1_to_Exp2,DirectTransfer,3405,event_level_f1,0.0,
+Exp1_to_Exp2,CalibrationOnly,3405,boundary_hit_rate,0.75,
+Exp1_to_Exp2,CalibrationOnly,3405,event_level_precision,0.15,
+Exp1_to_Exp2,CalibrationOnly,3405,event_level_recall,0.75,
+Exp1_to_Exp2,CalibrationOnly,3405,event_level_f1,0.24999999999999997,
+Exp1_to_Exp2,OnlineAdaptation,3405,boundary_hit_rate,0.5,
+Exp1_to_Exp2,OnlineAdaptation,3405,event_level_precision,0.125,
+Exp1_to_Exp2,OnlineAdaptation,3405,event_level_recall,0.5,
+Exp1_to_Exp2,OnlineAdaptation,3405,event_level_f1,0.2,
+Exp1_to_Exp2,TargetSupervisedUpperBound,3405,boundary_hit_rate,1.0,
+Exp1_to_Exp2,TargetSupervisedUpperBound,3405,event_level_precision,0.21052631578947367,
+Exp1_to_Exp2,TargetSupervisedUpperBound,3405,event_level_recall,1.0,
+Exp1_to_Exp2,TargetSupervisedUpperBound,3405,event_level_f1,0.34782608695652173,
+Exp2_to_Exp1,DirectTransfer,3401,boundary_hit_rate,0.0,
+Exp2_to_Exp1,DirectTransfer,3401,event_level_precision,0.0,
+Exp2_to_Exp1,DirectTransfer,3401,event_level_recall,0.0,
+Exp2_to_Exp1,DirectTransfer,3401,event_level_f1,0.0,
+Exp2_to_Exp1,CalibrationOnly,3401,boundary_hit_rate,0.75,
+Exp2_to_Exp1,CalibrationOnly,3401,event_level_precision,0.08823529411764706,
+Exp2_to_Exp1,CalibrationOnly,3401,event_level_recall,0.75,
+Exp2_to_Exp1,CalibrationOnly,3401,event_level_f1,0.15789473684210525,
+Exp2_to_Exp1,OnlineAdaptation,3401,boundary_hit_rate,0.75,
+Exp2_to_Exp1,OnlineAdaptation,3401,event_level_precision,0.05555555555555555,
+Exp2_to_Exp1,OnlineAdaptation,3401,event_level_recall,0.75,
+Exp2_to_Exp1,OnlineAdaptation,3401,event_level_f1,0.10344827586206895,
+Exp2_to_Exp1,TargetSupervisedUpperBound,3401,boundary_hit_rate,0.75,
+Exp2_to_Exp1,TargetSupervisedUpperBound,3401,event_level_precision,0.08333333333333333,
+Exp2_to_Exp1,TargetSupervisedUpperBound,3401,event_level_recall,0.75,
+Exp2_to_Exp1,TargetSupervisedUpperBound,3401,event_level_f1,0.15,
+Exp2_to_Exp1,DirectTransfer,3402,boundary_hit_rate,0.0,
+Exp2_to_Exp1,DirectTransfer,3402,event_level_precision,0.0,
+Exp2_to_Exp1,DirectTransfer,3402,event_level_recall,0.0,
+Exp2_to_Exp1,DirectTransfer,3402,event_level_f1,0.0,
+Exp2_to_Exp1,CalibrationOnly,3402,boundary_hit_rate,0.75,
+Exp2_to_Exp1,CalibrationOnly,3402,event_level_precision,0.08333333333333333,
+Exp2_to_Exp1,CalibrationOnly,3402,event_level_recall,0.75,
+Exp2_to_Exp1,CalibrationOnly,3402,event_level_f1,0.15,
+Exp2_to_Exp1,OnlineAdaptation,3402,boundary_hit_rate,0.75,
+Exp2_to_Exp1,OnlineAdaptation,3402,event_level_precision,0.05357142857142857,
+Exp2_to_Exp1,OnlineAdaptation,3402,event_level_recall,0.75,
+Exp2_to_Exp1,OnlineAdaptation,3402,event_level_f1,0.09999999999999999,
+Exp2_to_Exp1,TargetSupervisedUpperBound,3402,boundary_hit_rate,0.75,
+Exp2_to_Exp1,TargetSupervisedUpperBound,3402,event_level_precision,0.10344827586206896,
+Exp2_to_Exp1,TargetSupervisedUpperBound,3402,event_level_recall,0.75,
+Exp2_to_Exp1,TargetSupervisedUpperBound,3402,event_level_f1,0.18181818181818182,
+Exp2_to_Exp1,DirectTransfer,3403,boundary_hit_rate,0.25,
+Exp2_to_Exp1,DirectTransfer,3403,event_level_precision,1.0,
+Exp2_to_Exp1,DirectTransfer,3403,event_level_recall,0.25,
+Exp2_to_Exp1,DirectTransfer,3403,event_level_f1,0.4,
+Exp2_to_Exp1,CalibrationOnly,3403,boundary_hit_rate,0.75,
+Exp2_to_Exp1,CalibrationOnly,3403,event_level_precision,0.125,
+Exp2_to_Exp1,CalibrationOnly,3403,event_level_recall,0.75,
+Exp2_to_Exp1,CalibrationOnly,3403,event_level_f1,0.21428571428571427,
+Exp2_to_Exp1,OnlineAdaptation,3403,boundary_hit_rate,0.75,
+Exp2_to_Exp1,OnlineAdaptation,3403,event_level_precision,0.05660377358490566,
+Exp2_to_Exp1,OnlineAdaptation,3403,event_level_recall,0.75,
+Exp2_to_Exp1,OnlineAdaptation,3403,event_level_f1,0.10526315789473685,
+Exp2_to_Exp1,TargetSupervisedUpperBound,3403,boundary_hit_rate,0.5,
+Exp2_to_Exp1,TargetSupervisedUpperBound,3403,event_level_precision,0.06666666666666667,
+Exp2_to_Exp1,TargetSupervisedUpperBound,3403,event_level_recall,0.5,
+Exp2_to_Exp1,TargetSupervisedUpperBound,3403,event_level_f1,0.11764705882352941,
+Exp2_to_Exp1,DirectTransfer,3404,boundary_hit_rate,0.25,
+Exp2_to_Exp1,DirectTransfer,3404,event_level_precision,1.0,
+Exp2_to_Exp1,DirectTransfer,3404,event_level_recall,0.25,
+Exp2_to_Exp1,DirectTransfer,3404,event_level_f1,0.4,
+Exp2_to_Exp1,CalibrationOnly,3404,boundary_hit_rate,0.75,
+Exp2_to_Exp1,CalibrationOnly,3404,event_level_precision,0.06976744186046512,
+Exp2_to_Exp1,CalibrationOnly,3404,event_level_recall,0.75,
+Exp2_to_Exp1,CalibrationOnly,3404,event_level_f1,0.1276595744680851,
+Exp2_to_Exp1,OnlineAdaptation,3404,boundary_hit_rate,1.0,
+Exp2_to_Exp1,OnlineAdaptation,3404,event_level_precision,0.10526315789473684,
+Exp2_to_Exp1,OnlineAdaptation,3404,event_level_recall,1.0,
+Exp2_to_Exp1,OnlineAdaptation,3404,event_level_f1,0.1904761904761905,
+Exp2_to_Exp1,TargetSupervisedUpperBound,3404,boundary_hit_rate,0.75,
+Exp2_to_Exp1,TargetSupervisedUpperBound,3404,event_level_precision,0.07894736842105263,
+Exp2_to_Exp1,TargetSupervisedUpperBound,3404,event_level_recall,0.75,
+Exp2_to_Exp1,TargetSupervisedUpperBound,3404,event_level_f1,0.14285714285714285,
+Exp2_to_Exp1,DirectTransfer,3405,boundary_hit_rate,0.25,
+Exp2_to_Exp1,DirectTransfer,3405,event_level_precision,1.0,
+Exp2_to_Exp1,DirectTransfer,3405,event_level_recall,0.25,
+Exp2_to_Exp1,DirectTransfer,3405,event_level_f1,0.4,
+Exp2_to_Exp1,CalibrationOnly,3405,boundary_hit_rate,0.5,
+Exp2_to_Exp1,CalibrationOnly,3405,event_level_precision,0.2,
+Exp2_to_Exp1,CalibrationOnly,3405,event_level_recall,0.5,
+Exp2_to_Exp1,CalibrationOnly,3405,event_level_f1,0.28571428571428575,
+Exp2_to_Exp1,OnlineAdaptation,3405,boundary_hit_rate,1.0,
+Exp2_to_Exp1,OnlineAdaptation,3405,event_level_precision,0.125,
+Exp2_to_Exp1,OnlineAdaptation,3405,event_level_recall,1.0,
+Exp2_to_Exp1,OnlineAdaptation,3405,event_level_f1,0.2222222222222222,
+Exp2_to_Exp1,TargetSupervisedUpperBound,3405,boundary_hit_rate,0.75,
+Exp2_to_Exp1,TargetSupervisedUpperBound,3405,event_level_precision,0.07142857142857142,
+Exp2_to_Exp1,TargetSupervisedUpperBound,3405,event_level_recall,0.75,
+Exp2_to_Exp1,TargetSupervisedUpperBound,3405,event_level_f1,0.13043478260869565,
+Exp1_to_Exp2,DirectTransfer,3401,boundary_score_percentile,0.8403681666046857,
+Exp1_to_Exp2,CalibrationOnly,3401,boundary_score_percentile,0.9539791744142804,
+Exp1_to_Exp2,OnlineAdaptation,3401,boundary_score_percentile,0.8458534771290442,
+Exp1_to_Exp2,TargetSupervisedUpperBound,3401,boundary_score_percentile,0.9607660840461137,
+Exp1_to_Exp2,DirectTransfer,3402,boundary_score_percentile,0.8313499442171811,
+Exp1_to_Exp2,CalibrationOnly,3402,boundary_score_percentile,0.9474711788769059,
+Exp1_to_Exp2,OnlineAdaptation,3402,boundary_score_percentile,0.8707698029007066,
+Exp1_to_Exp2,TargetSupervisedUpperBound,3402,boundary_score_percentile,0.883413908516177,
+Exp1_to_Exp2,DirectTransfer,3403,boundary_score_percentile,0.739308293045742,
+Exp1_to_Exp2,CalibrationOnly,3403,boundary_score_percentile,0.9296206768315359,
+Exp1_to_Exp2,OnlineAdaptation,3403,boundary_score_percentile,0.9125139457047229,
+Exp1_to_Exp2,TargetSupervisedUpperBound,3403,boundary_score_percentile,0.911212346597248,
+Exp1_to_Exp2,DirectTransfer,3404,boundary_score_percentile,0.8598921532168092,
+Exp1_to_Exp2,CalibrationOnly,3404,boundary_score_percentile,0.8659352919300856,
+Exp1_to_Exp2,OnlineAdaptation,3404,boundary_score_percentile,0.816846411305318,
+Exp1_to_Exp2,TargetSupervisedUpperBound,3404,boundary_score_percentile,0.9036816660468576,
+Exp1_to_Exp2,DirectTransfer,3405,boundary_score_percentile,0.835719598363704,
+Exp1_to_Exp2,CalibrationOnly,3405,boundary_score_percentile,0.9436593529193008,
+Exp1_to_Exp2,OnlineAdaptation,3405,boundary_score_percentile,0.9265526217924879,
+Exp1_to_Exp2,TargetSupervisedUpperBound,3405,boundary_score_percentile,0.9308293045741911,
+Exp2_to_Exp1,DirectTransfer,3401,boundary_score_percentile,0.9741571158339823,
+Exp2_to_Exp1,CalibrationOnly,3401,boundary_score_percentile,0.9729887615444531,
+Exp2_to_Exp1,OnlineAdaptation,3401,boundary_score_percentile,0.9643930121286303,
+Exp2_to_Exp1,TargetSupervisedUpperBound,3401,boundary_score_percentile,0.9756314676755313,
+Exp2_to_Exp1,DirectTransfer,3402,boundary_score_percentile,0.9785245354400801,
+Exp2_to_Exp1,CalibrationOnly,3402,boundary_score_percentile,0.9689551574496496,
+Exp2_to_Exp1,OnlineAdaptation,3402,boundary_score_percentile,0.9779125403360409,
+Exp2_to_Exp1,TargetSupervisedUpperBound,3402,boundary_score_percentile,0.9733782129742962,
+Exp2_to_Exp1,DirectTransfer,3403,boundary_score_percentile,0.988872816290197,
+Exp2_to_Exp1,CalibrationOnly,3403,boundary_score_percentile,0.9640035606987871,
+Exp2_to_Exp1,OnlineAdaptation,3403,boundary_score_percentile,0.9857850228107266,
+Exp2_to_Exp1,TargetSupervisedUpperBound,3403,boundary_score_percentile,0.9549627239345722,
+Exp2_to_Exp1,DirectTransfer,3404,boundary_score_percentile,0.9801657950372761,
+Exp2_to_Exp1,CalibrationOnly,3404,boundary_score_percentile,0.9783019917658841,
+Exp2_to_Exp1,OnlineAdaptation,3404,boundary_score_percentile,0.961917213753199,
+Exp2_to_Exp1,TargetSupervisedUpperBound,3404,boundary_score_percentile,0.976104372983198,
+Exp2_to_Exp1,DirectTransfer,3405,boundary_score_percentile,0.9788861689106487,
+Exp2_to_Exp1,CalibrationOnly,3405,boundary_score_percentile,0.9761321909424725,
+Exp2_to_Exp1,OnlineAdaptation,3405,boundary_score_percentile,0.9761321909424725,
+Exp2_to_Exp1,TargetSupervisedUpperBound,3405,boundary_score_percentile,0.9793034382997663,
+Exp1_to_Exp2,DirectTransfer,3401,proximity_weighted_score,0.0,
+Exp1_to_Exp2,CalibrationOnly,3401,proximity_weighted_score,1.5137344750674098,
+Exp1_to_Exp2,OnlineAdaptation,3401,proximity_weighted_score,1.1127447510316606,
+Exp1_to_Exp2,TargetSupervisedUpperBound,3401,proximity_weighted_score,1.4805526873540975,
+Exp1_to_Exp2,DirectTransfer,3402,proximity_weighted_score,0.0,
+Exp1_to_Exp2,CalibrationOnly,3402,proximity_weighted_score,2.0845053666632563,
+Exp1_to_Exp2,OnlineAdaptation,3402,proximity_weighted_score,0.9535080615885516,
+Exp1_to_Exp2,TargetSupervisedUpperBound,3402,proximity_weighted_score,1.074306132304213,
+Exp1_to_Exp2,DirectTransfer,3403,proximity_weighted_score,0.0,
+Exp1_to_Exp2,CalibrationOnly,3403,proximity_weighted_score,3.197305328567048,
+Exp1_to_Exp2,OnlineAdaptation,3403,proximity_weighted_score,2.7977293721786625,
+Exp1_to_Exp2,TargetSupervisedUpperBound,3403,proximity_weighted_score,2.2882043397467906,
+Exp1_to_Exp2,DirectTransfer,3404,proximity_weighted_score,0.0,
+Exp1_to_Exp2,CalibrationOnly,3404,proximity_weighted_score,1.8843207241515751,
+Exp1_to_Exp2,OnlineAdaptation,3404,proximity_weighted_score,0.39364749639046265,
+Exp1_to_Exp2,TargetSupervisedUpperBound,3404,proximity_weighted_score,1.1272468655236976,
+Exp1_to_Exp2,DirectTransfer,3405,proximity_weighted_score,0.0,
+Exp1_to_Exp2,CalibrationOnly,3405,proximity_weighted_score,2.792716165795551,
+Exp1_to_Exp2,OnlineAdaptation,3405,proximity_weighted_score,0.8930887374433263,
+Exp1_to_Exp2,TargetSupervisedUpperBound,3405,proximity_weighted_score,2.289898576644565,
+Exp2_to_Exp1,DirectTransfer,3401,proximity_weighted_score,25659.23008102837,
+Exp2_to_Exp1,CalibrationOnly,3401,proximity_weighted_score,15.736393104304359,
+Exp2_to_Exp1,OnlineAdaptation,3401,proximity_weighted_score,15.822258760654979,
+Exp2_to_Exp1,TargetSupervisedUpperBound,3401,proximity_weighted_score,13.12437442366383,
+Exp2_to_Exp1,DirectTransfer,3402,proximity_weighted_score,22951.64500033007,
+Exp2_to_Exp1,CalibrationOnly,3402,proximity_weighted_score,14.69532388898693,
+Exp2_to_Exp1,OnlineAdaptation,3402,proximity_weighted_score,12.36107767815718,
+Exp2_to_Exp1,TargetSupervisedUpperBound,3402,proximity_weighted_score,14.656619082064005,
+Exp2_to_Exp1,DirectTransfer,3403,proximity_weighted_score,51866.50096774554,
+Exp2_to_Exp1,CalibrationOnly,3403,proximity_weighted_score,5.822986060951171,
+Exp2_to_Exp1,OnlineAdaptation,3403,proximity_weighted_score,9.281531768403902,
+Exp2_to_Exp1,TargetSupervisedUpperBound,3403,proximity_weighted_score,7.626229878351937,
+Exp2_to_Exp1,DirectTransfer,3404,proximity_weighted_score,22260.934761900164,
+Exp2_to_Exp1,CalibrationOnly,3404,proximity_weighted_score,22.675426353469376,
+Exp2_to_Exp1,OnlineAdaptation,3404,proximity_weighted_score,10.402540860234657,
+Exp2_to_Exp1,TargetSupervisedUpperBound,3404,proximity_weighted_score,18.1425193196528,
+Exp2_to_Exp1,DirectTransfer,3405,proximity_weighted_score,30471.52492238619,
+Exp2_to_Exp1,CalibrationOnly,3405,proximity_weighted_score,35.325225827330414,
+Exp2_to_Exp1,OnlineAdaptation,3405,proximity_weighted_score,12.367615180360325,
+Exp2_to_Exp1,TargetSupervisedUpperBound,3405,proximity_weighted_score,17.917511870480975,
+Exp1_to_Exp2,DirectTransfer,3401,Top-4 event recall,0.0,Exp2
+Exp1_to_Exp2,DirectTransfer,3401,Top-8 event recall,0.0,Exp2
+Exp1_to_Exp2,DirectTransfer,3401,Top-12 event recall,0.0,Exp2
+Exp1_to_Exp2,CalibrationOnly,3401,Top-4 event recall,0.25,Exp2
+Exp1_to_Exp2,CalibrationOnly,3401,Top-8 event recall,0.75,Exp2
+Exp1_to_Exp2,CalibrationOnly,3401,Top-12 event recall,0.75,Exp2
+Exp1_to_Exp2,OnlineAdaptation,3401,Top-4 event recall,0.25,Exp2
+Exp1_to_Exp2,OnlineAdaptation,3401,Top-8 event recall,0.25,Exp2
+Exp1_to_Exp2,OnlineAdaptation,3401,Top-12 event recall,0.5,Exp2
+Exp1_to_Exp2,TargetSupervisedUpperBound,3401,Top-4 event recall,0.0,Exp2
+Exp1_to_Exp2,TargetSupervisedUpperBound,3401,Top-8 event recall,0.5,Exp2
+Exp1_to_Exp2,TargetSupervisedUpperBound,3401,Top-12 event recall,0.75,Exp2
+Exp1_to_Exp2,DirectTransfer,3402,Top-4 event recall,0.0,Exp2
+Exp1_to_Exp2,DirectTransfer,3402,Top-8 event recall,0.0,Exp2
+Exp1_to_Exp2,DirectTransfer,3402,Top-12 event recall,0.0,Exp2
+Exp1_to_Exp2,CalibrationOnly,3402,Top-4 event recall,0.0,Exp2
+Exp1_to_Exp2,CalibrationOnly,3402,Top-8 event recall,0.5,Exp2
+Exp1_to_Exp2,CalibrationOnly,3402,Top-12 event recall,0.75,Exp2
+Exp1_to_Exp2,OnlineAdaptation,3402,Top-4 event recall,0.25,Exp2
+Exp1_to_Exp2,OnlineAdaptation,3402,Top-8 event recall,0.25,Exp2
+Exp1_to_Exp2,OnlineAdaptation,3402,Top-12 event recall,0.75,Exp2
+Exp1_to_Exp2,TargetSupervisedUpperBound,3402,Top-4 event recall,0.25,Exp2
+Exp1_to_Exp2,TargetSupervisedUpperBound,3402,Top-8 event recall,0.75,Exp2
+Exp1_to_Exp2,TargetSupervisedUpperBound,3402,Top-12 event recall,0.75,Exp2
+Exp1_to_Exp2,DirectTransfer,3403,Top-4 event recall,0.0,Exp2
+Exp1_to_Exp2,DirectTransfer,3403,Top-8 event recall,0.0,Exp2
+Exp1_to_Exp2,DirectTransfer,3403,Top-12 event recall,0.0,Exp2
+Exp1_to_Exp2,CalibrationOnly,3403,Top-4 event recall,0.5,Exp2
+Exp1_to_Exp2,CalibrationOnly,3403,Top-8 event recall,0.75,Exp2
+Exp1_to_Exp2,CalibrationOnly,3403,Top-12 event recall,0.75,Exp2
+Exp1_to_Exp2,OnlineAdaptation,3403,Top-4 event recall,0.25,Exp2
+Exp1_to_Exp2,OnlineAdaptation,3403,Top-8 event recall,0.75,Exp2
+Exp1_to_Exp2,OnlineAdaptation,3403,Top-12 event recall,0.75,Exp2
+Exp1_to_Exp2,TargetSupervisedUpperBound,3403,Top-4 event recall,0.25,Exp2
+Exp1_to_Exp2,TargetSupervisedUpperBound,3403,Top-8 event recall,0.75,Exp2
+Exp1_to_Exp2,TargetSupervisedUpperBound,3403,Top-12 event recall,0.75,Exp2
+Exp1_to_Exp2,DirectTransfer,3404,Top-4 event recall,0.0,Exp2
+Exp1_to_Exp2,DirectTransfer,3404,Top-8 event recall,0.0,Exp2
+Exp1_to_Exp2,DirectTransfer,3404,Top-12 event recall,0.0,Exp2
+Exp1_to_Exp2,CalibrationOnly,3404,Top-4 event recall,0.5,Exp2
+Exp1_to_Exp2,CalibrationOnly,3404,Top-8 event recall,0.5,Exp2
+Exp1_to_Exp2,CalibrationOnly,3404,Top-12 event recall,0.5,Exp2
+Exp1_to_Exp2,OnlineAdaptation,3404,Top-4 event recall,0.0,Exp2
+Exp1_to_Exp2,OnlineAdaptation,3404,Top-8 event recall,0.0,Exp2
+Exp1_to_Exp2,OnlineAdaptation,3404,Top-12 event recall,0.25,Exp2
+Exp1_to_Exp2,TargetSupervisedUpperBound,3404,Top-4 event recall,0.25,Exp2
+Exp1_to_Exp2,TargetSupervisedUpperBound,3404,Top-8 event recall,0.75,Exp2
+Exp1_to_Exp2,TargetSupervisedUpperBound,3404,Top-12 event recall,1.0,Exp2
+Exp1_to_Exp2,DirectTransfer,3405,Top-4 event recall,0.0,Exp2
+Exp1_to_Exp2,DirectTransfer,3405,Top-8 event recall,0.0,Exp2
+Exp1_to_Exp2,DirectTransfer,3405,Top-12 event recall,0.0,Exp2
+Exp1_to_Exp2,CalibrationOnly,3405,Top-4 event recall,0.5,Exp2
+Exp1_to_Exp2,CalibrationOnly,3405,Top-8 event recall,0.75,Exp2
+Exp1_to_Exp2,CalibrationOnly,3405,Top-12 event recall,1.0,Exp2
+Exp1_to_Exp2,OnlineAdaptation,3405,Top-4 event recall,0.0,Exp2
+Exp1_to_Exp2,OnlineAdaptation,3405,Top-8 event recall,0.25,Exp2
+Exp1_to_Exp2,OnlineAdaptation,3405,Top-12 event recall,0.5,Exp2
+Exp1_to_Exp2,TargetSupervisedUpperBound,3405,Top-4 event recall,0.5,Exp2
+Exp1_to_Exp2,TargetSupervisedUpperBound,3405,Top-8 event recall,0.75,Exp2
+Exp1_to_Exp2,TargetSupervisedUpperBound,3405,Top-12 event recall,0.75,Exp2
+Exp2_to_Exp1,DirectTransfer,3401,Top-4 event recall,0.25,Exp1
+Exp2_to_Exp1,DirectTransfer,3401,Top-8 event recall,0.25,Exp1
+Exp2_to_Exp1,DirectTransfer,3401,Top-12 event recall,0.25,Exp1
+Exp2_to_Exp1,CalibrationOnly,3401,Top-4 event recall,0.75,Exp1
+Exp2_to_Exp1,CalibrationOnly,3401,Top-8 event recall,0.75,Exp1
+Exp2_to_Exp1,CalibrationOnly,3401,Top-12 event recall,0.75,Exp1
+Exp2_to_Exp1,OnlineAdaptation,3401,Top-4 event recall,0.75,Exp1
+Exp2_to_Exp1,OnlineAdaptation,3401,Top-8 event recall,1.0,Exp1
+Exp2_to_Exp1,OnlineAdaptation,3401,Top-12 event recall,1.0,Exp1
+Exp2_to_Exp1,TargetSupervisedUpperBound,3401,Top-4 event recall,0.75,Exp1
+Exp2_to_Exp1,TargetSupervisedUpperBound,3401,Top-8 event recall,0.75,Exp1
+Exp2_to_Exp1,TargetSupervisedUpperBound,3401,Top-12 event recall,0.75,Exp1
+Exp2_to_Exp1,DirectTransfer,3402,Top-4 event recall,0.25,Exp1
+Exp2_to_Exp1,DirectTransfer,3402,Top-8 event recall,0.25,Exp1
+Exp2_to_Exp1,DirectTransfer,3402,Top-12 event recall,0.25,Exp1
+Exp2_to_Exp1,CalibrationOnly,3402,Top-4 event recall,0.75,Exp1
+Exp2_to_Exp1,CalibrationOnly,3402,Top-8 event recall,0.75,Exp1
+Exp2_to_Exp1,CalibrationOnly,3402,Top-12 event recall,0.75,Exp1
+Exp2_to_Exp1,OnlineAdaptation,3402,Top-4 event recall,0.75,Exp1
+Exp2_to_Exp1,OnlineAdaptation,3402,Top-8 event recall,1.0,Exp1
+Exp2_to_Exp1,OnlineAdaptation,3402,Top-12 event recall,1.0,Exp1
+Exp2_to_Exp1,TargetSupervisedUpperBound,3402,Top-4 event recall,0.75,Exp1
+Exp2_to_Exp1,TargetSupervisedUpperBound,3402,Top-8 event recall,0.75,Exp1
+Exp2_to_Exp1,TargetSupervisedUpperBound,3402,Top-12 event recall,0.75,Exp1
+Exp2_to_Exp1,DirectTransfer,3403,Top-4 event recall,0.25,Exp1
+Exp2_to_Exp1,DirectTransfer,3403,Top-8 event recall,0.25,Exp1
+Exp2_to_Exp1,DirectTransfer,3403,Top-12 event recall,0.25,Exp1
+Exp2_to_Exp1,CalibrationOnly,3403,Top-4 event recall,0.5,Exp1
+Exp2_to_Exp1,CalibrationOnly,3403,Top-8 event recall,0.5,Exp1
+Exp2_to_Exp1,CalibrationOnly,3403,Top-12 event recall,0.5,Exp1
+Exp2_to_Exp1,OnlineAdaptation,3403,Top-4 event recall,0.75,Exp1
+Exp2_to_Exp1,OnlineAdaptation,3403,Top-8 event recall,1.0,Exp1
+Exp2_to_Exp1,OnlineAdaptation,3403,Top-12 event recall,1.0,Exp1
+Exp2_to_Exp1,TargetSupervisedUpperBound,3403,Top-4 event recall,0.5,Exp1
+Exp2_to_Exp1,TargetSupervisedUpperBound,3403,Top-8 event recall,0.5,Exp1
+Exp2_to_Exp1,TargetSupervisedUpperBound,3403,Top-12 event recall,0.5,Exp1
+Exp2_to_Exp1,DirectTransfer,3404,Top-4 event recall,0.25,Exp1
+Exp2_to_Exp1,DirectTransfer,3404,Top-8 event recall,0.25,Exp1
+Exp2_to_Exp1,DirectTransfer,3404,Top-12 event recall,0.25,Exp1
+Exp2_to_Exp1,CalibrationOnly,3404,Top-4 event recall,0.75,Exp1
+Exp2_to_Exp1,CalibrationOnly,3404,Top-8 event recall,0.75,Exp1
+Exp2_to_Exp1,CalibrationOnly,3404,Top-12 event recall,0.75,Exp1
+Exp2_to_Exp1,OnlineAdaptation,3404,Top-4 event recall,0.75,Exp1
+Exp2_to_Exp1,OnlineAdaptation,3404,Top-8 event recall,1.0,Exp1
+Exp2_to_Exp1,OnlineAdaptation,3404,Top-12 event recall,1.0,Exp1
+Exp2_to_Exp1,TargetSupervisedUpperBound,3404,Top-4 event recall,0.75,Exp1
+Exp2_to_Exp1,TargetSupervisedUpperBound,3404,Top-8 event recall,0.75,Exp1
+Exp2_to_Exp1,TargetSupervisedUpperBound,3404,Top-12 event recall,0.75,Exp1
+Exp2_to_Exp1,DirectTransfer,3405,Top-4 event recall,0.25,Exp1
+Exp2_to_Exp1,DirectTransfer,3405,Top-8 event recall,0.25,Exp1
+Exp2_to_Exp1,DirectTransfer,3405,Top-12 event recall,0.25,Exp1
+Exp2_to_Exp1,CalibrationOnly,3405,Top-4 event recall,0.75,Exp1
+Exp2_to_Exp1,CalibrationOnly,3405,Top-8 event recall,0.75,Exp1
+Exp2_to_Exp1,CalibrationOnly,3405,Top-12 event recall,0.75,Exp1
+Exp2_to_Exp1,OnlineAdaptation,3405,Top-4 event recall,0.75,Exp1
+Exp2_to_Exp1,OnlineAdaptation,3405,Top-8 event recall,1.0,Exp1
+Exp2_to_Exp1,OnlineAdaptation,3405,Top-12 event recall,1.0,Exp1
+Exp2_to_Exp1,TargetSupervisedUpperBound,3405,Top-4 event recall,0.75,Exp1
+Exp2_to_Exp1,TargetSupervisedUpperBound,3405,Top-8 event recall,0.75,Exp1
+Exp2_to_Exp1,TargetSupervisedUpperBound,3405,Top-12 event recall,0.75,Exp1
