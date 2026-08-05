@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "target_labels_read_before_online_freeze": false,
+  "normalizer_only_windows": [
+    0,
+    127
+  ],
+  "score_calibration_windows": [
+    128,
+    255
+  ],
+  "monitoring_starts": 256,
+  "all_complete_lag_references": true,
+  "score_before_update": true,
+  "source_records": [
+    {
+      "direction": "Exp1_to_Exp2",
+      "status": "VERSIONED_STAGE_MAPPING",
+      "source_path": "outputs_physical_validation_candidates_v1\\configs\\cycle_mapping_config.json",
+      "source_sha256": "9cba8cc680d57a48d18a21cba9914e9671174d602cbc69ff0252d197d4eccaba",
+      "datasets_loaded": [
+        "Exp1"
+      ]
+    },
+    {
+      "direction": "Exp2_to_Exp1",
+      "status": "VERSIONED_STAGE_MAPPING",
+      "source_path": "outputs_physical_validation_candidates_v1\\configs\\cycle_mapping_config.json",
+      "source_sha256": "9cba8cc680d57a48d18a21cba9914e9671174d602cbc69ff0252d197d4eccaba",
+      "datasets_loaded": [
+        "Exp2"
+      ]
+    }
+  ]
+}

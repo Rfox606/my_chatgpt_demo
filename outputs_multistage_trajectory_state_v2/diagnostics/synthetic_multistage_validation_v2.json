@@ -1,0 +1,8 @@
+{
+  "high_low_high_low_multiple_regimes": true,
+  "short_spike_no_permanent_transition": true,
+  "state_revisit_retained": true,
+  "unknown_novel_triggered": true,
+  "no_hard_bound_adapter": true,
+  "status": "PASS"
+}

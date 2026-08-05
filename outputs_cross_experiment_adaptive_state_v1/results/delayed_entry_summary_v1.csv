@@ -1,0 +1,14 @@
+row_type,direction,dataset,entry_cycle,initial_prior,initial_adapted,initial_nonzero,initial_activity,common_windows,convergence_mean_std,convergence_mean_abs_error_vs_entry0,entry_prior_spearman
+entry_initialization,Exp1_to_Exp2,Exp2,0.0,0.8995376452573522,0.8995376452573522,1.0,0.0,,,,
+entry_initialization,Exp1_to_Exp2,Exp2,3000.0,0.8995962948065731,0.8995962948065731,1.0,0.0,,,,
+entry_initialization,Exp1_to_Exp2,Exp2,6000.0,0.8993735852080668,0.8993735852080668,1.0,0.0,,,,
+entry_initialization,Exp1_to_Exp2,Exp2,9000.0,0.9089741126058227,0.9089741126058227,1.0,0.0,,,,
+entry_ranking,Exp1_to_Exp2,Exp2,,,,1.0,,,,,0.39999999999999997
+common_suffix_convergence,Exp1_to_Exp2,Exp2,,,,,,1019.0,0.04413969901486922,0.06292981401326556,
+entry_initialization,Exp2_to_Exp1,Exp1,0.0,0.947658964167307,0.947658964167307,1.0,0.0,,,,
+entry_initialization,Exp2_to_Exp1,Exp1,8000.0,0.7505380166308496,0.7505380166308497,1.0,0.0,,,,
+entry_initialization,Exp2_to_Exp1,Exp1,16000.0,0.6140785951675278,0.6140785951675278,1.0,0.0,,,,
+entry_initialization,Exp2_to_Exp1,Exp1,24000.0,0.5773640846953539,0.577364084695354,1.0,0.0,,,,
+entry_initialization,Exp2_to_Exp1,Exp1,32000.0,0.8243981069659458,0.824398106965946,1.0,0.0,,,,
+entry_ranking,Exp2_to_Exp1,Exp1,,,,1.0,,,,,-0.39999999999999997
+common_suffix_convergence,Exp2_to_Exp1,Exp1,,,,,,2717.0,0.17134778773423734,0.11274478101759029,

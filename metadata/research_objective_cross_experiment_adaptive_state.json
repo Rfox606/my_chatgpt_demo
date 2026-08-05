@@ -1,0 +1,25 @@
+{
+  "objective_version": "ceap_v1",
+  "absolute_wear_comparison_required": false,
+  "cross_experiment_knowledge_transfer_required": true,
+  "target_initial_state_must_not_be_forced_to_zero": true,
+  "formal_outputs": ["progression_score", "activity_score", "state_uncertainty"],
+  "non_goals": [
+    "absolute cross-experiment wear mass comparison",
+    "absolute cross-material wear percentage",
+    "clinical risk probability",
+    "remaining useful life"
+  ],
+  "forbidden_online_inputs": [
+    "target Stage1to5",
+    "morphology",
+    "wear debris count",
+    "future target data"
+  ],
+  "forbidden_scope_deviations": [
+    "cross-experiment five-stage classification",
+    "pure target self-baseline final score",
+    "v4.5 four-state warning as final output",
+    "absolute wear comparison"
+  ]
+}

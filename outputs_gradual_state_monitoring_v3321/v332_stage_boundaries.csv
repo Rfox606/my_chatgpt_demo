@@ -1,0 +1,9 @@
+dataset,from_stage,to_stage,boundary_effective_cycle,boundary_actual_cycle,source
+Exp1,1,2,7575.0,8000.0,existing_cycle_mapping_config
+Exp1,2,3,21125.0,24000.0,existing_cycle_mapping_config
+Exp1,3,4,27840.0,32000.0,existing_cycle_mapping_config
+Exp1,4,5,34600.0,40000.0,existing_cycle_mapping_config
+Exp2,1,2,3005.0,5500.0,existing_cycle_mapping_config
+Exp2,2,3,6005.0,10500.0,existing_cycle_mapping_config
+Exp2,3,4,8705.0,15000.0,existing_cycle_mapping_config
+Exp2,4,5,11705.0,20000.0,existing_cycle_mapping_config

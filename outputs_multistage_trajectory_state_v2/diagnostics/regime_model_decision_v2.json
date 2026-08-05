@@ -1,0 +1,59 @@
+{
+  "directions": {
+    "Exp1_to_Exp2": {
+      "mean_future_reconstruction_error": {
+        "adaptive": 8.515997098483352,
+        "ceap": 5.373850706599934,
+        "source_only": 8.500107179435318,
+        "target_local": 2.0621699548670605
+      },
+      "bootstrap_boundary_match_fraction": 0.0,
+      "short_isolated_state_fraction": 0.0,
+      "criteria": {
+        "reconstruction_beats_ceap": false,
+        "bootstrap_stable": false,
+        "short_spikes_controlled": true,
+        "adaptive_beats_best_state_comparator": false,
+        "no_label_leakage": true
+      },
+      "passed": false
+    },
+    "Exp2_to_Exp1": {
+      "mean_future_reconstruction_error": {
+        "adaptive": 1.9727492305625636,
+        "ceap": 1.844902583709351,
+        "source_only": 1.9727492305625636,
+        "target_local": 2.1301876450215467
+      },
+      "bootstrap_boundary_match_fraction": 0.7666666666666667,
+      "short_isolated_state_fraction": 0.0,
+      "criteria": {
+        "reconstruction_beats_ceap": false,
+        "bootstrap_stable": true,
+        "short_spikes_controlled": true,
+        "adaptive_beats_best_state_comparator": true,
+        "no_label_leakage": true
+      },
+      "passed": false
+    }
+  },
+  "criteria": {
+    "ceap_reconstruction_ratio_max": 0.98,
+    "bootstrap_boundary_stability_min": 0.6,
+    "short_isolated_state_fraction_max": 0.1
+  },
+  "source_structure_hashes": {
+    "Exp1_to_Exp2": "84ddc3215a9a64e6927b6b1b06e924a3f2a8a6d4353afe884619371b441c8725",
+    "Exp2_to_Exp1": "eaf08d8eba66ef2e20064ca5142e678cb7f2c63eb362a8cfd2db2c6b845c917d"
+  },
+  "stage_morphology_debris_read": false,
+  "synthetic": {
+    "high_low_high_low_multiple_regimes": true,
+    "short_spike_no_permanent_transition": true,
+    "state_revisit_retained": true,
+    "unknown_novel_triggered": true,
+    "no_hard_bound_adapter": true,
+    "status": "PASS"
+  },
+  "status": "FAIL"
+}

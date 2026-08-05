@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "target_labels_read_before_online_freeze": false,
+  "reference_protocol": "t, t-16, t-20, t-64 and t-128 re-encoded with the current Adapter and Normalizer",
+  "score_before_update": true,
+  "source_records": [
+    {
+      "direction": "Exp1_to_Exp2",
+      "status": "VERSIONED_STAGE_MAPPING",
+      "source_path": "outputs_physical_validation_candidates_v1\\configs\\cycle_mapping_config.json",
+      "source_sha256": "9cba8cc680d57a48d18a21cba9914e9671174d602cbc69ff0252d197d4eccaba",
+      "datasets_loaded": [
+        "Exp1"
+      ]
+    },
+    {
+      "direction": "Exp2_to_Exp1",
+      "status": "VERSIONED_STAGE_MAPPING",
+      "source_path": "outputs_physical_validation_candidates_v1\\configs\\cycle_mapping_config.json",
+      "source_sha256": "9cba8cc680d57a48d18a21cba9914e9671174d602cbc69ff0252d197d4eccaba",
+      "datasets_loaded": [
+        "Exp2"
+      ]
+    }
+  ],
+  "online_rows": 357960,
+  "adaptation_rows": 355400
+}

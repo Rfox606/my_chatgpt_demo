@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "forbidden_inputs": [
+    "target Stage1to5",
+    "morphology",
+    "wear debris count",
+    "future target data"
+  ],
+  "formal_input_columns": [
+    "rs_mean",
+    "rs_rms",
+    "rx_absmean",
+    "rx_mean",
+    "rx_q05",
+    "ry_absmean",
+    "ry_mean",
+    "ry_p2p",
+    "ry_q05"
+  ]
+}

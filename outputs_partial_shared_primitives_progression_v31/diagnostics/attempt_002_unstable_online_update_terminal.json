@@ -1,0 +1,15 @@
+{
+  "attempt": "attempt_002_reproduced_original_online_update",
+  "status": "ENGINEERING_FAIL",
+  "preserved_before_fix": true,
+  "exit_code": 1,
+  "terminal_exception": "AttributeError: 'DataFrame' object has no attribute 'end_cycle' in prefix_audit after numerical overflow made the target private-state calibration unavailable.",
+  "root_cause": "The original unnormalised online update produced non-finite residuals; the prefix audit did not represent an unavailable private-state path explicitly.",
+  "gate_results_available": false,
+  "thresholds_changed": false,
+  "data_or_selection_rules_changed": false,
+  "corrective_changes": [
+    "normalized LMS using the already pre-registered adapter learning rate",
+    "causal prefix-audit handling for an unavailable private-state path"
+  ]
+}

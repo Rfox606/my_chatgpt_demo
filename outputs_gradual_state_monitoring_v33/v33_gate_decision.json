@@ -1,0 +1,42 @@
+{
+  "gate_A_stable_dynamics": {
+    "status": "FAIL",
+    "mid_or_long_learning_model_beats_persistence": false,
+    "stable_interval_error_available": true,
+    "source_initialisation_early_benefit": true
+  },
+  "gate_B_gradual_detection": {
+    "status": "PASS",
+    "synthetic": {
+      "stable": "PASS",
+      "step": "PASS",
+      "ramp": "PASS",
+      "spike": "PASS"
+    },
+    "real_state_switches_within_limit": true
+  },
+  "gate_C_new_state_and_online_consistency": {
+    "status": "PASS",
+    "prefix_causality": {
+      "status": "PASS",
+      "datasets": {
+        "Exp1": {
+          "status": "PASS",
+          "rows_compared": 9115,
+          "state_path_exactly_equal": true,
+          "max_abs_numeric_difference": 0.0
+        },
+        "Exp2": {
+          "status": "PASS",
+          "rows_compared": 2817,
+          "state_path_exactly_equal": true,
+          "max_abs_numeric_difference": 0.0
+        }
+      }
+    },
+    "delayed_entry_converged": true
+  },
+  "overall_status": "FAIL",
+  "shared_cross_experiment_dynamics_supported": false,
+  "shared_cross_experiment_dynamics_reason": "This V3.3 implementation deliberately creates local states only; it does not test a shared cross-experiment dynamic model."
+}

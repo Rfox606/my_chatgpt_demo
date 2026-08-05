@@ -1,0 +1,58 @@
+{
+  "status": "FAIL",
+  "directions": {
+    "Exp1_to_Exp2": {
+      "unbounded_groups": {
+        "Unbounded_L2": {
+          "auc_improved": false,
+          "target_local_agreement_non_decrease": true,
+          "total_variation_non_increase": false,
+          "no_numeric_abort": true,
+          "not_saturated": false,
+          "common_future_prefix_std_decreased": false,
+          "passed": false
+        },
+        "Unbounded_WeakL2": {
+          "auc_improved": false,
+          "target_local_agreement_non_decrease": true,
+          "total_variation_non_increase": true,
+          "no_numeric_abort": true,
+          "not_saturated": false,
+          "common_future_prefix_std_decreased": false,
+          "passed": false
+        }
+      },
+      "passed": false
+    },
+    "Exp2_to_Exp1": {
+      "unbounded_groups": {
+        "Unbounded_L2": {
+          "auc_improved": false,
+          "target_local_agreement_non_decrease": true,
+          "total_variation_non_increase": true,
+          "no_numeric_abort": true,
+          "not_saturated": true,
+          "common_future_prefix_std_decreased": false,
+          "passed": false
+        },
+        "Unbounded_WeakL2": {
+          "auc_improved": false,
+          "target_local_agreement_non_decrease": true,
+          "total_variation_non_increase": true,
+          "no_numeric_abort": true,
+          "not_saturated": false,
+          "common_future_prefix_std_decreased": false,
+          "passed": false
+        }
+      },
+      "passed": false
+    }
+  },
+  "criteria": {
+    "auc_improvement_minimum": 0.01,
+    "saturation_maximum": 0.2,
+    "requires_agreement_non_decrease": true,
+    "requires_total_variation_non_increase": true,
+    "requires_common_future_prefix_std_decrease": true
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "status": "PASS",
+  "definition": "corrdist recomputed from each configuration's raw early baseline waveform before 20-cycle window averaging",
+  "datasets": {
+    "Exp1": {
+      "500": {
+        "baseline_cycles": 500,
+        "baseline_window_count": 97,
+        "channels": {
+          "rx_corrdist_base": {
+            "mean": 0.07428809331905654,
+            "baseline_median": 0.0024793381104165403,
+            "max_abs_difference_vs_500": 0.0
+          },
+          "ry_corrdist_base": {
+            "mean": 0.0752280012725091,
+            "baseline_median": 0.003655768082401678,
+            "max_abs_difference_vs_500": 0.0
+          },
+          "rs_corrdist_base": {
+            "mean": 0.05188900896761526,
+            "baseline_median": 0.0022085233755289478,
+            "max_abs_difference_vs_500": 0.0
+          }
+        }
+      },
+      "1000": {
+        "baseline_cycles": 1000,
+        "baseline_window_count": 197,
+        "channels": {
+          "rx_corrdist_base": {
+            "mean": 0.07266775101525985,
+            "baseline_median": 0.002262256042966321,
+            "max_abs_difference_vs_500": 0.008344675069904745
+          },
+          "ry_corrdist_base": {
+            "mean": 0.0715179918333446,
+            "baseline_median": 0.004795410687605634,
+            "max_abs_difference_vs_500": 0.01929090699639535
+          },
+          "rs_corrdist_base": {
+            "mean": 0.050032673645751605,
+            "baseline_median": 0.002015423819405576,
+            "max_abs_difference_vs_500": 0.006720906005154126
+          }
+        }
+      },
+      "2000": {
+        "baseline_cycles": 2000,
+        "baseline_window_count": 397,
+        "channels": {
+          "rx_corrdist_base": {
+            "mean": 0.07257498035738535,
+            "baseline_median": 0.0018165311134484608,
+            "max_abs_difference_vs_500": 0.01887421519597174
+          },
+          "ry_corrdist_base": {
+            "mean": 0.0699377564808864,
+            "baseline_median": 0.004875202540195855,
+            "max_abs_difference_vs_500": 0.031282709592033775
+          },
+          "rs_corrdist_base": {
+            "mean": 0.049931705068048456,
+            "baseline_median": 0.0015925947669421625,
+            "max_abs_difference_vs_500": 0.013905121166375697
+          }
+        }
+      }
+    },
+    "Exp2": {
+      "500": {
+        "baseline_cycles": 500,
+        "baseline_window_count": 97,
+        "channels": {
+          "rx_corrdist_base": {
+            "mean": 0.17959346006056973,
+            "baseline_median": 0.02611981449501056,
+            "max_abs_difference_vs_500": 0.0
+          },
+          "ry_corrdist_base": {
+            "mean": 0.408058681469198,
+            "baseline_median": 0.029114262512569055,
+            "max_abs_difference_vs_500": 0.0
+          },
+          "rs_corrdist_base": {
+            "mean": 0.1259974425942588,
+            "baseline_median": 0.02592104006073236,
+            "max_abs_difference_vs_500": 0.0
+          }
+        }
+      },
+      "1000": {
+        "baseline_cycles": 1000,
+        "baseline_window_count": 197,
+        "channels": {
+          "rx_corrdist_base": {
+            "mean": 0.17372689432202823,
+            "baseline_median": 0.026961531149556083,
+            "max_abs_difference_vs_500": 0.038388081932761775
+          },
+          "ry_corrdist_base": {
+            "mean": 0.4033783806642966,
+            "baseline_median": 0.03440418433068628,
+            "max_abs_difference_vs_500": 0.03248912360807621
+          },
+          "rs_corrdist_base": {
+            "mean": 0.12610449033872254,
+            "baseline_median": 0.021565310982639446,
+            "max_abs_difference_vs_500": 0.015614008023760229
+          }
+        }
+      },
+      "2000": {
+        "baseline_cycles": 2000,
+        "baseline_window_count": 397,
+        "channels": {
+          "rx_corrdist_base": {
+            "mean": 0.14241734267409914,
+            "baseline_median": 0.025242264735411007,
+            "max_abs_difference_vs_500": 0.08068239845624381
+          },
+          "ry_corrdist_base": {
+            "mean": 0.37526226138683055,
+            "baseline_median": 0.06185615452119203,
+            "max_abs_difference_vs_500": 0.11645901953270443
+          },
+          "rs_corrdist_base": {
+            "mean": 0.1109944067467981,
+            "baseline_median": 0.024805708482659266,
+            "max_abs_difference_vs_500": 0.04031771601069578
+          }
+        }
+      }
+    }
+  }
+}

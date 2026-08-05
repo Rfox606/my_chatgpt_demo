@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "stage_read": false,
+  "upstream_z_standardisation_used": false,
+  "upstream_z_clip_used": false,
+  "raw_feature_definition": "direct Fx/Fz, Fy/Fz and resultant sensitive-phase summaries; no pre-normalisation",
+  "sensitive_phase": [
+    0.45,
+    0.63
+  ],
+  "window_cycles": 20,
+  "window_stride_cycles": 5,
+  "datasets": {
+    "Exp1": {
+      "raw_path": "Exp1_original_Fx_Fy_Fz_labels.csv",
+      "cycle_count": 45591,
+      "phase_points_all": 560,
+      "sensitive_indices_1based": [
+        252,
+        352
+      ],
+      "sensitive_points": 101
+    },
+    "Exp2": {
+      "raw_path": "Exp2_original_Fx_Fy_Fz_labels.csv",
+      "cycle_count": 14100,
+      "phase_points_all": 1680,
+      "sensitive_indices_1based": [
+        756,
+        1058
+      ],
+      "sensitive_points": 303
+    }
+  }
+}

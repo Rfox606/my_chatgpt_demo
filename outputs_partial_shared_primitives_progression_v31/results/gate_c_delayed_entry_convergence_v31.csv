@@ -1,0 +1,9 @@
+direction,entry_cycle,latest_entry_cycle,common_arrived_windows,increment_nrmse_to_latest,finite
+Exp1_to_Exp2,0.0,9000.0,200,0.6454815322024358,True
+Exp1_to_Exp2,3000.0,9000.0,200,0.7984694546339866,True
+Exp1_to_Exp2,6000.0,9000.0,200,0.8347742306955469,True
+Exp1_to_Exp2,9000.0,9000.0,200,0.0,True
+Exp2_to_Exp1,0.0,24000.0,200,0.6766921127018473,True
+Exp2_to_Exp1,8000.0,24000.0,200,0.6694015342475103,True
+Exp2_to_Exp1,16000.0,24000.0,200,0.6719523918125464,True
+Exp2_to_Exp1,24000.0,24000.0,200,0.0,True

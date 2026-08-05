@@ -1,0 +1,4 @@
+feature_configuration,features,independent,duplicate_ensemble_member
+F_core_v45,rx_mean;rx_absmean;rx_q05;ry_mean;ry_absmean;ry_q05;ry_p2p;rs_mean;rs_rms,True,False
+F_no_rs,rx_mean;rx_absmean;rx_q05;ry_mean;ry_absmean;ry_q05;ry_p2p,True,False
+F_reduced_independent,rx_mean;rx_q05;ry_mean;ry_q05;ry_p2p;rs_rms,True,False

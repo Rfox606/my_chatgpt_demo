@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "location": "continuous_state_v45.state_engine.run_state",
+  "upstream_z_input": false,
+  "clip": null,
+  "rule": "each configuration freezes robust location/scale from its own early raw baseline exactly once"
+}

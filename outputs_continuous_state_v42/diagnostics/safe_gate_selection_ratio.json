@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "selection_ratio": {
+    "Zero_Delta": 0.606655604719764,
+    "Online_RLS": 0.3176622418879056,
+    "Frozen_Ridge": 0.0702433628318584,
+    "Local_Linear": 0.004885693215339233,
+    "Kalman": 0.0005530973451327434
+  },
+  "online_selection_ratio": 0.3176622418879056
+}

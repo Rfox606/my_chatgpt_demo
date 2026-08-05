@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "source_structure_hashes": {
+    "Exp1_to_Exp2": "84ddc3215a9a64e6927b6b1b06e924a3f2a8a6d4353afe884619371b441c8725",
+    "Exp2_to_Exp1": "eaf08d8eba66ef2e20064ca5142e678cb7f2c63eb362a8cfd2db2c6b845c917d"
+  },
+  "target_updates_limited_to": [
+    "observation_center_bias",
+    "observation_scale",
+    "duration",
+    "prior_weight"
+  ]
+}

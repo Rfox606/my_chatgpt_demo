@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "D_state_spearman_full_vs_no_ry": 0.6671890679570621,
+  "full_episode_count": 9,
+  "no_ry_episode_count": 6,
+  "episode_peak_jaccard_500_actual_cycles": 0.5
+}

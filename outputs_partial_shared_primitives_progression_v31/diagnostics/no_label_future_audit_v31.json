@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "forbidden_inputs_read": [],
+  "target_final_length_used": false,
+  "relative_complete_progress_used": false,
+  "joint_online_source_target_training": false,
+  "online_svd_used": false
+}

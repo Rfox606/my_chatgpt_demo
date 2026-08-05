@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "target_online_columns": [
+    "dataset",
+    "window_index",
+    "center_cycle",
+    "rx_mean",
+    "rx_q05",
+    "ry_mean",
+    "ry_q05",
+    "ry_p2p",
+    "rs_rms"
+  ],
+  "target_labels_read_before_online_freeze": false,
+  "target_stage_join_phase": "offline_evaluation_after_v34_transition_scores.csv_frozen",
+  "output_order": "score_and_candidate_decision_precede_adapter_update",
+  "adapter_update_inputs": "current_and_historical_target_windows_only",
+  "receptive_field_windows": 255,
+  "source_stage_reads": [
+    {
+      "direction": "Exp1_to_Exp2",
+      "source_dataset": "Exp1",
+      "status": "VERSIONED_STAGE_MAPPING",
+      "source_path": "outputs_physical_validation_candidates_v1\\configs\\cycle_mapping_config.json",
+      "source_sha256": "9cba8cc680d57a48d18a21cba9914e9671174d602cbc69ff0252d197d4eccaba",
+      "datasets_loaded": [
+        "Exp1"
+      ],
+      "permitted_use": "source_weak_supervision_only"
+    },
+    {
+      "direction": "Exp2_to_Exp1",
+      "source_dataset": "Exp2",
+      "status": "VERSIONED_STAGE_MAPPING",
+      "source_path": "outputs_physical_validation_candidates_v1\\configs\\cycle_mapping_config.json",
+      "source_sha256": "9cba8cc680d57a48d18a21cba9914e9671174d602cbc69ff0252d197d4eccaba",
+      "datasets_loaded": [
+        "Exp2"
+      ],
+      "permitted_use": "source_weak_supervision_only"
+    }
+  ]
+}

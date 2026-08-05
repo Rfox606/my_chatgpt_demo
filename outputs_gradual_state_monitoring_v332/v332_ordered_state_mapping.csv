@@ -1,0 +1,13 @@
+dataset,model,setting,first_appearance_order,detected_state,mapped_stage,mapping_constraint
+Exp1,V331,v331_frozen,1,1,1,nondecreasing_first_appearance
+Exp1,V331,v331_frozen,2,2,1,nondecreasing_first_appearance
+Exp1,V331,v331_frozen,3,3,2,nondecreasing_first_appearance
+Exp1,V331,v331_frozen,4,4,5,nondecreasing_first_appearance
+Exp1,V331,v331_frozen,5,5,5,nondecreasing_first_appearance
+Exp2,V331,v331_frozen,1,1,1,nondecreasing_first_appearance
+Exp2,V331,v331_frozen,2,2,1,nondecreasing_first_appearance
+Exp2,V331,v331_frozen,3,3,2,nondecreasing_first_appearance
+Exp2,V331,v331_frozen,4,4,3,nondecreasing_first_appearance
+Exp2,V331,v331_frozen,5,5,3,nondecreasing_first_appearance
+Exp2,V331,v331_frozen,6,6,4,nondecreasing_first_appearance
+Exp2,V331,v331_frozen,7,7,5,nondecreasing_first_appearance

@@ -1,0 +1,3 @@
+dataset,stable_change_evidence_mean,transition_change_evidence_mean,stable_prediction_surprise_mean,transition_prediction_surprise_mean,transition_windows,transition_episode_count,mean_transition_width,max_transition_width,new_stable_windows,state_switches
+Exp1,0.5659927164473448,5.943884485408737,0.6063792930262358,7.812749104136946,786,21,37.42857142857143,185,112,63
+Exp2,0.6340418829496789,1.4251520040026804,0.4190158002572551,0.7765251058386108,1442,23,62.69565217391305,404,144,69

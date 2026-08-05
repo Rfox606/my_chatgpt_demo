@@ -1,0 +1,55 @@
+{
+  "output_dir": "outputs_continuous_state_v44",
+  "z_table_path": "outputs_weighted_awrcore_v1/results/window_feature_z_table.csv",
+  "metadata_path": "metadata/knee_wear_experiment_metadata.json",
+  "cycle_mapping_config_path": "outputs_physical_validation_candidates_v1/configs/cycle_mapping_config.json",
+  "baseline_cycles": 1000,
+  "distance_form": "mahalanobis",
+  "velocity_windows_cycles": [
+    100,
+    500,
+    1000
+  ],
+  "volatility_window_cycles": 500,
+  "covariance_ridge": 0.001,
+  "consensus_emit_start_cycles": 1000,
+  "high_value_quantile": 0.9,
+  "trend_segments": 5,
+  "eps": 1e-09,
+  "base_features": [
+    "rs_corrdist_base",
+    "rs_mean",
+    "rs_q05",
+    "rx_corrdist_base",
+    "rs_rms",
+    "ry_p2p",
+    "rx_mean",
+    "rx_absmean",
+    "rx_q05"
+  ],
+  "extended_ry_features": [
+    "rs_corrdist_base",
+    "rs_mean",
+    "rs_q05",
+    "rx_corrdist_base",
+    "rs_rms",
+    "ry_p2p",
+    "rx_mean",
+    "rx_absmean",
+    "rx_q05",
+    "ry_mean",
+    "ry_rms",
+    "ry_std",
+    "ry_q05",
+    "ry_q95",
+    "ry_corrdist_base"
+  ],
+  "state_metrics": [
+    "D_state",
+    "V500_norm",
+    "V1000_norm",
+    "A_state",
+    "state_volatility"
+  ],
+  "code_version": "csv44"
+}

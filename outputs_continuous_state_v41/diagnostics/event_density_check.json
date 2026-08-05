@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "onset_count": 37,
+  "monitoring_cycles": 57650.0,
+  "onsets_per_1000_monitoring_cycles": 0.6418039895923677,
+  "pre_registered_max_onsets_per_1000_cycles": 4.0
+}

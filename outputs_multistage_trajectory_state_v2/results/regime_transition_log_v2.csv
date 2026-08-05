@@ -1,0 +1,3 @@
+direction,source_dataset,target_dataset,window_index,center_cycle,event,from_regime,to_regime
+Exp2_to_Exp1,Exp2,Exp1,8641,43215.5,REGIME_TRANSITION,0,1
+Exp2_to_Exp1,Exp2,Exp1,8653,43275.5,REGIME_TRANSITION,1,0
