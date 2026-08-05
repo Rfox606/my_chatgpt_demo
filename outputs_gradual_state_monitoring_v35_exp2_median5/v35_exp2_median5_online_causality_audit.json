@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "target_labels_read_before_online_freeze": false,
+  "online_inputs": [
+    "dataset",
+    "window_index",
+    "center_cycle",
+    "rx_mean",
+    "rx_q05",
+    "ry_mean",
+    "ry_q05",
+    "ry_p2p",
+    "rs_rms"
+  ],
+  "source_model_reuse_audit": "v35_exp2_median5_source_model_reuse_audit.csv",
+  "all_complete_lag_references": true,
+  "score_before_update": true
+}
